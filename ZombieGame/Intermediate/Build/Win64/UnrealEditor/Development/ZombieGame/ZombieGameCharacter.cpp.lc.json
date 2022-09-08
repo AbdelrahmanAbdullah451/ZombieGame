@@ -1,0 +1,31 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\source\\zombiegame\\zombiegamecharacter.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\intermediate\\build\\win64\\zombiegameeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\intermediate\\build\\win64\\unrealeditor\\development\\zombiegame\\definitions.zombiegame.h",
+            "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\source\\zombiegame\\zombiegamecharacter.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
+            "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\intermediate\\build\\win64\\unrealeditor\\inc\\zombiegame\\zombiegamecharacter.generated.h",
+            "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\source\\zombiegame\\zombiegameprojectile.h",
+            "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\intermediate\\build\\win64\\unrealeditor\\inc\\zombiegame\\zombiegameprojectile.generated.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\cameracomponent.generated.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\capsulecomponent.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\shapecomponent.generated.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\capsulecomponent.generated.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\inputsettings.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\inputsettings.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

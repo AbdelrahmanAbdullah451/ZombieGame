@@ -8,6 +8,7 @@
 
 class USphereComponent;
 class UProjectileMovementComponent;
+//class AZombieGameCharacter;
 
 UCLASS(config=Game)
 class AZombieGameProjectile : public AActor
@@ -21,6 +22,9 @@ class AZombieGameProjectile : public AActor
 	/** Projectile movement component */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement, meta = (AllowPrivateAccess = "true"))
 	UProjectileMovementComponent* ProjectileMovement;
+
+	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		//class UZombieCharacter* myZombie; 
 
 public:
 	AZombieGameProjectile();
