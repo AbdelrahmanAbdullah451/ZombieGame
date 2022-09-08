@@ -1,0 +1,27 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\source\\zombiegame\\zombiegamegamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\intermediate\\build\\win64\\zombiegameeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\intermediate\\build\\win64\\unrealeditor\\development\\zombiegame\\definitions.zombiegame.h",
+            "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\source\\zombiegame\\zombiegamegamemode.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\intermediate\\build\\win64\\unrealeditor\\inc\\zombiegame\\zombiegamegamemode.generated.h",
+            "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\source\\zombiegame\\zombiegamecharacter.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
+            "d:\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
+            "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\intermediate\\build\\win64\\unrealeditor\\inc\\zombiegame\\zombiegamecharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

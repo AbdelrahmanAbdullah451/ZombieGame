@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\intermediate\\build\\win64\\unrealeditor\\inc\\zombiegame\\tp_weaponcomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\intermediate\\build\\win64\\zombiegameeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\intermediate\\build\\win64\\unrealeditor\\development\\zombiegame\\definitions.zombiegame.h",
+            "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\source\\zombiegame\\tp_weaponcomponent.h",
+            "c:\\users\\abdel\\source\\zombiegame\\zombiegame\\intermediate\\build\\win64\\unrealeditor\\inc\\zombiegame\\tp_weaponcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
