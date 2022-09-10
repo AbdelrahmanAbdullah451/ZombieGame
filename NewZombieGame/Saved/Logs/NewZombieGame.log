@@ -2574,3 +2574,1798 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.09.10-14.03.48:375][673]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
 [2022.09.10-14.03.48:381][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
 [2022.09.10-14.03.48:435][674]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.09.10-14.08.25:152][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.09.10-14.08.25:153][212]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.027
+[2022.09.10-14.08.25:153][212]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/Build] ([2] browsable assets)...
+[2022.09.10-14.08.25:153][212]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/Build]
+[2022.09.10-14.08.25:153][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/Build" FILE="D:/ZombieGame/NewZombieGame/Saved/Autosaves/Game/ThirdPerson/Blueprints/Build_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.09.10-14.08.25:166][212]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/Build_Auto1
+[2022.09.10-14.08.25:166][212]LogSavePackage: Moving 'D:/ZombieGame/NewZombieGame/Saved/Build_Auto1D76A0DFE45F7B591ACBC6B98146F74C7.tmp' to 'D:/ZombieGame/NewZombieGame/Saved/Autosaves/Game/ThirdPerson/Blueprints/Build_Auto1.uasset'
+[2022.09.10-14.08.25:166][212]LogFileHelpers: Auto-saving content packages took 0.014
+[2022.09.10-14.13.23:361][229]BlueprintLog: New page: Compile Build
+[2022.09.10-14.13.23:412][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.09.10-14.13.23:918][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/Build" FILE="D:/ZombieGame/NewZombieGame/Content/ThirdPerson/Blueprints/Build.uasset" SILENT=true
+[2022.09.10-14.13.23:932][275]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Build
+[2022.09.10-14.13.23:932][275]LogSavePackage: Moving 'D:/ZombieGame/NewZombieGame/Saved/Build72B79734487EF58E26F2F9A3DD1838E5.tmp' to 'D:/ZombieGame/NewZombieGame/Content/ThirdPerson/Blueprints/Build.uasset'
+[2022.09.10-14.13.23:943][275]AssetCheck: New page: Asset Save: Build
+[2022.09.10-14.13.23:943][275]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/Build.Build
+[2022.09.10-14.13.25:644][466]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.10-14.13.25:648][466]LogWorldPartition: Display: GenerateStreaming started...
+[2022.09.10-14.13.25:648][466]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.09.10-14.13.25:648][466]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.10-14.13.25:648][466]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.09.10-14.13.25:648][466]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.09.10-14.13.25:648][466]LogWorldPartition: Display: GetPartitionedActors took 54 us
+[2022.09.10-14.13.25:649][466]LogWorldPartition: Display: GenerateStreaming took 296 us
+[2022.09.10-14.13.25:649][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.10-14.13.25:649][466]PIE: New page: PIE session: ThirdPersonMap (Sep 10, 2022, 6:13:25 PM)
+[2022.09.10-14.13.25:682][466]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.09.10-14.13.25:686][466]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.09.10-14.13.25:686][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003209s)
+[2022.09.10-14.13.25:686][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003292s)
+[2022.09.10-14.13.25:686][466]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.10-14.13.25:686][466]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.09.10-14.13.25:686][466]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.09.10-14.13.25:686][466]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.09.10-14.13.25:687][466]LogWorldPartition: Display: WorldPartition initialize took 671 us
+[2022.09.10-14.13.25:687][466]LogPlayLevel: PIE: World Init took: (0.001403s)
+[2022.09.10-14.13.25:713][466]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2022.09.10-14.13.25:716][466]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.09.10-14.13.25:716][466]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.10-14.13.25:716][466]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.10-14.13.25:716][466]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.10-14.13.25:716][466]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.10-14.13.25:716][466]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.10-14.13.25:716][466]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.10-14.13.25:716][466]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.10-14.13.25:716][466]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.10-14.13.25:716][466]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.10-14.13.25:716][466]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.10-14.13.25:716][466]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.10-14.13.25:718][466]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.10-14.13.25:735][466]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.09.10-14.13.25:736][466]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.10-14.13.25:736][466]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.10-14.13.25:736][466]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.10-14.13.25:736][466]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2022.09.10-14.13.25:736][466]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2022.09.10-14.13.25:738][466]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2022.09.10-14.13.25:738][466]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2022.09.10-14.13.25:738][466]LogInit: FAudioDevice initialized.
+[2022.09.10-14.13.25:738][466]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2022.09.10-14.13.25:747][466]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.10-14.13.25:748][466]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.09.10-16.13.25
+[2022.09.10-14.13.25:749][466]LogWorld: Bringing up level for play took: 0.001262
+[2022.09.10-14.13.25:750][466]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2022.09.10-14.13.25:752][466]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.09.10-14.13.25:752][466]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.10-14.13.25:753][466]PIE: Server logged in
+[2022.09.10-14.13.25:753][466]PIE: Play in editor total start time 0.106 seconds.
+[2022.09.10-14.13.27:232][619]LogBlueprintUserMessages: [Build] X=1,204.545 Y=1,348.693 Z=-0.874
+[2022.09.10-14.13.27:232][619]LogBlueprintUserMessages: [Build] X=976.136 Y=1,169.673 Z=75.16
+[2022.09.10-14.13.27:328][629]LogBlueprintUserMessages: [Build] X=1,204.545 Y=1,348.693 Z=-0.874
+[2022.09.10-14.13.27:328][629]LogBlueprintUserMessages: [Build] X=976.136 Y=1,169.673 Z=75.16
+[2022.09.10-14.13.27:431][640]LogBlueprintUserMessages: [Build] X=1,204.545 Y=1,348.693 Z=-0.874
+[2022.09.10-14.13.27:431][640]LogBlueprintUserMessages: [Build] X=976.136 Y=1,169.673 Z=75.16
+[2022.09.10-14.13.27:534][651]LogBlueprintUserMessages: [Build] X=1,204.545 Y=1,348.693 Z=-0.874
+[2022.09.10-14.13.27:534][651]LogBlueprintUserMessages: [Build] X=976.136 Y=1,169.673 Z=75.16
+[2022.09.10-14.13.27:638][662]LogBlueprintUserMessages: [Build] X=1,127.625 Y=1,420.289 Z=-8.617
+[2022.09.10-14.13.27:639][662]LogBlueprintUserMessages: [Build] X=956.906 Y=1,187.572 Z=73.224
+[2022.09.10-14.13.27:743][673]LogBlueprintUserMessages: [Build] X=1,006.369 Y=1,479.83 Z=-8.634
+[2022.09.10-14.13.27:743][673]LogBlueprintUserMessages: [Build] X=926.592 Y=1,202.457 Z=73.22
+[2022.09.10-14.13.27:846][684]LogBlueprintUserMessages: [Build] X=1,006.369 Y=1,479.83 Z=-8.634
+[2022.09.10-14.13.27:846][684]LogBlueprintUserMessages: [Build] X=926.592 Y=1,202.457 Z=73.22
+[2022.09.10-14.13.27:949][695]LogBlueprintUserMessages: [Build] X=1,006.369 Y=1,479.83 Z=-8.634
+[2022.09.10-14.13.27:949][695]LogBlueprintUserMessages: [Build] X=926.592 Y=1,202.457 Z=73.22
+[2022.09.10-14.13.28:052][706]LogBlueprintUserMessages: [Build] X=1,006.73 Y=1,481.082 Z=-8.634
+[2022.09.10-14.13.28:052][706]LogBlueprintUserMessages: [Build] X=926.953 Y=1,203.71 Z=73.22
+[2022.09.10-14.13.28:155][717]LogBlueprintUserMessages: [Build] X=1,013.005 Y=1,494.395 Z=-8.634
+[2022.09.10-14.13.28:155][717]LogBlueprintUserMessages: [Build] X=931.535 Y=1,217.515 Z=73.22
+[2022.09.10-14.13.28:260][728]LogBlueprintUserMessages: [Build] X=1,083.352 Y=1,494.178 Z=-26.228
+[2022.09.10-14.13.28:260][728]LogBlueprintUserMessages: [Build] X=956.239 Y=1,239.604 Z=68.822
+[2022.09.10-14.13.28:365][739]LogBlueprintUserMessages: [Build] X=1,126.037 Y=1,519.328 Z=-38.782
+[2022.09.10-14.13.28:365][739]LogBlueprintUserMessages: [Build] X=981.532 Y=1,278.07 Z=65.683
+[2022.09.10-14.13.28:469][750]LogBlueprintUserMessages: [Build] X=1,153.924 Y=1,562.855 Z=-38.782
+[2022.09.10-14.13.28:469][750]LogBlueprintUserMessages: [Build] X=1,007.215 Y=1,322.931 Z=65.683
+[2022.09.10-14.13.28:574][761]LogBlueprintUserMessages: [Build] X=1,104.406 Y=1,645.571 Z=-29.504
+[2022.09.10-14.13.28:574][761]LogBlueprintUserMessages: [Build] X=1,013.957 Y=1,376.664 Z=68.003
+[2022.09.10-14.13.28:678][772]LogBlueprintUserMessages: [Build] X=1,047.5 Y=1,702.914 Z=6.582
+[2022.09.10-14.13.28:678][772]LogBlueprintUserMessages: [Build] X=1,012.476 Y=1,413.413 Z=77.024
+[2022.09.10-14.13.28:782][783]LogBlueprintUserMessages: [Build] X=1,051.234 Y=1,714.494 Z=7.77
+[2022.09.10-14.13.28:782][783]LogBlueprintUserMessages: [Build] X=1,018.099 Y=1,424.555 Z=77.321
+[2022.09.10-14.13.28:888][794]LogBlueprintUserMessages: [Build] X=953.031 Y=1,708.592 Z=-9.776
+[2022.09.10-14.13.28:888][794]LogBlueprintUserMessages: [Build] X=993.548 Y=1,423.079 Z=72.935
+[2022.09.10-14.13.28:994][805]LogBlueprintUserMessages: [Build] X=844.39 Y=1,666.121 Z=-37.335
+[2022.09.10-14.13.28:994][805]LogBlueprintUserMessages: [Build] X=967.862 Y=1,413.006 Z=66.045
+[2022.09.10-14.13.29:094][816]LogBlueprintUserMessages: [Build] X=772.671 Y=1,616.977 Z=-36.226
+[2022.09.10-14.13.29:094][816]LogBlueprintUserMessages: [Build] X=959.994 Y=1,406.279 Z=66.322
+[2022.09.10-14.13.29:195][827]LogBlueprintUserMessages: [Build] X=782.142 Y=1,624.439 Z=-32.614
+[2022.09.10-14.13.29:195][827]LogBlueprintUserMessages: [Build] X=980.17 Y=1,422.407 Z=67.225
+[2022.09.10-14.13.29:298][838]LogBlueprintUserMessages: [Build] X=816.491 Y=1,656.211 Z=-32.614
+[2022.09.10-14.13.29:298][838]LogBlueprintUserMessages: [Build] X=1,014.52 Y=1,454.179 Z=67.225
+[2022.09.10-14.13.29:400][849]LogBlueprintUserMessages: [Build] X=912.96 Y=1,737.552 Z=-33.765
+[2022.09.10-14.13.29:401][849]LogBlueprintUserMessages: [Build] X=1,064.657 Y=1,499.126 Z=66.937
+[2022.09.10-14.13.29:504][860]LogBlueprintUserMessages: [Build] X=963.648 Y=1,775.638 Z=-30.307
+[2022.09.10-14.13.29:504][860]LogBlueprintUserMessages: [Build] X=1,092.884 Y=1,523.304 Z=67.802
+[2022.09.10-14.13.29:607][871]LogBlueprintUserMessages: [Build] X=979.39 Y=1,786.308 Z=-29.152
+[2022.09.10-14.13.29:607][871]LogBlueprintUserMessages: [Build] X=1,100.939 Y=1,529.852 Z=68.091
+[2022.09.10-14.13.29:712][882]LogBlueprintUserMessages: [Build] X=1,059.589 Y=1,818.34 Z=-15.433
+[2022.09.10-14.13.29:712][882]LogBlueprintUserMessages: [Build] X=1,120.988 Y=1,537.86 Z=71.52
+[2022.09.10-14.13.29:816][893]LogBlueprintUserMessages: [Build] X=1,155.438 Y=1,830.079 Z=-4.521
+[2022.09.10-14.13.29:816][893]LogBlueprintUserMessages: [Build] X=1,144.951 Y=1,540.795 Z=74.248
+[2022.09.10-14.13.29:921][904]LogBlueprintUserMessages: [Build] X=1,203.68 Y=1,826.637 Z=0.516
+[2022.09.10-14.13.29:921][904]LogBlueprintUserMessages: [Build] X=1,157.011 Y=1,539.934 Z=75.508
+[2022.09.10-14.13.30:025][915]LogBlueprintUserMessages: [Build] X=1,229.318 Y=1,821.57 Z=0.516
+[2022.09.10-14.13.30:025][915]LogBlueprintUserMessages: [Build] X=1,163.421 Y=1,538.667 Z=75.508
+[2022.09.10-14.13.30:127][926]LogBlueprintUserMessages: [Build] X=1,229.318 Y=1,821.57 Z=0.516
+[2022.09.10-14.13.30:127][926]LogBlueprintUserMessages: [Build] X=1,163.421 Y=1,538.667 Z=75.508
+[2022.09.10-14.13.30:230][937]LogBlueprintUserMessages: [Build] X=1,229.318 Y=1,821.57 Z=0.516
+[2022.09.10-14.13.30:230][937]LogBlueprintUserMessages: [Build] X=1,163.421 Y=1,538.667 Z=75.508
+[2022.09.10-14.13.30:333][948]LogBlueprintUserMessages: [Build] X=1,229.318 Y=1,821.57 Z=0.516
+[2022.09.10-14.13.30:333][948]LogBlueprintUserMessages: [Build] X=1,163.421 Y=1,538.667 Z=75.508
+[2022.09.10-14.13.30:437][959]LogBlueprintUserMessages: [Build] X=1,265.112 Y=1,810.745 Z=-1.847
+[2022.09.10-14.13.30:437][959]LogBlueprintUserMessages: [Build] X=1,172.369 Y=1,535.961 Z=74.917
+[2022.09.10-14.13.30:541][970]LogBlueprintUserMessages: [Build] X=1,309.03 Y=1,792.504 Z=-3.028
+[2022.09.10-14.13.30:541][970]LogBlueprintUserMessages: [Build] X=1,183.349 Y=1,531.401 Z=74.622
+[2022.09.10-14.13.30:643][981]LogBlueprintUserMessages: [Build] X=1,309.03 Y=1,792.504 Z=-3.028
+[2022.09.10-14.13.30:643][981]LogBlueprintUserMessages: [Build] X=1,183.349 Y=1,531.401 Z=74.622
+[2022.09.10-14.13.30:746][992]LogBlueprintUserMessages: [Build] X=1,309.03 Y=1,792.504 Z=-3.028
+[2022.09.10-14.13.30:746][992]LogBlueprintUserMessages: [Build] X=1,183.349 Y=1,531.401 Z=74.622
+[2022.09.10-14.13.30:849][  3]LogBlueprintUserMessages: [Build] X=1,309.03 Y=1,792.504 Z=-3.028
+[2022.09.10-14.13.30:849][  3]LogBlueprintUserMessages: [Build] X=1,183.349 Y=1,531.401 Z=74.622
+[2022.09.10-14.13.30:953][ 14]LogBlueprintUserMessages: [Build] X=1,309.03 Y=1,792.504 Z=-3.028
+[2022.09.10-14.13.30:953][ 14]LogBlueprintUserMessages: [Build] X=1,183.349 Y=1,531.401 Z=74.622
+[2022.09.10-14.13.31:057][ 25]LogBlueprintUserMessages: [Build] X=1,315.028 Y=1,789.552 Z=-3.028
+[2022.09.10-14.13.31:057][ 25]LogBlueprintUserMessages: [Build] X=1,184.848 Y=1,530.663 Z=74.622
+[2022.09.10-14.13.31:161][ 36]LogBlueprintUserMessages: [Build] X=1,364.809 Y=1,762.367 Z=2.403
+[2022.09.10-14.13.31:161][ 36]LogBlueprintUserMessages: [Build] X=1,197.631 Y=1,524.38 Z=75.979
+[2022.09.10-14.13.31:264][ 47]LogBlueprintUserMessages: [Build] X=1,372.018 Y=1,765.428 Z=2.403
+[2022.09.10-14.13.31:264][ 47]LogBlueprintUserMessages: [Build] X=1,202.294 Y=1,529.249 Z=75.979
+[2022.09.10-14.13.31:368][ 58]LogBlueprintUserMessages: [Build] X=1,372.191 Y=1,765.67 Z=3.587
+[2022.09.10-14.13.31:368][ 58]LogBlueprintUserMessages: [Build] X=1,202.337 Y=1,529.31 Z=76.276
+[2022.09.10-14.13.31:471][ 69]LogBlueprintUserMessages: [Build] X=1,372.191 Y=1,765.67 Z=3.587
+[2022.09.10-14.13.31:471][ 69]LogBlueprintUserMessages: [Build] X=1,202.337 Y=1,529.31 Z=76.276
+[2022.09.10-14.13.31:575][ 80]LogBlueprintUserMessages: [Build] X=1,372.191 Y=1,765.67 Z=3.587
+[2022.09.10-14.13.31:575][ 80]LogBlueprintUserMessages: [Build] X=1,202.337 Y=1,529.31 Z=76.276
+[2022.09.10-14.13.31:678][ 91]LogBlueprintUserMessages: [Build] X=1,372.191 Y=1,765.67 Z=3.587
+[2022.09.10-14.13.31:678][ 91]LogBlueprintUserMessages: [Build] X=1,202.337 Y=1,529.31 Z=76.276
+[2022.09.10-14.13.31:780][102]LogBlueprintUserMessages: [Build] X=1,372.191 Y=1,765.67 Z=3.587
+[2022.09.10-14.13.31:780][102]LogBlueprintUserMessages: [Build] X=1,202.337 Y=1,529.31 Z=76.276
+[2022.09.10-14.13.31:883][113]LogBlueprintUserMessages: [Build] X=1,372.191 Y=1,765.67 Z=3.587
+[2022.09.10-14.13.31:883][113]LogBlueprintUserMessages: [Build] X=1,202.337 Y=1,529.31 Z=76.276
+[2022.09.10-14.13.31:986][124]LogBlueprintUserMessages: [Build] X=1,375.18 Y=1,763.522 Z=3.587
+[2022.09.10-14.13.31:986][124]LogBlueprintUserMessages: [Build] X=1,205.326 Y=1,527.162 Z=76.276
+[2022.09.10-14.13.32:089][135]LogBlueprintUserMessages: [Build] X=1,386.838 Y=1,755.144 Z=3.587
+[2022.09.10-14.13.32:090][135]LogBlueprintUserMessages: [Build] X=1,216.984 Y=1,518.784 Z=76.276
+[2022.09.10-14.13.32:192][146]LogBlueprintUserMessages: [Build] X=1,388.158 Y=1,754.196 Z=3.587
+[2022.09.10-14.13.32:192][146]LogBlueprintUserMessages: [Build] X=1,218.304 Y=1,517.836 Z=76.276
+[2022.09.10-14.13.32:295][157]LogBlueprintUserMessages: [Build] X=1,388.158 Y=1,754.196 Z=3.587
+[2022.09.10-14.13.32:295][157]LogBlueprintUserMessages: [Build] X=1,218.304 Y=1,517.836 Z=76.276
+[2022.09.10-14.13.32:399][168]LogBlueprintUserMessages: [Build] X=1,404.823 Y=1,739.986 Z=-1.088
+[2022.09.10-14.13.32:399][168]LogBlueprintUserMessages: [Build] X=1,222.47 Y=1,514.283 Z=75.107
+[2022.09.10-14.13.32:504][179]LogBlueprintUserMessages: [Build] X=1,498.561 Y=1,624.555 Z=-14.028
+[2022.09.10-14.13.32:504][179]LogBlueprintUserMessages: [Build] X=1,248.966 Y=1,481.993 Z=71.872
+[2022.09.10-14.13.32:612][190]LogBlueprintUserMessages: [Build] X=1,533.779 Y=1,554.112 Z=-15.198
+[2022.09.10-14.13.32:612][190]LogBlueprintUserMessages: [Build] X=1,266.412 Y=1,449.303 Z=71.579
+[2022.09.10-14.13.32:717][201]LogBlueprintUserMessages: [Build] X=1,568.264 Y=1,507.508 Z=-12.157
+[2022.09.10-14.13.32:717][201]LogBlueprintUserMessages: [Build] X=1,294.426 Y=1,418.775 Z=72.34
+[2022.09.10-14.13.32:822][212]LogBlueprintUserMessages: [Build] X=1,620.925 Y=1,453.58 Z=-3.077
+[2022.09.10-14.13.32:822][212]LogBlueprintUserMessages: [Build] X=1,339.3 Y=1,385.373 Z=74.609
+[2022.09.10-14.13.32:927][223]LogBlueprintUserMessages: [Build] X=1,681.023 Y=1,296.123 Z=15.757
+[2022.09.10-14.13.32:927][223]LogBlueprintUserMessages: [Build] X=1,389.671 Y=1,328.892 Z=79.318
+[2022.09.10-14.13.33:030][234]LogBlueprintUserMessages: [Build] X=1,702.373 Y=1,166.735 Z=30.186
+[2022.09.10-14.13.33:030][234]LogBlueprintUserMessages: [Build] X=1,432.213 Y=1,286.033 Z=82.925
+[2022.09.10-14.13.33:132][245]LogBlueprintUserMessages: [Build] X=1,750.164 Y=1,148.633 Z=30.186
+[2022.09.10-14.13.33:132][245]LogBlueprintUserMessages: [Build] X=1,480.004 Y=1,267.931 Z=82.925
+[2022.09.10-14.13.33:236][256]LogBlueprintUserMessages: [Build] X=1,795.378 Y=1,132.256 Z=11.796
+[2022.09.10-14.13.33:236][256]LogBlueprintUserMessages: [Build] X=1,527.061 Y=1,248.787 Z=78.328
+[2022.09.10-14.13.33:339][267]LogBlueprintUserMessages: [Build] X=1,822.511 Y=1,089.339 Z=-19.963
+[2022.09.10-14.13.33:340][267]LogBlueprintUserMessages: [Build] X=1,567.761 Y=1,219.489 Z=70.388
+[2022.09.10-14.13.33:443][278]LogBlueprintUserMessages: [Build] X=1,830.461 Y=1,030.403 Z=-48.679
+[2022.09.10-14.13.33:443][278]LogBlueprintUserMessages: [Build] X=1,591.441 Y=1,173.058 Z=63.209
+[2022.09.10-14.13.33:551][290]LogBlueprintUserMessages: [Build] X=1,833.609 Y=974.133 Z=-72.528
+[2022.09.10-14.13.33:551][290]LogBlueprintUserMessages: [Build] X=1,606.393 Y=1,120.869 Z=57.247
+[2022.09.10-14.13.33:659][302]LogBlueprintUserMessages: [Build] X=1,849.396 Y=924.435 Z=-84.761
+[2022.09.10-14.13.33:659][302]LogBlueprintUserMessages: [Build] X=1,628.58 Y=1,072.535 Z=54.188
+[2022.09.10-14.13.33:767][314]LogBlueprintUserMessages: [Build] X=1,897.655 Y=890.7 Z=-73.36
+[2022.09.10-14.13.33:767][314]LogBlueprintUserMessages: [Build] X=1,670.205 Y=1,036.517 Z=57.039
+[2022.09.10-14.13.33:876][326]LogBlueprintUserMessages: [Build] X=1,959.052 Y=868.429 Z=-51.687
+[2022.09.10-14.13.33:877][326]LogBlueprintUserMessages: [Build] X=1,718.862 Y=1,007.281 Z=62.457
+[2022.09.10-14.13.33:985][338]LogBlueprintUserMessages: [Build] X=2,011.013 Y=844.415 Z=-45.105
+[2022.09.10-14.13.33:985][338]LogBlueprintUserMessages: [Build] X=1,766.656 Y=979.927 Z=64.103
+[2022.09.10-14.13.34:094][350]LogBlueprintUserMessages: [Build] X=2,071.275 Y=837.296 Z=-37.824
+[2022.09.10-14.13.34:094][350]LogBlueprintUserMessages: [Build] X=1,817.059 Y=958.171 Z=65.923
+[2022.09.10-14.13.34:202][362]LogBlueprintUserMessages: [Build] X=2,164.677 Y=978.088 Z=-13.229
+[2022.09.10-14.13.34:202][362]LogBlueprintUserMessages: [Build] X=1,877.066 Y=976.193 Z=72.071
+[2022.09.10-14.13.34:306][373]LogBlueprintUserMessages: [Build] X=1,970.457 Y=1,334.118 Z=-6.092
+[2022.09.10-14.13.34:306][373]LogBlueprintUserMessages: [Build] X=1,866.651 Y=1,064.243 Z=73.856
+[2022.09.10-14.13.34:409][384]LogBlueprintUserMessages: [Build] X=1,909.856 Y=1,386.751 Z=2.097
+[2022.09.10-14.13.34:409][384]LogBlueprintUserMessages: [Build] X=1,884.986 Y=1,097.037 Z=75.903
+[2022.09.10-14.13.34:513][395]LogBlueprintUserMessages: [Build] X=1,951.052 Y=1,417.638 Z=2.097
+[2022.09.10-14.13.34:513][395]LogBlueprintUserMessages: [Build] X=1,926.183 Y=1,127.924 Z=75.903
+[2022.09.10-14.13.34:616][406]LogBlueprintUserMessages: [Build] X=1,994.626 Y=1,449.834 Z=2.097
+[2022.09.10-14.13.34:616][406]LogBlueprintUserMessages: [Build] X=1,967.104 Y=1,160.36 Z=75.903
+[2022.09.10-14.13.34:720][417]LogBlueprintUserMessages: [Build] X=2,101.154 Y=1,472.798 Z=-5.41
+[2022.09.10-14.13.34:720][417]LogBlueprintUserMessages: [Build] X=2,018.723 Y=1,195.498 Z=74.026
+[2022.09.10-14.13.34:824][428]LogBlueprintUserMessages: [Build] X=2,209.14 Y=1,481.818 Z=-6.588
+[2022.09.10-14.13.34:824][428]LogBlueprintUserMessages: [Build] X=2,062.648 Y=1,232.642 Z=73.732
+[2022.09.10-14.13.34:925][439]LogBlueprintUserMessages: [Build] X=2,238.164 Y=1,523.952 Z=-6.588
+[2022.09.10-14.13.34:926][439]LogBlueprintUserMessages: [Build] X=2,088.146 Y=1,276.882 Z=73.732
+[2022.09.10-14.13.35:028][450]LogBlueprintUserMessages: [Build] X=2,245.105 Y=1,578.67 Z=-7.765
+[2022.09.10-14.13.35:029][450]LogBlueprintUserMessages: [Build] X=2,109.29 Y=1,323.797 Z=73.438
+[2022.09.10-14.13.35:132][461]LogBlueprintUserMessages: [Build] X=2,179.767 Y=1,658.486 Z=-7.765
+[2022.09.10-14.13.35:132][461]LogBlueprintUserMessages: [Build] X=2,110.714 Y=1,378.061 Z=73.438
+[2022.09.10-14.13.35:235][472]LogBlueprintUserMessages: [Build] X=2,103.915 Y=1,719.877 Z=-3.052
+[2022.09.10-14.13.35:235][472]LogBlueprintUserMessages: [Build] X=2,104.01 Y=1,430.105 Z=74.616
+[2022.09.10-14.13.35:339][483]LogBlueprintUserMessages: [Build] X=2,062.485 Y=1,761.162 Z=2.688
+[2022.09.10-14.13.35:339][483]LogBlueprintUserMessages: [Build] X=2,112.996 Y=1,474.69 Z=76.051
+[2022.09.10-14.13.35:446][494]LogBlueprintUserMessages: [Build] X=2,073.981 Y=1,803.347 Z=8.886
+[2022.09.10-14.13.35:446][494]LogBlueprintUserMessages: [Build] X=2,137.875 Y=1,518.398 Z=77.6
+[2022.09.10-14.13.35:552][505]LogBlueprintUserMessages: [Build] X=2,032.742 Y=1,828.774 Z=20.699
+[2022.09.10-14.13.35:552][505]LogBlueprintUserMessages: [Build] X=2,148.679 Y=1,558.633 Z=80.553
+[2022.09.10-14.13.35:660][516]LogBlueprintUserMessages: [Build] X=1,932.171 Y=1,758.642 Z=-10.756
+[2022.09.10-14.13.35:660][516]LogBlueprintUserMessages: [Build] X=2,150.556 Y=1,570.64 Z=72.69
+[2022.09.10-14.13.35:764][527]LogBlueprintUserMessages: [Build] X=1,968.755 Y=1,797.161 Z=-10.756
+[2022.09.10-14.13.35:764][527]LogBlueprintUserMessages: [Build] X=2,187.141 Y=1,609.159 Z=72.69
+[2022.09.10-14.13.35:872][538]LogBlueprintUserMessages: [Build] X=2,008.379 Y=1,831.852 Z=-10.756
+[2022.09.10-14.13.35:872][538]LogBlueprintUserMessages: [Build] X=2,226.765 Y=1,643.85 Z=72.69
+[2022.09.10-14.13.35:979][549]LogBlueprintUserMessages: [Build] X=1,973.874 Y=1,661.939 Z=-16.027
+[2022.09.10-14.13.35:979][549]LogBlueprintUserMessages: [Build] X=2,256.579 Y=1,612.547 Z=71.372
+[2022.09.10-14.13.36:084][560]LogBlueprintUserMessages: [Build] X=2,130.179 Y=1,339.498 Z=-24.153
+[2022.09.10-14.13.36:084][560]LogBlueprintUserMessages: [Build] X=2,334.807 Y=1,537.959 Z=69.34
+[2022.09.10-14.13.36:189][571]LogBlueprintUserMessages: [Build] X=2,180.883 Y=1,360.212 Z=-24.153
+[2022.09.10-14.13.36:189][571]LogBlueprintUserMessages: [Build] X=2,381.104 Y=1,563.117 Z=69.34
+[2022.09.10-14.13.36:295][582]LogBlueprintUserMessages: [Build] X=2,220.273 Y=1,394.741 Z=-24.153
+[2022.09.10-14.13.36:295][582]LogBlueprintUserMessages: [Build] X=2,420.494 Y=1,597.646 Z=69.34
+[2022.09.10-14.13.36:399][593]LogBlueprintUserMessages: [Build] X=2,237.336 Y=1,441.705 Z=-24.153
+[2022.09.10-14.13.36:400][593]LogBlueprintUserMessages: [Build] X=2,437.557 Y=1,644.61 Z=69.34
+[2022.09.10-14.13.36:505][604]LogBlueprintUserMessages: [Build] X=2,218.51 Y=1,488.876 Z=-24.153
+[2022.09.10-14.13.36:505][604]LogBlueprintUserMessages: [Build] X=2,418.731 Y=1,691.782 Z=69.34
+[2022.09.10-14.13.36:610][615]LogBlueprintUserMessages: [Build] X=2,183.017 Y=1,527.123 Z=-16.237
+[2022.09.10-14.13.36:610][615]LogBlueprintUserMessages: [Build] X=2,384.558 Y=1,731.366 Z=71.32
+[2022.09.10-14.13.36:716][626]LogBlueprintUserMessages: [Build] X=2,134.205 Y=1,543.882 Z=-16.237
+[2022.09.10-14.13.36:716][626]LogBlueprintUserMessages: [Build] X=2,335.746 Y=1,748.125 Z=71.32
+[2022.09.10-14.13.36:821][637]LogBlueprintUserMessages: [Build] X=2,082.175 Y=1,523.252 Z=1.811
+[2022.09.10-14.13.36:821][637]LogBlueprintUserMessages: [Build] X=2,286.375 Y=1,730.19 Z=75.831
+[2022.09.10-14.13.36:926][648]LogBlueprintUserMessages: [Build] X=2,038.367 Y=1,481.31 Z=46.386
+[2022.09.10-14.13.36:926][648]LogBlueprintUserMessages: [Build] X=2,244.153 Y=1,695.798 Z=86.975
+[2022.09.10-14.13.37:031][659]LogBlueprintUserMessages: [Build] X=2,000.05 Y=1,453.791 Z=22.754
+[2022.09.10-14.13.37:031][659]LogBlueprintUserMessages: [Build] X=2,207.01 Y=1,662.997 Z=81.067
+[2022.09.10-14.13.37:136][670]LogBlueprintUserMessages: [Build] X=1,985.931 Y=1,438.35 Z=-21.768
+[2022.09.10-14.13.37:136][670]LogBlueprintUserMessages: [Build] X=2,185.939 Y=1,642.279 Z=69.937
+[2022.09.10-14.13.37:240][681]LogBlueprintUserMessages: [Build] X=2,046.207 Y=1,393.333 Z=-55.752
+[2022.09.10-14.13.37:241][681]LogBlueprintUserMessages: [Build] X=2,195.458 Y=1,625.69 Z=61.441
+[2022.09.10-14.13.37:341][692]LogBlueprintUserMessages: [Build] X=2,182.59 Y=1,338.072 Z=-50.501
+[2022.09.10-14.13.37:341][692]LogBlueprintUserMessages: [Build] X=2,229.554 Y=1,611.875 Z=62.753
+[2022.09.10-14.13.37:450][704]LogBlueprintUserMessages: [Build] X=2,235.833 Y=1,326.503 Z=-33.863
+[2022.09.10-14.13.37:450][704]LogBlueprintUserMessages: [Build] X=2,242.864 Y=1,608.983 Z=66.913
+[2022.09.10-14.13.37:552][715]LogBlueprintUserMessages: [Build] X=2,252.509 Y=1,317.056 Z=-3.82
+[2022.09.10-14.13.37:552][715]LogBlueprintUserMessages: [Build] X=2,247.033 Y=1,606.621 Z=74.424
+[2022.09.10-14.13.37:657][726]LogBlueprintUserMessages: [Build] X=2,234.673 Y=1,307.872 Z=14.058
+[2022.09.10-14.13.37:657][726]LogBlueprintUserMessages: [Build] X=2,242.639 Y=1,600.674 Z=78.893
+[2022.09.10-14.13.37:761][737]LogBlueprintUserMessages: [Build] X=2,055.476 Y=1,337.698 Z=26.518
+[2022.09.10-14.13.37:761][737]LogBlueprintUserMessages: [Build] X=2,197.237 Y=1,596.203 Z=82.008
+[2022.09.10-14.13.37:865][748]LogBlueprintUserMessages: [Build] X=1,962.573 Y=1,407.412 Z=21.982
+[2022.09.10-14.13.37:865][748]LogBlueprintUserMessages: [Build] X=2,173.894 Y=1,612.046 Z=80.874
+[2022.09.10-14.13.37:970][759]LogBlueprintUserMessages: [Build] X=1,913.306 Y=1,472.119 Z=16.254
+[2022.09.10-14.13.37:970][759]LogBlueprintUserMessages: [Build] X=2,161.577 Y=1,628.223 Z=79.442
+[2022.09.10-14.13.38:075][770]LogBlueprintUserMessages: [Build] X=1,897.199 Y=1,500.824 Z=15.06
+[2022.09.10-14.13.38:075][770]LogBlueprintUserMessages: [Build] X=2,157.551 Y=1,635.399 Z=79.144
+[2022.09.10-14.13.38:179][781]LogBlueprintUserMessages: [Build] X=1,897.199 Y=1,500.824 Z=15.06
+[2022.09.10-14.13.38:179][781]LogBlueprintUserMessages: [Build] X=2,157.551 Y=1,635.399 Z=79.144
+[2022.09.10-14.13.38:282][792]LogBlueprintUserMessages: [Build] X=1,897.479 Y=1,497.471 Z=21.254
+[2022.09.10-14.13.38:284][792]LogBlueprintUserMessages: [Build] X=2,157.621 Y=1,634.561 Z=80.692
+[2022.09.10-14.13.38:388][803]LogBlueprintUserMessages: [Build] X=1,887.455 Y=1,513.706 Z=30.522
+[2022.09.10-14.13.38:388][803]LogBlueprintUserMessages: [Build] X=2,155.115 Y=1,638.619 Z=83.009
+[2022.09.10-14.13.38:491][814]LogBlueprintUserMessages: [Build] X=1,852.565 Y=1,718.329 Z=29.32
+[2022.09.10-14.13.38:492][814]LogBlueprintUserMessages: [Build] X=2,146.392 Y=1,689.775 Z=82.709
+[2022.09.10-14.13.38:598][825]LogBlueprintUserMessages: [Build] X=1,968.797 Y=1,958.509 Z=18.929
+[2022.09.10-14.13.38:598][825]LogBlueprintUserMessages: [Build] X=2,175.45 Y=1,749.82 Z=80.111
+[2022.09.10-14.13.38:705][836]LogBlueprintUserMessages: [Build] X=2,043.552 Y=2,019.1 Z=30.066
+[2022.09.10-14.13.38:705][836]LogBlueprintUserMessages: [Build] X=2,194.34 Y=1,765.187 Z=82.895
+[2022.09.10-14.13.38:812][847]LogBlueprintUserMessages: [Build] X=2,119.676 Y=2,069.441 Z=73.492
+[2022.09.10-14.13.38:812][847]LogBlueprintUserMessages: [Build] X=2,216.604 Y=1,786.255 Z=93.752
+[2022.09.10-14.13.38:917][858]LogBlueprintUserMessages: [Build] X=2,221.677 Y=2,101.269 Z=127.028
+[2022.09.10-14.13.38:918][858]LogBlueprintUserMessages: [Build] X=2,248.922 Y=1,803.171 Z=107.136
+[2022.09.10-14.13.39:022][869]LogBlueprintUserMessages: [Build] X=2,292.258 Y=2,101.839 Z=127.208
+[2022.09.10-14.13.39:022][869]LogBlueprintUserMessages: [Build] X=2,266.795 Y=1,803.593 Z=107.181
+[2022.09.10-14.13.39:126][880]LogBlueprintUserMessages: [Build] X=2,274.653 Y=2,100.359 Z=47.842
+[2022.09.10-14.13.39:126][880]LogBlueprintUserMessages: [Build] X=2,262.394 Y=1,803.223 Z=87.339
+[2022.09.10-14.13.39:232][891]LogBlueprintUserMessages: [Build] X=1,895.652 Y=1,843.389 Z=9.456
+[2022.09.10-14.13.39:232][891]LogBlueprintUserMessages: [Build] X=2,168.864 Y=1,739.987 Z=77.743
+[2022.09.10-14.13.39:337][901]LogBlueprintUserMessages: [Build] X=1,971.247 Y=1,467.392 Z=-16.108
+[2022.09.10-14.13.39:337][901]LogBlueprintUserMessages: [Build] X=2,188.294 Y=1,655.119 Z=71.352
+[2022.09.10-14.13.39:444][912]LogBlueprintUserMessages: [Build] X=1,961.213 Y=1,462.754 Z=-17.276
+[2022.09.10-14.13.39:444][912]LogBlueprintUserMessages: [Build] X=2,172.674 Y=1,656.354 Z=71.06
+[2022.09.10-14.13.39:548][923]LogBlueprintUserMessages: [Build] X=1,943.84 Y=1,454.484 Z=-17.276
+[2022.09.10-14.13.39:549][923]LogBlueprintUserMessages: [Build] X=2,155.3 Y=1,648.085 Z=71.06
+[2022.09.10-14.13.39:656][934]LogBlueprintUserMessages: [Build] X=1,955.479 Y=1,436.681 Z=-9.766
+[2022.09.10-14.13.39:656][934]LogBlueprintUserMessages: [Build] X=2,156.946 Y=1,643.01 Z=72.937
+[2022.09.10-14.13.39:760][945]LogBlueprintUserMessages: [Build] X=1,974.313 Y=1,414.717 Z=-1.506
+[2022.09.10-14.13.39:760][945]LogBlueprintUserMessages: [Build] X=2,160.999 Y=1,636.741 Z=75.002
+[2022.09.10-14.13.39:865][956]LogBlueprintUserMessages: [Build] X=1,963.853 Y=1,404.116 Z=-1.506
+[2022.09.10-14.13.39:865][956]LogBlueprintUserMessages: [Build] X=2,151.217 Y=1,625.57 Z=75.002
+[2022.09.10-14.13.39:971][967]LogBlueprintUserMessages: [Build] X=1,886.226 Y=1,437.962 Z=6.313
+[2022.09.10-14.13.39:971][967]LogBlueprintUserMessages: [Build] X=2,116.559 Y=1,616.726 Z=76.957
+[2022.09.10-14.13.40:075][978]LogBlueprintUserMessages: [Build] X=1,857.456 Y=1,443.002 Z=9.879
+[2022.09.10-14.13.40:075][978]LogBlueprintUserMessages: [Build] X=2,099.275 Y=1,607.026 Z=77.848
+[2022.09.10-14.13.40:179][989]LogBlueprintUserMessages: [Build] X=1,863.144 Y=1,431.294 Z=11.069
+[2022.09.10-14.13.40:179][989]LogBlueprintUserMessages: [Build] X=2,099.763 Y=1,603.085 Z=78.146
+[2022.09.10-14.13.40:284][  0]LogBlueprintUserMessages: [Build] X=1,874.516 Y=1,423.058 Z=9.879
+[2022.09.10-14.13.40:284][  0]LogBlueprintUserMessages: [Build] X=2,104.861 Y=1,602.84 Z=77.848
+[2022.09.10-14.13.40:390][ 11]LogBlueprintUserMessages: [Build] X=1,841.523 Y=1,820.481 Z=-16.349
+[2022.09.10-14.13.40:390][ 11]LogBlueprintUserMessages: [Build] X=2,105.715 Y=1,708.58 Z=71.291
+[2022.09.10-14.13.40:495][ 22]LogBlueprintUserMessages: [Build] X=2,061.689 Y=2,026.518 Z=-30.924
+[2022.09.10-14.13.40:495][ 22]LogBlueprintUserMessages: [Build] X=2,161.527 Y=1,761.346 Z=67.648
+[2022.09.10-14.13.40:601][ 33]LogBlueprintUserMessages: [Build] X=1,906.443 Y=1,921.793 Z=-55.232
+[2022.09.10-14.13.40:601][ 33]LogBlueprintUserMessages: [Build] X=2,118.267 Y=1,744.346 Z=61.571
+[2022.09.10-14.13.40:709][ 45]LogBlueprintUserMessages: [Build] X=1,821.671 Y=1,781.659 Z=-86.989
+[2022.09.10-14.13.40:709][ 45]LogBlueprintUserMessages: [Build] X=2,080.31 Y=1,723.938 Z=53.631
+[2022.09.10-14.13.40:811][ 56]LogBlueprintUserMessages: [Build] X=1,776.55 Y=1,759.249 Z=-82.229
+[2022.09.10-14.13.40:812][ 56]LogBlueprintUserMessages: [Build] X=2,039.285 Y=1,729.476 Z=59.488
+[2022.09.10-14.13.40:919][ 68]LogBlueprintUserMessages: [Build] X=1,724.873 Y=1,773.272 Z=-18.113
+[2022.09.10-14.13.40:919][ 68]LogBlueprintUserMessages: [Build] X=1,987.608 Y=1,743.498 Z=123.604
+[2022.09.10-14.13.41:021][ 79]LogBlueprintUserMessages: [Build] X=1,675.436 Y=1,785.853 Z=23.845
+[2022.09.10-14.13.41:021][ 79]LogBlueprintUserMessages: [Build] X=1,938.172 Y=1,756.08 Z=165.562
+[2022.09.10-14.13.41:129][ 91]LogBlueprintUserMessages: [Build] X=1,622.452 Y=1,797.372 Z=49.824
+[2022.09.10-14.13.41:129][ 91]LogBlueprintUserMessages: [Build] X=1,885.706 Y=1,768.354 Z=190.733
+[2022.09.10-14.13.41:229][102]LogBlueprintUserMessages: [Build] X=1,565.167 Y=1,763.874 Z=68.271
+[2022.09.10-14.13.41:229][102]LogBlueprintUserMessages: [Build] X=1,834.962 Y=1,768.948 Z=199.362
+[2022.09.10-14.13.41:338][114]LogBlueprintUserMessages: [Build] X=1,512.087 Y=1,709.602 Z=75.532
+[2022.09.10-14.13.41:339][114]LogBlueprintUserMessages: [Build] X=1,782.827 Y=1,767.764 Z=190.931
+[2022.09.10-14.13.41:446][125]LogBlueprintUserMessages: [Build] X=1,494.542 Y=1,653.99 Z=100.965
+[2022.09.10-14.13.41:446][125]LogBlueprintUserMessages: [Build] X=1,750.384 Y=1,776.513 Z=198.605
+[2022.09.10-14.13.41:553][136]LogBlueprintUserMessages: [Build] X=1,498.648 Y=1,689.577 Z=116.389
+[2022.09.10-14.13.41:553][136]LogBlueprintUserMessages: [Build] X=1,751.378 Y=1,820.469 Z=211.23
+[2022.09.10-14.13.41:662][147]LogBlueprintUserMessages: [Build] X=1,498.648 Y=1,725.741 Z=125.424
+[2022.09.10-14.13.41:662][147]LogBlueprintUserMessages: [Build] X=1,751.378 Y=1,856.633 Z=220.265
+[2022.09.10-14.13.41:771][158]LogBlueprintUserMessages: [Build] X=1,497.438 Y=1,740.783 Z=128.593
+[2022.09.10-14.13.41:771][158]LogBlueprintUserMessages: [Build] X=1,751.076 Y=1,869.907 Z=223.435
+[2022.09.10-14.13.41:879][169]LogBlueprintUserMessages: [Build] X=1,470.178 Y=1,816.458 Z=124.125
+[2022.09.10-14.13.41:879][169]LogBlueprintUserMessages: [Build] X=1,744.261 Y=1,888.826 Z=222.317
+[2022.09.10-14.13.41:989][180]LogBlueprintUserMessages: [Build] X=1,473.116 Y=1,799.887 Z=129.323
+[2022.09.10-14.13.41:989][180]LogBlueprintUserMessages: [Build] X=1,744.995 Y=1,884.683 Z=223.617
+[2022.09.10-14.13.42:098][191]LogBlueprintUserMessages: [Build] X=1,484.722 Y=1,765.208 Z=132.401
+[2022.09.10-14.13.42:098][191]LogBlueprintUserMessages: [Build] X=1,747.897 Y=1,876.014 Z=224.386
+[2022.09.10-14.13.42:208][202]LogBlueprintUserMessages: [Build] X=1,479.792 Y=1,775.439 Z=134.728
+[2022.09.10-14.13.42:208][202]LogBlueprintUserMessages: [Build] X=1,746.664 Y=1,878.571 Z=224.968
+[2022.09.10-14.13.42:317][213]LogBlueprintUserMessages: [Build] X=1,456.101 Y=1,955.799 Z=136.186
+[2022.09.10-14.13.42:317][213]LogBlueprintUserMessages: [Build] X=1,740.741 Y=1,923.661 Z=225.333
+[2022.09.10-14.13.42:426][224]LogBlueprintUserMessages: [Build] X=1,463.262 Y=2,005.943 Z=142.353
+[2022.09.10-14.13.42:426][224]LogBlueprintUserMessages: [Build] X=1,742.531 Y=1,936.197 Z=226.874
+[2022.09.10-14.13.42:536][235]LogBlueprintUserMessages: [Build] X=1,465.245 Y=2,013.885 Z=144.336
+[2022.09.10-14.13.42:536][235]LogBlueprintUserMessages: [Build] X=1,744.515 Y=1,944.139 Z=228.858
+[2022.09.10-14.13.42:637][245]LogBlueprintUserMessages: [Build] X=1,470.647 Y=2,035.509 Z=150.021
+[2022.09.10-14.13.42:637][245]LogBlueprintUserMessages: [Build] X=1,750.129 Y=1,966.616 Z=234.543
+[2022.09.10-14.13.42:737][255]LogBlueprintUserMessages: [Build] X=1,469.401 Y=2,018.925 Z=150.932
+[2022.09.10-14.13.42:738][255]LogBlueprintUserMessages: [Build] X=1,753.887 Y=1,989.849 Z=241.61
+[2022.09.10-14.13.42:838][265]LogBlueprintUserMessages: [Build] X=1,462.767 Y=1,948.759 Z=145.655
+[2022.09.10-14.13.42:838][265]LogBlueprintUserMessages: [Build] X=1,739.182 Y=2,003.859 Z=248.412
+[2022.09.10-14.13.42:937][275]LogBlueprintUserMessages: [Build] X=1,468.706 Y=1,876.938 Z=156.333
+[2022.09.10-14.13.42:937][275]LogBlueprintUserMessages: [Build] X=1,713.825 Y=2,011.783 Z=264.656
+[2022.09.10-14.13.43:046][286]LogBlueprintUserMessages: [Build] X=1,422.398 Y=1,897.602 Z=154.057
+[2022.09.10-14.13.43:046][286]LogBlueprintUserMessages: [Build] X=1,665.529 Y=2,034.646 Z=264.087
+[2022.09.10-14.13.43:156][297]LogBlueprintUserMessages: [Build] X=1,331.078 Y=2,013.847 Z=159.205
+[2022.09.10-14.13.43:156][297]LogBlueprintUserMessages: [Build] X=1,604.212 Y=2,078.081 Z=265.374
+[2022.09.10-14.13.43:265][308]LogBlueprintUserMessages: [Build] X=1,284.15 Y=2,031.655 Z=164.352
+[2022.09.10-14.13.43:265][308]LogBlueprintUserMessages: [Build] X=1,557 Y=2,102.966 Z=266.661
+[2022.09.10-14.13.43:366][318]LogBlueprintUserMessages: [Build] X=1,309.292 Y=1,954.993 Z=160.355
+[2022.09.10-14.13.43:366][318]LogBlueprintUserMessages: [Build] X=1,540.831 Y=2,114.053 Z=265.662
+[2022.09.10-14.13.43:467][328]LogBlueprintUserMessages: [Build] X=1,252.716 Y=2,047.047 Z=159.212
+[2022.09.10-14.13.43:467][328]LogBlueprintUserMessages: [Build] X=1,505.77 Y=2,168.262 Z=265.376
+[2022.09.10-14.13.43:577][339]LogBlueprintUserMessages: [Build] X=1,186.563 Y=2,269.981 Z=179.732
+[2022.09.10-14.13.43:577][339]LogBlueprintUserMessages: [Build] X=1,472.373 Y=2,261.451 Z=270.506
+[2022.09.10-14.13.43:678][349]LogBlueprintUserMessages: [Build] X=1,192.538 Y=2,210.052 Z=172.542
+[2022.09.10-14.13.43:678][349]LogBlueprintUserMessages: [Build] X=1,468.461 Y=2,283.256 Z=264.778
+[2022.09.10-14.13.43:779][359]LogBlueprintUserMessages: [Build] X=1,306.674 Y=2,063.29 Z=144.31
+[2022.09.10-14.13.43:779][359]LogBlueprintUserMessages: [Build] X=1,495.8 Y=2,269.579 Z=252.367
+[2022.09.10-14.13.43:889][370]LogBlueprintUserMessages: [Build] X=1,388.256 Y=2,041.631 Z=105.786
+[2022.09.10-14.13.43:889][370]LogBlueprintUserMessages: [Build] X=1,517.975 Y=2,285.842 Z=222.121
+[2022.09.10-14.13.43:996][381]LogBlueprintUserMessages: [Build] X=1,412.041 Y=2,056.494 Z=56.698
+[2022.09.10-14.13.43:996][381]LogBlueprintUserMessages: [Build] X=1,527.703 Y=2,306.88 Z=174.72
+[2022.09.10-14.13.44:099][392]LogBlueprintUserMessages: [Build] X=1,418.757 Y=2,073.205 Z=-6.23
+[2022.09.10-14.13.44:099][392]LogBlueprintUserMessages: [Build] X=1,534.418 Y=2,323.592 Z=111.792
+[2022.09.10-14.13.44:207][404]LogBlueprintUserMessages: [Build] X=1,262.872 Y=1,988.739 Z=-103.615
+[2022.09.10-14.13.44:207][404]LogBlueprintUserMessages: [Build] X=1,430.367 Y=2,213.336 Z=3.632
+[2022.09.10-14.13.44:311][415]LogBlueprintUserMessages: [Build] X=1,202.577 Y=2,369.069 Z=-10.988
+[2022.09.10-14.13.44:311][415]LogBlueprintUserMessages: [Build] X=1,489.189 Y=2,397.987 Z=72.782
+[2022.09.10-14.13.44:416][426]LogBlueprintUserMessages: [Build] X=1,200.411 Y=2,530.513 Z=9.613
+[2022.09.10-14.13.44:416][426]LogBlueprintUserMessages: [Build] X=1,476.249 Y=2,434.359 Z=77.932
+[2022.09.10-14.13.44:518][437]LogBlueprintUserMessages: [Build] X=1,169.896 Y=2,536.185 Z=9.613
+[2022.09.10-14.13.44:518][437]LogBlueprintUserMessages: [Build] X=1,445.734 Y=2,440.03 Z=77.932
+[2022.09.10-14.13.44:621][448]LogBlueprintUserMessages: [Build] X=1,117.321 Y=2,493.266 Z=11.994
+[2022.09.10-14.13.44:621][448]LogBlueprintUserMessages: [Build] X=1,406.153 Y=2,446.907 Z=78.527
+[2022.09.10-14.13.44:724][459]LogBlueprintUserMessages: [Build] X=1,092.725 Y=2,333.401 Z=-5.866
+[2022.09.10-14.13.44:724][459]LogBlueprintUserMessages: [Build] X=1,366.922 Y=2,425.204 Z=74.062
+[2022.09.10-14.13.44:828][470]LogBlueprintUserMessages: [Build] X=974.464 Y=2,140.235 Z=-63.227
+[2022.09.10-14.13.44:828][470]LogBlueprintUserMessages: [Build] X=1,207.017 Y=2,308.02 Z=24.906
+[2022.09.10-14.13.44:932][481]LogBlueprintUserMessages: [Build] X=1,024.33 Y=1,963.946 Z=-61.653
+[2022.09.10-14.13.44:932][481]LogBlueprintUserMessages: [Build] X=1,193.529 Y=2,197.839 Z=19.988
+[2022.09.10-14.13.45:035][492]LogBlueprintUserMessages: [Build] X=1,063.294 Y=1,906.786 Z=-49.913
+[2022.09.10-14.13.45:035][492]LogBlueprintUserMessages: [Build] X=1,199.556 Y=2,162.114 Z=29.08
+[2022.09.10-14.13.45:142][503]LogBlueprintUserMessages: [Build] X=1,172.463 Y=1,837.464 Z=-64.072
+[2022.09.10-14.13.45:142][503]LogBlueprintUserMessages: [Build] X=1,228.698 Y=2,118.788 Z=23.644
+[2022.09.10-14.13.45:243][514]LogBlueprintUserMessages: [Build] X=1,177.921 Y=1,969.203 Z=-40.951
+[2022.09.10-14.13.45:243][514]LogBlueprintUserMessages: [Build] X=1,220.767 Y=2,246.47 Z=65.291
+[2022.09.10-14.13.45:343][525]LogBlueprintUserMessages: [Build] X=1,136.862 Y=1,940.552 Z=-40.951
+[2022.09.10-14.13.45:343][525]LogBlueprintUserMessages: [Build] X=1,179.707 Y=2,217.819 Z=65.291
+[2022.09.10-14.13.45:451][537]LogBlueprintUserMessages: [Build] X=1,093.1 Y=1,908.983 Z=-40.951
+[2022.09.10-14.13.45:451][537]LogBlueprintUserMessages: [Build] X=1,135.945 Y=2,186.25 Z=65.291
+[2022.09.10-14.13.45:560][549]LogBlueprintUserMessages: [Build] X=1,119.767 Y=1,870.224 Z=-35.925
+[2022.09.10-14.13.45:560][549]LogBlueprintUserMessages: [Build] X=1,109.787 Y=2,152.004 Z=66.547
+[2022.09.10-14.13.45:663][560]LogBlueprintUserMessages: [Build] X=1,093.732 Y=1,835.586 Z=-35.925
+[2022.09.10-14.13.45:663][560]LogBlueprintUserMessages: [Build] X=1,075.088 Y=2,116.926 Z=66.547
+[2022.09.10-14.13.45:767][571]LogBlueprintUserMessages: [Build] X=1,076.771 Y=1,796.094 Z=-27.346
+[2022.09.10-14.13.45:767][571]LogBlueprintUserMessages: [Build] X=1,044.409 Y=2,078.458 Z=68.692
+[2022.09.10-14.13.45:874][582]LogBlueprintUserMessages: [Build] X=1,010.939 Y=1,749.471 Z=-16.214
+[2022.09.10-14.13.45:874][582]LogBlueprintUserMessages: [Build] X=1,001.971 Y=2,036.229 Z=71.475
+[2022.09.10-14.13.45:982][593]LogBlueprintUserMessages: [Build] X=955.654 Y=1,708.655 Z=-12.704
+[2022.09.10-14.13.45:982][593]LogBlueprintUserMessages: [Build] X=960.779 Y=1,996.299 Z=72.353
+[2022.09.10-14.13.46:088][604]LogBlueprintUserMessages: [Build] X=1,091.501 Y=1,700.949 Z=6.485
+[2022.09.10-14.13.46:088][604]LogBlueprintUserMessages: [Build] X=967.739 Y=1,964.937 Z=77.15
+[2022.09.10-14.13.46:196][615]LogBlueprintUserMessages: [Build] X=1,124.248 Y=1,686.272 Z=5.298
+[2022.09.10-14.13.46:196][615]LogBlueprintUserMessages: [Build] X=957.976 Y=1,925.507 Z=76.853
+[2022.09.10-14.13.46:303][626]LogBlueprintUserMessages: [Build] X=985.62 Y=1,577.862 Z=9.142
+[2022.09.10-14.13.46:303][626]LogBlueprintUserMessages: [Build] X=911 Y=1,860.202 Z=77.814
+[2022.09.10-14.13.46:409][637]LogBlueprintUserMessages: [Build] X=934.475 Y=1,522.93 Z=12.523
+[2022.09.10-14.13.46:409][637]LogBlueprintUserMessages: [Build] X=880.614 Y=1,810.549 Z=78.659
+[2022.09.10-14.13.46:516][648]LogBlueprintUserMessages: [Build] X=1,015.186 Y=1,512.989 Z=16.102
+[2022.09.10-14.13.46:517][648]LogBlueprintUserMessages: [Build] X=880.648 Y=1,773.514 Z=79.554
+[2022.09.10-14.13.46:621][659]LogBlueprintUserMessages: [Build] X=1,098.508 Y=1,541.866 Z=8.983
+[2022.09.10-14.13.46:621][659]LogBlueprintUserMessages: [Build] X=887.754 Y=1,743.981 Z=77.774
+[2022.09.10-14.13.46:726][670]LogBlueprintUserMessages: [Build] X=1,145.549 Y=1,556.996 Z=8.983
+[2022.09.10-14.13.46:726][670]LogBlueprintUserMessages: [Build] X=896.133 Y=1,708.85 Z=77.774
+[2022.09.10-14.13.46:830][681]LogBlueprintUserMessages: [Build] X=1,171.199 Y=1,539.587 Z=8.983
+[2022.09.10-14.13.46:830][681]LogBlueprintUserMessages: [Build] X=907.933 Y=1,665.914 Z=77.774
+[2022.09.10-14.13.46:934][692]LogBlueprintUserMessages: [Build] X=1,203.834 Y=1,533.283 Z=8.983
+[2022.09.10-14.13.46:934][692]LogBlueprintUserMessages: [Build] X=927.237 Y=1,626.886 Z=77.774
+[2022.09.10-14.13.47:037][703]LogBlueprintUserMessages: [Build] X=1,231.031 Y=1,507.974 Z=8.983
+[2022.09.10-14.13.47:037][703]LogBlueprintUserMessages: [Build] X=949.398 Y=1,585.114 Z=77.774
+[2022.09.10-14.13.47:140][714]LogBlueprintUserMessages: [Build] X=1,260.512 Y=1,483.346 Z=8.983
+[2022.09.10-14.13.47:140][714]LogBlueprintUserMessages: [Build] X=975.004 Y=1,544.608 Z=77.774
+[2022.09.10-14.13.47:243][725]LogBlueprintUserMessages: [Build] X=1,293.476 Y=1,474.63 Z=8.983
+[2022.09.10-14.13.47:243][725]LogBlueprintUserMessages: [Build] X=1,003.583 Y=1,509.704 Z=77.774
+[2022.09.10-14.13.47:348][736]LogBlueprintUserMessages: [Build] X=1,327.189 Y=1,467.88 Z=8.983
+[2022.09.10-14.13.47:348][736]LogBlueprintUserMessages: [Build] X=1,035.312 Y=1,476.579 Z=77.774
+[2022.09.10-14.13.47:452][747]LogBlueprintUserMessages: [Build] X=1,359.673 Y=1,483.914 Z=8.983
+[2022.09.10-14.13.47:452][747]LogBlueprintUserMessages: [Build] X=1,069.463 Y=1,451.575 Z=77.774
+[2022.09.10-14.13.47:556][758]LogBlueprintUserMessages: [Build] X=1,391.948 Y=1,491.287 Z=8.983
+[2022.09.10-14.13.47:556][758]LogBlueprintUserMessages: [Build] X=1,106.96 Y=1,427.65 Z=77.774
+[2022.09.10-14.13.47:660][769]LogBlueprintUserMessages: [Build] X=1,421.419 Y=1,505.806 Z=6.606
+[2022.09.10-14.13.47:660][769]LogBlueprintUserMessages: [Build] X=1,146.352 Y=1,409.074 Z=77.18
+[2022.09.10-14.13.47:764][780]LogBlueprintUserMessages: [Build] X=1,447.297 Y=1,525.423 Z=1.864
+[2022.09.10-14.13.47:764][780]LogBlueprintUserMessages: [Build] X=1,187.153 Y=1,395.694 Z=75.995
+[2022.09.10-14.13.47:869][791]LogBlueprintUserMessages: [Build] X=1,463.266 Y=1,558.5 Z=-4.29
+[2022.09.10-14.13.47:869][791]LogBlueprintUserMessages: [Build] X=1,227.861 Y=1,390.025 Z=74.456
+[2022.09.10-14.13.47:974][802]LogBlueprintUserMessages: [Build] X=1,457.552 Y=1,607.087 Z=-14.773
+[2022.09.10-14.13.47:974][802]LogBlueprintUserMessages: [Build] X=1,264.817 Y=1,394.127 Z=71.835
+[2022.09.10-14.13.48:078][813]LogBlueprintUserMessages: [Build] X=1,453.259 Y=1,644.734 Z=-24.501
+[2022.09.10-14.13.48:078][813]LogBlueprintUserMessages: [Build] X=1,302.825 Y=1,402.76 Z=69.403
+[2022.09.10-14.13.48:183][824]LogBlueprintUserMessages: [Build] X=1,447.844 Y=1,678.746 Z=-34.178
+[2022.09.10-14.13.48:183][824]LogBlueprintUserMessages: [Build] X=1,340.33 Y=1,417.581 Z=66.984
+[2022.09.10-14.13.48:286][835]LogBlueprintUserMessages: [Build] X=1,442.811 Y=1,710.519 Z=-41.26
+[2022.09.10-14.13.48:286][835]LogBlueprintUserMessages: [Build] X=1,375.807 Y=1,438.171 Z=65.214
+[2022.09.10-14.13.48:387][846]LogBlueprintUserMessages: [Build] X=1,467.996 Y=1,738.958 Z=-37.828
+[2022.09.10-14.13.48:387][846]LogBlueprintUserMessages: [Build] X=1,415.593 Y=1,462.446 Z=66.072
+[2022.09.10-14.13.48:490][857]LogBlueprintUserMessages: [Build] X=1,500.048 Y=1,770.26 Z=-32.86
+[2022.09.10-14.13.48:490][857]LogBlueprintUserMessages: [Build] X=1,456.369 Y=1,490.872 Z=67.314
+[2022.09.10-14.13.48:593][868]LogBlueprintUserMessages: [Build] X=1,542.232 Y=1,799.595 Z=-32.86
+[2022.09.10-14.13.48:593][868]LogBlueprintUserMessages: [Build] X=1,498.552 Y=1,520.207 Z=67.314
+[2022.09.10-14.13.48:696][879]LogBlueprintUserMessages: [Build] X=1,583.97 Y=1,829.524 Z=3.693
+[2022.09.10-14.13.48:696][879]LogBlueprintUserMessages: [Build] X=1,540.291 Y=1,550.137 Z=103.866
+[2022.09.10-14.13.48:801][890]LogBlueprintUserMessages: [Build] X=1,625.597 Y=1,860.465 Z=57.795
+[2022.09.10-14.13.48:801][890]LogBlueprintUserMessages: [Build] X=1,582.771 Y=1,580.945 Z=157.968
+[2022.09.10-14.13.48:914][899]LogBlueprintUserMessages: [Build] X=1,619.981 Y=1,894.905 Z=86.646
+[2022.09.10-14.13.48:914][899]LogBlueprintUserMessages: [Build] X=1,615.668 Y=1,614.35 Z=192.808
+[2022.09.10-14.13.49:020][911]LogBlueprintUserMessages: [Build] X=1,600.653 Y=1,915.818 Z=84.853
+[2022.09.10-14.13.49:020][911]LogBlueprintUserMessages: [Build] X=1,642.949 Y=1,643.504 Z=203.413
+[2022.09.10-14.13.49:128][922]LogBlueprintUserMessages: [Build] X=1,617.326 Y=1,940.691 Z=71.963
+[2022.09.10-14.13.49:128][922]LogBlueprintUserMessages: [Build] X=1,678.684 Y=1,674.752 Z=196.509
+[2022.09.10-14.13.49:237][934]LogBlueprintUserMessages: [Build] X=1,621.898 Y=1,961.665 Z=39.01
+[2022.09.10-14.13.49:237][934]LogBlueprintUserMessages: [Build] X=1,710.947 Y=1,706.549 Z=169.34
+[2022.09.10-14.13.49:338][945]LogBlueprintUserMessages: [Build] X=1,636.156 Y=1,989.587 Z=23.197
+[2022.09.10-14.13.49:339][945]LogBlueprintUserMessages: [Build] X=1,741.146 Y=1,740.176 Z=152.701
+[2022.09.10-14.13.49:439][956]LogBlueprintUserMessages: [Build] X=1,645.274 Y=1,991.949 Z=33.351
+[2022.09.10-14.13.49:439][956]LogBlueprintUserMessages: [Build] X=1,763.074 Y=1,746.297 Z=158.962
+[2022.09.10-14.13.49:548][968]LogBlueprintUserMessages: [Build] X=1,626.994 Y=1,986.431 Z=48.361
+[2022.09.10-14.13.49:548][968]LogBlueprintUserMessages: [Build] X=1,775.09 Y=1,751.906 Z=162.666
+[2022.09.10-14.13.49:653][979]LogBlueprintUserMessages: [Build] X=1,620.529 Y=2,002.789 Z=56.791
+[2022.09.10-14.13.49:653][979]LogBlueprintUserMessages: [Build] X=1,785.55 Y=1,777.279 Z=165.939
+[2022.09.10-14.13.49:759][990]LogBlueprintUserMessages: [Build] X=1,632.594 Y=2,049.294 Z=68.407
+[2022.09.10-14.13.49:759][990]LogBlueprintUserMessages: [Build] X=1,797.615 Y=1,823.784 Z=177.555
+[2022.09.10-14.13.49:865][  1]LogBlueprintUserMessages: [Build] X=1,642.346 Y=2,101.554 Z=81.46
+[2022.09.10-14.13.49:865][  1]LogBlueprintUserMessages: [Build] X=1,807.368 Y=1,876.044 Z=190.608
+[2022.09.10-14.13.49:972][ 12]LogBlueprintUserMessages: [Build] X=1,633.159 Y=2,135.636 Z=85.871
+[2022.09.10-14.13.49:972][ 12]LogBlueprintUserMessages: [Build] X=1,811.528 Y=1,923.971 Z=201.555
+[2022.09.10-14.13.50:078][ 23]LogBlueprintUserMessages: [Build] X=1,608.393 Y=2,151.647 Z=85.411
+[2022.09.10-14.13.50:078][ 23]LogBlueprintUserMessages: [Build] X=1,809.177 Y=1,967.749 Z=211.376
+[2022.09.10-14.13.50:181][ 34]LogBlueprintUserMessages: [Build] X=1,606.966 Y=2,196.874 Z=92.183
+[2022.09.10-14.13.50:181][ 34]LogBlueprintUserMessages: [Build] X=1,808.989 Y=2,017.556 Z=222.688
+[2022.09.10-14.13.50:282][ 45]LogBlueprintUserMessages: [Build] X=1,600.314 Y=2,227.442 Z=86.918
+[2022.09.10-14.13.50:282][ 45]LogBlueprintUserMessages: [Build] X=1,805.691 Y=2,062.72 Z=230.747
+[2022.09.10-14.13.50:383][ 56]LogBlueprintUserMessages: [Build] X=1,581.129 Y=2,254.951 Z=96.259
+[2022.09.10-14.13.50:383][ 56]LogBlueprintUserMessages: [Build] X=1,797.471 Y=2,107.265 Z=242.494
+[2022.09.10-14.13.50:491][ 68]LogBlueprintUserMessages: [Build] X=1,538.983 Y=2,245.03 Z=102.596
+[2022.09.10-14.13.50:491][ 68]LogBlueprintUserMessages: [Build] X=1,779.573 Y=2,144.902 Z=251.224
+[2022.09.10-14.13.50:600][ 80]LogBlueprintUserMessages: [Build] X=1,500.487 Y=2,273.538 Z=124.678
+[2022.09.10-14.13.50:600][ 80]LogBlueprintUserMessages: [Build] X=1,756.784 Y=2,190.653 Z=256.745
+[2022.09.10-14.13.50:706][ 91]LogBlueprintUserMessages: [Build] X=1,438.816 Y=2,318.663 Z=309.176
+[2022.09.10-14.13.50:706][ 91]LogBlueprintUserMessages: [Build] X=1,725.796 Y=2,238.46 Z=343.958
+[2022.09.10-14.13.50:808][101]LogBlueprintUserMessages: [Build] X=1,417.737 Y=2,365.874 Z=359.798
+[2022.09.10-14.13.50:808][101]LogBlueprintUserMessages: [Build] X=1,704.972 Y=2,285.599 Z=392.237
+[2022.09.10-14.13.50:912][111]LogBlueprintUserMessages: [Build] X=1,396.267 Y=2,413.348 Z=389.361
+[2022.09.10-14.13.50:912][111]LogBlueprintUserMessages: [Build] X=1,683.502 Y=2,333.073 Z=421.8
+[2022.09.10-14.13.51:017][121]LogBlueprintUserMessages: [Build] X=1,374.33 Y=2,460.704 Z=400.304
+[2022.09.10-14.13.51:017][121]LogBlueprintUserMessages: [Build] X=1,661.564 Y=2,380.429 Z=432.743
+[2022.09.10-14.13.51:121][131]LogBlueprintUserMessages: [Build] X=1,352.115 Y=2,507.654 Z=392.643
+[2022.09.10-14.13.51:121][131]LogBlueprintUserMessages: [Build] X=1,639.349 Y=2,427.379 Z=425.082
+[2022.09.10-14.13.51:225][141]LogBlueprintUserMessages: [Build] X=1,329.45 Y=2,554.662 Z=366.306
+[2022.09.10-14.13.51:225][141]LogBlueprintUserMessages: [Build] X=1,616.685 Y=2,474.387 Z=398.745
+[2022.09.10-14.13.51:329][151]LogBlueprintUserMessages: [Build] X=1,306.502 Y=2,601.472 Z=321.343
+[2022.09.10-14.13.51:329][151]LogBlueprintUserMessages: [Build] X=1,593.736 Y=2,521.197 Z=353.782
+[2022.09.10-14.13.51:432][161]LogBlueprintUserMessages: [Build] X=1,283.543 Y=2,647.617 Z=258.562
+[2022.09.10-14.13.51:432][161]LogBlueprintUserMessages: [Build] X=1,570.778 Y=2,567.342 Z=291.001
+[2022.09.10-14.13.51:541][172]LogBlueprintUserMessages: [Build] X=1,258.664 Y=2,671.676 Z=172.065
+[2022.09.10-14.13.51:541][172]LogBlueprintUserMessages: [Build] X=1,545.899 Y=2,591.401 Z=204.504
+[2022.09.10-14.13.51:648][183]LogBlueprintUserMessages: [Build] X=1,231.76 Y=2,671.694 Z=67.377
+[2022.09.10-14.13.51:648][183]LogBlueprintUserMessages: [Build] X=1,518.994 Y=2,591.419 Z=99.816
+[2022.09.10-14.13.51:752][194]LogBlueprintUserMessages: [Build] X=1,204.287 Y=2,671.694 Z=93.758
+[2022.09.10-14.13.51:752][194]LogBlueprintUserMessages: [Build] X=1,491.522 Y=2,591.419 Z=126.197
+[2022.09.10-14.13.51:856][205]LogBlueprintUserMessages: [Build] X=1,174.196 Y=2,671.694 Z=146.771
+[2022.09.10-14.13.51:856][205]LogBlueprintUserMessages: [Build] X=1,461.43 Y=2,591.419 Z=179.21
+[2022.09.10-14.13.51:963][216]LogBlueprintUserMessages: [Build] X=1,160.544 Y=2,714.468 Z=149.162
+[2022.09.10-14.13.51:963][216]LogBlueprintUserMessages: [Build] X=1,432.903 Y=2,602.112 Z=205.704
+[2022.09.10-14.13.52:071][227]LogBlueprintUserMessages: [Build] X=1,195.64 Y=2,809.683 Z=118.505
+[2022.09.10-14.13.52:071][227]LogBlueprintUserMessages: [Build] X=1,414.699 Y=2,625.916 Z=209.296
+[2022.09.10-14.13.52:179][238]LogBlueprintUserMessages: [Build] X=1,212.526 Y=2,850.098 Z=87.279
+[2022.09.10-14.13.52:180][238]LogBlueprintUserMessages: [Build] X=1,391.305 Y=2,636.021 Z=197.775
+[2022.09.10-14.13.52:285][249]LogBlueprintUserMessages: [Build] X=1,201.761 Y=2,859.126 Z=43.95
+[2022.09.10-14.13.52:285][249]LogBlueprintUserMessages: [Build] X=1,361.975 Y=2,638.278 Z=168.682
+[2022.09.10-14.13.52:394][261]LogBlueprintUserMessages: [Build] X=1,175.548 Y=2,860.217 Z=-10.384
+[2022.09.10-14.13.52:395][261]LogBlueprintUserMessages: [Build] X=1,328.818 Y=2,638.551 Z=121.419
+[2022.09.10-14.13.52:504][273]LogBlueprintUserMessages: [Build] X=1,038.75 Y=2,746.885 Z=-80.945
+[2022.09.10-14.13.52:504][273]LogBlueprintUserMessages: [Build] X=1,268.679 Y=2,610.218 Z=54.903
+[2022.09.10-14.13.52:612][285]LogBlueprintUserMessages: [Build] X=961.621 Y=2,611.282 Z=-80.427
+[2022.09.10-14.13.52:612][285]LogBlueprintUserMessages: [Build] X=1,226.805 Y=2,576.317 Z=55.422
+[2022.09.10-14.13.52:712][296]LogBlueprintUserMessages: [Build] X=933.98 Y=2,615.398 Z=-79.337
+[2022.09.10-14.13.52:712][296]LogBlueprintUserMessages: [Build] X=1,199.34 Y=2,578.65 Z=55.694
+[2022.09.10-14.13.52:820][308]LogBlueprintUserMessages: [Build] X=936.194 Y=2,742.39 Z=-81.188
+[2022.09.10-14.13.52:820][308]LogBlueprintUserMessages: [Build] X=1,177.354 Y=2,627.362 Z=55.232
+[2022.09.10-14.13.52:928][320]LogBlueprintUserMessages: [Build] X=1,021.799 Y=2,886.444 Z=-79.141
+[2022.09.10-14.13.52:928][320]LogBlueprintUserMessages: [Build] X=1,178.719 Y=2,694.842 Z=90.166
+[2022.09.10-14.13.53:036][332]LogBlueprintUserMessages: [Build] X=1,015.996 Y=2,940.069 Z=-36.845
+[2022.09.10-14.13.53:036][332]LogBlueprintUserMessages: [Build] X=1,158.315 Y=2,743.938 Z=140.011
+[2022.09.10-14.13.53:144][344]LogBlueprintUserMessages: [Build] X=998.177 Y=2,969.173 Z=-28.213
+[2022.09.10-14.13.53:144][344]LogBlueprintUserMessages: [Build] X=1,137.271 Y=2,788.011 Z=166.295
+[2022.09.10-14.13.53:252][356]LogBlueprintUserMessages: [Build] X=939.16 Y=2,912.351 Z=-58.795
+[2022.09.10-14.13.53:252][356]LogBlueprintUserMessages: [Build] X=1,107.871 Y=2,811.566 Z=167.874
+[2022.09.10-14.13.53:352][367]LogBlueprintUserMessages: [Build] X=893.964 Y=2,875.58 Z=-69.605
+[2022.09.10-14.13.53:352][367]LogBlueprintUserMessages: [Build] X=1,082.801 Y=2,837.252 Z=160.334
+[2022.09.10-14.13.53:460][379]LogBlueprintUserMessages: [Build] X=842.837 Y=2,977.373 Z=-53.241
+[2022.09.10-14.13.53:460][379]LogBlueprintUserMessages: [Build] X=1,054.691 Y=2,900.291 Z=144.688
+[2022.09.10-14.13.53:568][391]LogBlueprintUserMessages: [Build] X=818.912 Y=3,060.224 Z=-80.109
+[2022.09.10-14.13.53:568][391]LogBlueprintUserMessages: [Build] X=1,033.426 Y=2,958.485 Z=103.284
+[2022.09.10-14.13.53:676][403]LogBlueprintUserMessages: [Build] X=797.337 Y=3,107.489 Z=-143.819
+[2022.09.10-14.13.53:676][403]LogBlueprintUserMessages: [Build] X=1,012.774 Y=3,007.719 Z=39.574
+[2022.09.10-14.13.53:784][415]LogBlueprintUserMessages: [Build] X=756.094 Y=3,068.976 Z=-141.881
+[2022.09.10-14.13.53:784][415]LogBlueprintUserMessages: [Build] X=990.834 Y=3,026.609 Z=40.058
+[2022.09.10-14.13.53:892][427]LogBlueprintUserMessages: [Build] X=738.805 Y=2,857.732 Z=-60.512
+[2022.09.10-14.13.53:892][427]LogBlueprintUserMessages: [Build] X=981.473 Y=2,986.155 Z=60.401
+[2022.09.10-14.13.53:994][438]LogBlueprintUserMessages: [Build] X=882.51 Y=2,672.463 Z=88.404
+[2022.09.10-14.13.53:994][438]LogBlueprintUserMessages: [Build] X=1,017.178 Y=2,940.38 Z=97.63
+[2022.09.10-14.13.54:097][449]LogBlueprintUserMessages: [Build] X=912.223 Y=2,646.763 Z=58.65
+[2022.09.10-14.13.54:097][449]LogBlueprintUserMessages: [Build] X=1,020.979 Y=2,924.685 Z=89.173
+[2022.09.10-14.13.54:201][460]LogBlueprintUserMessages: [Build] X=912.223 Y=2,646.763 Z=58.734
+[2022.09.10-14.13.54:201][460]LogBlueprintUserMessages: [Build] X=1,020.979 Y=2,924.685 Z=89.257
+[2022.09.10-14.13.54:305][471]LogBlueprintUserMessages: [Build] X=911.905 Y=2,645.951 Z=60.007
+[2022.09.10-14.13.54:305][471]LogBlueprintUserMessages: [Build] X=1,020.661 Y=2,923.873 Z=90.53
+[2022.09.10-14.13.54:410][482]LogBlueprintUserMessages: [Build] X=918.137 Y=2,613.008 Z=51.813
+[2022.09.10-14.13.54:410][482]LogBlueprintUserMessages: [Build] X=1,014.097 Y=2,894.871 Z=88.482
+[2022.09.10-14.13.54:515][493]LogBlueprintUserMessages: [Build] X=1,103.581 Y=2,560.152 Z=15.343
+[2022.09.10-14.13.54:515][493]LogBlueprintUserMessages: [Build] X=1,051.455 Y=2,848.569 Z=79.364
+[2022.09.10-14.13.54:621][504]LogBlueprintUserMessages: [Build] X=1,182.394 Y=2,531.224 Z=62.097
+[2022.09.10-14.13.54:621][504]LogBlueprintUserMessages: [Build] X=1,069.602 Y=2,801.224 Z=128.267
+[2022.09.10-14.13.54:730][515]LogBlueprintUserMessages: [Build] X=1,183.052 Y=2,476.39 Z=113.81
+[2022.09.10-14.13.54:730][515]LogBlueprintUserMessages: [Build] X=1,070.26 Y=2,746.389 Z=179.979
+[2022.09.10-14.13.54:831][525]LogBlueprintUserMessages: [Build] X=1,174.313 Y=2,432.661 Z=105.811
+[2022.09.10-14.13.54:831][525]LogBlueprintUserMessages: [Build] X=1,070.001 Y=2,697.712 Z=199.975
+[2022.09.10-14.13.54:941][536]LogBlueprintUserMessages: [Build] X=1,185.121 Y=2,395.811 Z=81.83
+[2022.09.10-14.13.54:941][536]LogBlueprintUserMessages: [Build] X=1,076.169 Y=2,647.667 Z=203.065
+[2022.09.10-14.13.55:045][547]LogBlueprintUserMessages: [Build] X=1,230.684 Y=2,372.639 Z=58.614
+[2022.09.10-14.13.55:045][547]LogBlueprintUserMessages: [Build] X=1,092.188 Y=2,603.127 Z=191.633
+[2022.09.10-14.13.55:154][559]LogBlueprintUserMessages: [Build] X=1,320.853 Y=2,366.038 Z=61.758
+[2022.09.10-14.13.55:154][559]LogBlueprintUserMessages: [Build] X=1,121.344 Y=2,561.268 Z=171.673
+[2022.09.10-14.13.55:260][570]LogBlueprintUserMessages: [Build] X=1,343.033 Y=2,321.102 Z=22.902
+[2022.09.10-14.13.55:260][570]LogBlueprintUserMessages: [Build] X=1,135.255 Y=2,510.916 Z=126.82
+[2022.09.10-14.13.55:369][581]LogBlueprintUserMessages: [Build] X=1,362.862 Y=2,273.519 Z=-29.703
+[2022.09.10-14.13.55:369][581]LogBlueprintUserMessages: [Build] X=1,148.817 Y=2,459.581 Z=68.103
+[2022.09.10-14.13.55:476][592]LogBlueprintUserMessages: [Build] X=1,400.801 Y=2,263.026 Z=-10.851
+[2022.09.10-14.13.55:476][592]LogBlueprintUserMessages: [Build] X=1,164.618 Y=2,428.004 Z=72.816
+[2022.09.10-14.13.55:583][603]LogBlueprintUserMessages: [Build] X=1,444.972 Y=2,308.275 Z=8.717
+[2022.09.10-14.13.55:583][603]LogBlueprintUserMessages: [Build] X=1,178.313 Y=2,427.159 Z=77.708
+[2022.09.10-14.13.55:690][614]LogBlueprintUserMessages: [Build] X=1,478.015 Y=2,403.299 Z=29.128
+[2022.09.10-14.13.55:690][614]LogBlueprintUserMessages: [Build] X=1,186.659 Y=2,450.523 Z=82.81
+[2022.09.10-14.13.55:795][625]LogBlueprintUserMessages: [Build] X=1,483.693 Y=2,490.127 Z=36.872
+[2022.09.10-14.13.55:796][625]LogBlueprintUserMessages: [Build] X=1,188.079 Y=2,472.23 Z=84.747
+[2022.09.10-14.13.55:899][636]LogBlueprintUserMessages: [Build] X=1,470.431 Y=2,567.171 Z=31.854
+[2022.09.10-14.13.55:899][636]LogBlueprintUserMessages: [Build] X=1,184.763 Y=2,491.491 Z=83.492
+[2022.09.10-14.13.56:004][647]LogBlueprintUserMessages: [Build] X=1,439.671 Y=2,638.238 Z=12.195
+[2022.09.10-14.13.56:004][647]LogBlueprintUserMessages: [Build] X=1,177.073 Y=2,509.258 Z=78.577
+[2022.09.10-14.13.56:108][658]LogBlueprintUserMessages: [Build] X=1,430.878 Y=2,652.656 Z=7.352
+[2022.09.10-14.13.56:108][658]LogBlueprintUserMessages: [Build] X=1,177.55 Y=2,508.008 Z=77.366
+[2022.09.10-14.13.56:210][669]LogBlueprintUserMessages: [Build] X=1,442.102 Y=2,632.869 Z=7.352
+[2022.09.10-14.13.56:210][669]LogBlueprintUserMessages: [Build] X=1,188.775 Y=2,488.22 Z=77.366
+[2022.09.10-14.13.56:313][680]LogBlueprintUserMessages: [Build] X=1,449.758 Y=2,619.412 Z=7.352
+[2022.09.10-14.13.56:313][680]LogBlueprintUserMessages: [Build] X=1,196.43 Y=2,474.764 Z=77.366
+[2022.09.10-14.13.56:417][691]LogBlueprintUserMessages: [Build] X=1,476.98 Y=2,555.508 Z=-0.404
+[2022.09.10-14.13.56:417][691]LogBlueprintUserMessages: [Build] X=1,203.435 Y=2,458.438 Z=75.428
+[2022.09.10-14.13.56:520][702]LogBlueprintUserMessages: [Build] X=1,489.76 Y=2,370.501 Z=11.122
+[2022.09.10-14.13.56:520][702]LogBlueprintUserMessages: [Build] X=1,200.237 Y=2,411.279 Z=78.309
+[2022.09.10-14.13.56:625][713]LogBlueprintUserMessages: [Build] X=1,464.463 Y=2,361.054 Z=8.742
+[2022.09.10-14.13.56:625][713]LogBlueprintUserMessages: [Build] X=1,176.669 Y=2,410.226 Z=77.714
+[2022.09.10-14.13.56:730][724]LogBlueprintUserMessages: [Build] X=1,454.7 Y=2,362.085 Z=8.742
+[2022.09.10-14.13.56:730][724]LogBlueprintUserMessages: [Build] X=1,166.907 Y=2,411.257 Z=77.714
+[2022.09.10-14.13.56:835][735]LogBlueprintUserMessages: [Build] X=1,452.673 Y=2,354.108 Z=6.366
+[2022.09.10-14.13.56:835][735]LogBlueprintUserMessages: [Build] X=1,166.381 Y=2,409.159 Z=77.12
+[2022.09.10-14.13.56:942][746]LogBlueprintUserMessages: [Build] X=1,406.048 Y=2,225.496 Z=5.352
+[2022.09.10-14.13.56:942][746]LogBlueprintUserMessages: [Build] X=1,152.581 Y=2,369.162 Z=76.867
+[2022.09.10-14.13.57:048][757]LogBlueprintUserMessages: [Build] X=1,319.526 Y=2,109.646 Z=5.352
+[2022.09.10-14.13.57:048][757]LogBlueprintUserMessages: [Build] X=1,120.621 Y=2,322.537 Z=76.867
+[2022.09.10-14.13.57:156][768]LogBlueprintUserMessages: [Build] X=1,304.463 Y=2,069.62 Z=5.352
+[2022.09.10-14.13.57:156][768]LogBlueprintUserMessages: [Build] X=1,106.209 Y=2,283.117 Z=76.867
+[2022.09.10-14.13.57:263][779]LogBlueprintUserMessages: [Build] X=1,272.295 Y=1,998.542 Z=-3.213
+[2022.09.10-14.13.57:263][779]LogBlueprintUserMessages: [Build] X=1,092.409 Y=2,225.625 Z=74.725
+[2022.09.10-14.13.57:370][790]LogBlueprintUserMessages: [Build] X=1,271.363 Y=1,941.175 Z=-5.571
+[2022.09.10-14.13.57:370][790]LogBlueprintUserMessages: [Build] X=1,098.022 Y=2,172.691 Z=74.136
+[2022.09.10-14.13.57:478][801]LogBlueprintUserMessages: [Build] X=1,185.212 Y=1,855.678 Z=-6.748
+[2022.09.10-14.13.57:478][801]LogBlueprintUserMessages: [Build] X=1,083.881 Y=2,126.302 Z=73.842
+[2022.09.10-14.13.57:584][812]LogBlueprintUserMessages: [Build] X=1,034.157 Y=1,820.23 Z=-5.571
+[2022.09.10-14.13.57:585][812]LogBlueprintUserMessages: [Build] X=1,048.588 Y=2,109.088 Z=74.136
+[2022.09.10-14.13.57:689][823]LogBlueprintUserMessages: [Build] X=993.328 Y=1,824.329 Z=-7.924
+[2022.09.10-14.13.57:689][823]LogBlueprintUserMessages: [Build] X=1,038.292 Y=2,109.532 Z=73.548
+[2022.09.10-14.13.57:792][834]LogBlueprintUserMessages: [Build] X=991.321 Y=1,811.546 Z=-7.924
+[2022.09.10-14.13.57:792][834]LogBlueprintUserMessages: [Build] X=1,036.285 Y=2,096.749 Z=73.548
+[2022.09.10-14.13.57:896][845]LogBlueprintUserMessages: [Build] X=1,018.729 Y=1,785.317 Z=-28.289
+[2022.09.10-14.13.57:896][845]LogBlueprintUserMessages: [Build] X=1,039.669 Y=2,068.517 Z=68.456
+[2022.09.10-14.13.57:999][856]LogBlueprintUserMessages: [Build] X=1,037.803 Y=1,750.429 Z=-34.113
+[2022.09.10-14.13.57:999][856]LogBlueprintUserMessages: [Build] X=1,029.568 Y=2,032.755 Z=67
+[2022.09.10-14.13.58:108][867]LogBlueprintUserMessages: [Build] X=1,025.771 Y=1,708.208 Z=-30.657
+[2022.09.10-14.13.58:108][867]LogBlueprintUserMessages: [Build] X=1,001.231 Y=1,990.505 Z=67.864
+[2022.09.10-14.13.58:208][877]LogBlueprintUserMessages: [Build] X=1,046.202 Y=1,664.362 Z=-14.46
+[2022.09.10-14.13.58:208][877]LogBlueprintUserMessages: [Build] X=990.033 Y=1,946.114 Z=71.913
+[2022.09.10-14.13.58:312][888]LogBlueprintUserMessages: [Build] X=1,046.345 Y=1,611.904 Z=-13.29
+[2022.09.10-14.13.58:312][888]LogBlueprintUserMessages: [Build] X=989.081 Y=1,893.704 Z=72.206
+[2022.09.10-14.13.58:417][899]LogBlueprintUserMessages: [Build] X=1,053.192 Y=1,559.983 Z=-13.29
+[2022.09.10-14.13.58:417][899]LogBlueprintUserMessages: [Build] X=995.928 Y=1,841.783 Z=72.206
+[2022.09.10-14.13.58:521][910]LogBlueprintUserMessages: [Build] X=1,062.45 Y=1,508.846 Z=-13.29
+[2022.09.10-14.13.58:521][910]LogBlueprintUserMessages: [Build] X=1,005.186 Y=1,790.646 Z=72.206
+[2022.09.10-14.13.58:628][921]LogBlueprintUserMessages: [Build] X=1,066.333 Y=1,456.114 Z=-13.29
+[2022.09.10-14.13.58:628][921]LogBlueprintUserMessages: [Build] X=1,009.069 Y=1,737.914 Z=72.206
+[2022.09.10-14.13.58:732][932]LogBlueprintUserMessages: [Build] X=1,048.754 Y=1,407.533 Z=-13.29
+[2022.09.10-14.13.58:732][932]LogBlueprintUserMessages: [Build] X=991.49 Y=1,689.333 Z=72.206
+[2022.09.10-14.13.58:838][943]LogBlueprintUserMessages: [Build] X=1,044.643 Y=1,366.335 Z=-13.29
+[2022.09.10-14.13.58:838][943]LogBlueprintUserMessages: [Build] X=971.091 Y=1,644.329 Z=72.206
+[2022.09.10-14.13.58:944][954]LogBlueprintUserMessages: [Build] X=1,051.395 Y=1,331.404 Z=-16.798
+[2022.09.10-14.13.58:944][954]LogBlueprintUserMessages: [Build] X=953.369 Y=1,600.893 Z=71.329
+[2022.09.10-14.13.59:049][965]LogBlueprintUserMessages: [Build] X=1,052.582 Y=1,295.968 Z=-22.897
+[2022.09.10-14.13.59:049][965]LogBlueprintUserMessages: [Build] X=936.323 Y=1,556.526 Z=69.804
+[2022.09.10-14.13.59:157][976]LogBlueprintUserMessages: [Build] X=1,076.949 Y=1,271.215 Z=-27.081
+[2022.09.10-14.13.59:157][976]LogBlueprintUserMessages: [Build] X=927.588 Y=1,513.095 Z=68.758
+[2022.09.10-14.13.59:263][987]LogBlueprintUserMessages: [Build] X=1,133.682 Y=1,264.564 Z=-28.238
+[2022.09.10-14.13.59:264][987]LogBlueprintUserMessages: [Build] X=942.165 Y=1,474.253 Z=68.469
+[2022.09.10-14.13.59:372][998]LogBlueprintUserMessages: [Build] X=1,202.692 Y=1,270.088 Z=-28.238
+[2022.09.10-14.13.59:372][998]LogBlueprintUserMessages: [Build] X=988.306 Y=1,456.331 Z=68.469
+[2022.09.10-14.13.59:479][  9]LogBlueprintUserMessages: [Build] X=1,255.43 Y=1,263.144 Z=-28.238
+[2022.09.10-14.13.59:479][  9]LogBlueprintUserMessages: [Build] X=1,041.044 Y=1,449.387 Z=68.469
+[2022.09.10-14.13.59:584][ 20]LogBlueprintUserMessages: [Build] X=1,307.829 Y=1,263.611 Z=-28.238
+[2022.09.10-14.13.59:584][ 20]LogBlueprintUserMessages: [Build] X=1,093.443 Y=1,449.854 Z=68.469
+[2022.09.10-14.13.59:690][ 31]LogBlueprintUserMessages: [Build] X=1,360.082 Y=1,259.871 Z=-28.238
+[2022.09.10-14.13.59:690][ 31]LogBlueprintUserMessages: [Build] X=1,145.696 Y=1,446.114 Z=68.469
+[2022.09.10-14.13.59:795][ 42]LogBlueprintUserMessages: [Build] X=1,444.583 Y=1,323.098 Z=-64.416
+[2022.09.10-14.13.59:795][ 42]LogBlueprintUserMessages: [Build] X=1,197.084 Y=1,438.889 Z=59.425
+[2022.09.10-14.13.59:896][ 53]LogBlueprintUserMessages: [Build] X=1,500.156 Y=1,412.074 Z=-75.481
+[2022.09.10-14.13.59:896][ 53]LogBlueprintUserMessages: [Build] X=1,231.364 Y=1,429.107 Z=56.658
+[2022.09.10-14.13.59:997][ 64]LogBlueprintUserMessages: [Build] X=1,545.069 Y=1,433.602 Z=-41.2
+[2022.09.10-14.13.59:997][ 64]LogBlueprintUserMessages: [Build] X=1,266.02 Y=1,405.24 Z=65.229
+[2022.09.10-14.14.00:098][ 75]LogBlueprintUserMessages: [Build] X=1,586.549 Y=1,430.849 Z=-36.472
+[2022.09.10-14.14.00:098][ 75]LogBlueprintUserMessages: [Build] X=1,307.055 Y=1,394.824 Z=66.411
+[2022.09.10-14.14.00:199][ 86]LogBlueprintUserMessages: [Build] X=1,625.058 Y=1,477.25 Z=-28.356
+[2022.09.10-14.14.00:199][ 86]LogBlueprintUserMessages: [Build] X=1,346.294 Y=1,423.206 Z=68.44
+[2022.09.10-14.14.00:303][ 97]LogBlueprintUserMessages: [Build] X=1,666.928 Y=1,505.484 Z=-28.356
+[2022.09.10-14.14.00:303][ 97]LogBlueprintUserMessages: [Build] X=1,388.329 Y=1,450.589 Z=68.44
+[2022.09.10-14.14.00:408][108]LogBlueprintUserMessages: [Build] X=1,716.778 Y=1,503.765 Z=-25.839
+[2022.09.10-14.14.00:408][108]LogBlueprintUserMessages: [Build] X=1,438.339 Y=1,444.903 Z=69.069
+[2022.09.10-14.14.00:512][119]LogBlueprintUserMessages: [Build] X=1,750.315 Y=1,545.314 Z=-10.697
+[2022.09.10-14.14.00:512][119]LogBlueprintUserMessages: [Build] X=1,482.319 Y=1,439.496 Z=72.854
+[2022.09.10-14.14.00:617][130]LogBlueprintUserMessages: [Build] X=1,727.757 Y=1,664.479 Z=-3.624
+[2022.09.10-14.14.00:617][130]LogBlueprintUserMessages: [Build] X=1,510.927 Y=1,472.484 Z=74.623
+[2022.09.10-14.14.00:720][141]LogBlueprintUserMessages: [Build] X=1,678.509 Y=1,765.058 Z=-1.263
+[2022.09.10-14.14.00:720][141]LogBlueprintUserMessages: [Build] X=1,514.741 Y=1,525.619 Z=75.213
+[2022.09.10-14.14.00:824][152]LogBlueprintUserMessages: [Build] X=1,630.478 Y=1,844.239 Z=12.836
+[2022.09.10-14.14.00:824][152]LogBlueprintUserMessages: [Build] X=1,503.996 Y=1,583.701 Z=91.082
+[2022.09.10-14.14.00:928][163]LogBlueprintUserMessages: [Build] X=1,510.043 Y=1,920.748 Z=-15.959
+[2022.09.10-14.14.00:928][163]LogBlueprintUserMessages: [Build] X=1,464.549 Y=1,640.712 Z=81.562
+[2022.09.10-14.14.01:031][174]LogBlueprintUserMessages: [Build] X=1,492.882 Y=1,959.748 Z=-18.509
+[2022.09.10-14.14.01:031][174]LogBlueprintUserMessages: [Build] X=1,453.116 Y=1,687.974 Z=102.147
+[2022.09.10-14.14.01:138][186]LogBlueprintUserMessages: [Build] X=1,491.604 Y=2,013.178 Z=38.171
+[2022.09.10-14.14.01:138][186]LogBlueprintUserMessages: [Build] X=1,451.838 Y=1,741.404 Z=158.827
+[2022.09.10-14.14.01:246][198]LogBlueprintUserMessages: [Build] X=1,495.294 Y=2,026.801 Z=75.04
+[2022.09.10-14.14.01:246][198]LogBlueprintUserMessages: [Build] X=1,455.528 Y=1,755.027 Z=195.696
+[2022.09.10-14.14.01:352][209]LogBlueprintUserMessages: [Build] X=1,493.81 Y=2,029.097 Z=93.555
+[2022.09.10-14.14.01:352][209]LogBlueprintUserMessages: [Build] X=1,461.486 Y=1,755.601 Z=212.531
+[2022.09.10-14.14.01:458][220]LogBlueprintUserMessages: [Build] X=1,487.218 Y=2,030.891 Z=90.644
+[2022.09.10-14.14.01:458][220]LogBlueprintUserMessages: [Build] X=1,469.678 Y=1,756.05 Z=209.62
+[2022.09.10-14.14.01:563][231]LogBlueprintUserMessages: [Build] X=1,504.681 Y=2,030.891 Z=68.495
+[2022.09.10-14.14.01:563][231]LogBlueprintUserMessages: [Build] X=1,487.142 Y=1,756.05 Z=187.471
+[2022.09.10-14.14.01:666][242]LogBlueprintUserMessages: [Build] X=1,525.771 Y=2,030.891 Z=28.837
+[2022.09.10-14.14.01:666][242]LogBlueprintUserMessages: [Build] X=1,508.232 Y=1,756.05 Z=147.813
+[2022.09.10-14.14.01:774][254]LogBlueprintUserMessages: [Build] X=1,623.393 Y=2,021.65 Z=-19.098
+[2022.09.10-14.14.01:774][254]LogBlueprintUserMessages: [Build] X=1,552.399 Y=1,753.74 Z=95.724
+[2022.09.10-14.14.01:883][266]LogBlueprintUserMessages: [Build] X=1,757.756 Y=1,957.467 Z=-31.263
+[2022.09.10-14.14.01:883][266]LogBlueprintUserMessages: [Build] X=1,597.757 Y=1,737.695 Z=95.624
+[2022.09.10-14.14.01:989][278]LogBlueprintUserMessages: [Build] X=1,758.109 Y=1,957.467 Z=-31.175
+[2022.09.10-14.14.01:989][278]LogBlueprintUserMessages: [Build] X=1,598.11 Y=1,737.695 Z=95.712
+[2022.09.10-14.14.02:092][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.10-14.14.02:092][286]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.09.10-14.14.02:093][286]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.10-14.14.02:093][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.10-14.14.02:102][286]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.10-14.14.02:106][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.10-14.14.02:129][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.10-14.14.02:129][286]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.09.10-14.14.02:131][286]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.09.10-14.14.02:136][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.09.10-14.14.02:182][287]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2022.09.10-14.14.29:903][261]BlueprintLog: New page: Compile Build
+[2022.09.10-14.14.29:955][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.09.10-14.14.31:566][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/Build" FILE="D:/ZombieGame/NewZombieGame/Content/ThirdPerson/Blueprints/Build.uasset" SILENT=true
+[2022.09.10-14.14.31:581][444]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Build
+[2022.09.10-14.14.31:581][444]LogSavePackage: Moving 'D:/ZombieGame/NewZombieGame/Saved/Build3EE864FB468ED0AB34D728AC071A8511.tmp' to 'D:/ZombieGame/NewZombieGame/Content/ThirdPerson/Blueprints/Build.uasset'
+[2022.09.10-14.14.31:593][444]AssetCheck: New page: Asset Save: Build
+[2022.09.10-14.14.31:593][444]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/Build.Build
+[2022.09.10-14.14.43:986][901]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.10-14.14.43:990][901]LogWorldPartition: Display: GenerateStreaming started...
+[2022.09.10-14.14.43:990][901]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.09.10-14.14.43:990][901]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.10-14.14.43:990][901]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.09.10-14.14.43:990][901]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.09.10-14.14.43:990][901]LogWorldPartition: Display: GetPartitionedActors took 52 us
+[2022.09.10-14.14.43:990][901]LogWorldPartition: Display: GenerateStreaming took 293 us
+[2022.09.10-14.14.43:990][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.10-14.14.43:990][901]PIE: New page: PIE session: ThirdPersonMap (Sep 10, 2022, 6:14:43 PM)
+[2022.09.10-14.14.44:022][901]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.09.10-14.14.44:025][901]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.09.10-14.14.44:025][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003463s)
+[2022.09.10-14.14.44:025][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003548s)
+[2022.09.10-14.14.44:025][901]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.10-14.14.44:026][901]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.09.10-14.14.44:026][901]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.09.10-14.14.44:026][901]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.09.10-14.14.44:027][901]LogWorldPartition: Display: WorldPartition initialize took 790 us
+[2022.09.10-14.14.44:027][901]LogPlayLevel: PIE: World Init took: (0.001677s)
+[2022.09.10-14.14.44:053][901]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2022.09.10-14.14.44:055][901]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.09.10-14.14.44:055][901]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.10-14.14.44:055][901]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.10-14.14.44:055][901]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.10-14.14.44:055][901]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.10-14.14.44:055][901]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.10-14.14.44:055][901]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.10-14.14.44:055][901]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.10-14.14.44:055][901]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.10-14.14.44:056][901]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.10-14.14.44:056][901]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.10-14.14.44:056][901]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.10-14.14.44:057][901]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.10-14.14.44:075][901]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.09.10-14.14.44:076][901]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.10-14.14.44:076][901]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.10-14.14.44:076][901]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.10-14.14.44:077][901]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2022.09.10-14.14.44:077][901]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2022.09.10-14.14.44:078][901]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2022.09.10-14.14.44:078][901]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2022.09.10-14.14.44:078][901]LogInit: FAudioDevice initialized.
+[2022.09.10-14.14.44:078][901]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonMap'.
+[2022.09.10-14.14.44:091][901]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.10-14.14.44:092][901]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.09.10-16.14.44
+[2022.09.10-14.14.44:092][901]LogWorld: Bringing up level for play took: 0.001670
+[2022.09.10-14.14.44:094][901]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2022.09.10-14.14.44:097][901]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.09.10-14.14.44:097][901]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.10-14.14.44:097][901]PIE: Server logged in
+[2022.09.10-14.14.44:098][901]PIE: Play in editor total start time 0.109 seconds.
+[2022.09.10-14.14.45:158][  7]LogBlueprintUserMessages: [Build] X=1,144.975 Y=1,406.827 Z=-8.495
+[2022.09.10-14.14.45:158][  7]LogBlueprintUserMessages: [Build] X=961.244 Y=1,184.207 Z=73.255
+[2022.09.10-14.14.45:256][ 17]LogBlueprintUserMessages: [Build] X=1,144.975 Y=1,406.827 Z=-8.495
+[2022.09.10-14.14.45:256][ 17]LogBlueprintUserMessages: [Build] X=961.244 Y=1,184.207 Z=73.255
+[2022.09.10-14.14.45:363][ 28]LogBlueprintUserMessages: [Build] X=1,144.975 Y=1,406.827 Z=-8.495
+[2022.09.10-14.14.45:363][ 28]LogBlueprintUserMessages: [Build] X=961.244 Y=1,184.207 Z=73.255
+[2022.09.10-14.14.45:468][ 39]LogBlueprintUserMessages: [Build] X=1,144.975 Y=1,406.827 Z=-8.495
+[2022.09.10-14.14.45:469][ 39]LogBlueprintUserMessages: [Build] X=961.244 Y=1,184.207 Z=73.255
+[2022.09.10-14.14.45:576][ 50]LogBlueprintUserMessages: [Build] X=1,139.494 Y=1,413.17 Z=-3.086
+[2022.09.10-14.14.45:576][ 50]LogBlueprintUserMessages: [Build] X=959.873 Y=1,185.792 Z=74.607
+[2022.09.10-14.14.45:684][ 61]LogBlueprintUserMessages: [Build] X=1,035.572 Y=1,474.208 Z=0.138
+[2022.09.10-14.14.45:684][ 61]LogBlueprintUserMessages: [Build] X=934.37 Y=1,202.01 Z=75.413
+[2022.09.10-14.14.45:791][ 72]LogBlueprintUserMessages: [Build] X=950.439 Y=1,514.048 Z=13.973
+[2022.09.10-14.14.45:791][ 72]LogBlueprintUserMessages: [Build] X=916.454 Y=1,223.13 Z=78.872
+[2022.09.10-14.14.45:900][ 83]LogBlueprintUserMessages: [Build] X=901.144 Y=1,545.924 Z=-0.503
+[2022.09.10-14.14.45:900][ 83]LogBlueprintUserMessages: [Build] X=907.663 Y=1,255.72 Z=75.253
+[2022.09.10-14.14.46:006][ 94]LogBlueprintUserMessages: [Build] X=800.647 Y=1,565.932 Z=-40.268
+[2022.09.10-14.14.46:006][ 94]LogBlueprintUserMessages: [Build] X=881.888 Y=1,297.133 Z=65.312
+[2022.09.10-14.14.46:108][105]LogBlueprintUserMessages: [Build] X=790.799 Y=1,616.171 Z=-40.268
+[2022.09.10-14.14.46:108][105]LogBlueprintUserMessages: [Build] X=872.04 Y=1,347.372 Z=65.312
+[2022.09.10-14.14.46:210][116]LogBlueprintUserMessages: [Build] X=782.48 Y=1,666.557 Z=-40.268
+[2022.09.10-14.14.46:210][116]LogBlueprintUserMessages: [Build] X=860.12 Y=1,396.696 Z=65.312
+[2022.09.10-14.14.46:315][127]LogBlueprintUserMessages: [Build] X=935.666 Y=1,733.284 Z=-22.181
+[2022.09.10-14.14.46:315][127]LogBlueprintUserMessages: [Build] X=889.24 Y=1,451.543 Z=69.833
+[2022.09.10-14.14.46:421][138]LogBlueprintUserMessages: [Build] X=1,124.831 Y=1,703.163 Z=-16.323
+[2022.09.10-14.14.46:422][138]LogBlueprintUserMessages: [Build] X=939.819 Y=1,483.862 Z=71.298
+[2022.09.10-14.14.46:530][149]LogBlueprintUserMessages: [Build] X=1,244.882 Y=1,640.305 Z=-4.726
+[2022.09.10-14.14.46:530][149]LogBlueprintUserMessages: [Build] X=990.303 Y=1,502.605 Z=74.197
+[2022.09.10-14.14.46:637][160]LogBlueprintUserMessages: [Build] X=1,272.551 Y=1,663.884 Z=-54.853
+[2022.09.10-14.14.46:637][160]LogBlueprintUserMessages: [Build] X=1,029.217 Y=1,532.69 Z=61.665
+[2022.09.10-14.14.46:740][171]LogBlueprintUserMessages: [Build] X=1,075.654 Y=1,873.039 Z=-56.302
+[2022.09.10-14.14.46:740][171]LogBlueprintUserMessages: [Build] X=1,010.467 Y=1,604.861 Z=61.303
+[2022.09.10-14.14.46:841][182]LogBlueprintUserMessages: [Build] X=1,070.487 Y=1,895.706 Z=-57.426
+[2022.09.10-14.14.46:841][182]LogBlueprintUserMessages: [Build] X=1,027.69 Y=1,623.422 Z=61.022
+[2022.09.10-14.14.46:944][193]LogBlueprintUserMessages: [Build] X=1,010.222 Y=1,909.434 Z=-47.616
+[2022.09.10-14.14.46:944][193]LogBlueprintUserMessages: [Build] X=1,018.405 Y=1,630.881 Z=63.475
+[2022.09.10-14.14.47:049][204]LogBlueprintUserMessages: [Build] X=986.399 Y=1,908.839 Z=-45.419
+[2022.09.10-14.14.47:049][204]LogBlueprintUserMessages: [Build] X=1,012.45 Y=1,630.732 Z=64.024
+[2022.09.10-14.14.47:151][215]LogBlueprintUserMessages: [Build] X=909.387 Y=1,889.806 Z=-53.656
+[2022.09.10-14.14.47:151][215]LogBlueprintUserMessages: [Build] X=993.197 Y=1,625.974 Z=61.965
+[2022.09.10-14.14.47:254][226]LogBlueprintUserMessages: [Build] X=852.524 Y=1,869.027 Z=-47.858
+[2022.09.10-14.14.47:254][226]LogBlueprintUserMessages: [Build] X=978.981 Y=1,620.779 Z=63.414
+[2022.09.10-14.14.47:356][237]LogBlueprintUserMessages: [Build] X=851.289 Y=1,868.395 Z=-47.858
+[2022.09.10-14.14.47:356][237]LogBlueprintUserMessages: [Build] X=978.672 Y=1,620.621 Z=63.414
+[2022.09.10-14.14.47:458][248]LogBlueprintUserMessages: [Build] X=851.289 Y=1,868.395 Z=-47.858
+[2022.09.10-14.14.47:458][248]LogBlueprintUserMessages: [Build] X=978.672 Y=1,620.621 Z=63.414
+[2022.09.10-14.14.47:559][259]LogBlueprintUserMessages: [Build] X=851.289 Y=1,868.395 Z=-47.858
+[2022.09.10-14.14.47:559][259]LogBlueprintUserMessages: [Build] X=978.672 Y=1,620.621 Z=63.414
+[2022.09.10-14.14.47:661][270]LogBlueprintUserMessages: [Build] X=867.076 Y=1,872.865 Z=-54.903
+[2022.09.10-14.14.47:661][270]LogBlueprintUserMessages: [Build] X=982.619 Y=1,621.738 Z=61.653
+[2022.09.10-14.14.47:764][281]LogBlueprintUserMessages: [Build] X=867.076 Y=1,872.865 Z=-54.903
+[2022.09.10-14.14.47:764][281]LogBlueprintUserMessages: [Build] X=982.619 Y=1,621.738 Z=61.653
+[2022.09.10-14.14.47:865][292]LogBlueprintUserMessages: [Build] X=867.076 Y=1,872.865 Z=-54.903
+[2022.09.10-14.14.47:866][292]LogBlueprintUserMessages: [Build] X=982.619 Y=1,621.738 Z=61.653
+[2022.09.10-14.14.47:968][303]LogBlueprintUserMessages: [Build] X=867.076 Y=1,872.865 Z=-54.903
+[2022.09.10-14.14.47:968][303]LogBlueprintUserMessages: [Build] X=982.619 Y=1,621.738 Z=61.653
+[2022.09.10-14.14.48:070][314]LogBlueprintUserMessages: [Build] X=841.85 Y=1,873.252 Z=-23.926
+[2022.09.10-14.14.48:070][314]LogBlueprintUserMessages: [Build] X=976.312 Y=1,621.835 Z=69.397
+[2022.09.10-14.14.48:177][325]LogBlueprintUserMessages: [Build] X=798.659 Y=1,860.649 Z=20.368
+[2022.09.10-14.14.48:177][325]LogBlueprintUserMessages: [Build] X=965.515 Y=1,618.684 Z=80.471
+[2022.09.10-14.14.48:281][336]LogBlueprintUserMessages: [Build] X=786.201 Y=1,852.263 Z=22.631
+[2022.09.10-14.14.48:281][336]LogBlueprintUserMessages: [Build] X=962.4 Y=1,616.588 Z=81.036
+[2022.09.10-14.14.48:388][347]LogBlueprintUserMessages: [Build] X=776.821 Y=1,846.848 Z=30.203
+[2022.09.10-14.14.48:388][347]LogBlueprintUserMessages: [Build] X=960.055 Y=1,615.234 Z=82.929
+[2022.09.10-14.14.48:492][358]LogBlueprintUserMessages: [Build] X=775.879 Y=1,846.101 Z=30.203
+[2022.09.10-14.14.48:492][358]LogBlueprintUserMessages: [Build] X=959.82 Y=1,615.047 Z=82.929
+[2022.09.10-14.14.48:600][369]LogBlueprintUserMessages: [Build] X=798.34 Y=1,862.973 Z=31.405
+[2022.09.10-14.14.48:600][369]LogBlueprintUserMessages: [Build] X=965.435 Y=1,619.265 Z=83.23
+[2022.09.10-14.14.48:708][380]LogBlueprintUserMessages: [Build] X=826.826 Y=1,880.171 Z=28.506
+[2022.09.10-14.14.48:708][380]LogBlueprintUserMessages: [Build] X=972.556 Y=1,623.565 Z=82.505
+[2022.09.10-14.14.48:813][391]LogBlueprintUserMessages: [Build] X=841.181 Y=1,886.738 Z=22.917
+[2022.09.10-14.14.48:813][391]LogBlueprintUserMessages: [Build] X=976.145 Y=1,625.207 Z=81.108
+[2022.09.10-14.14.48:920][402]LogBlueprintUserMessages: [Build] X=861.905 Y=1,894.251 Z=12.454
+[2022.09.10-14.14.48:920][402]LogBlueprintUserMessages: [Build] X=981.326 Y=1,627.085 Z=78.492
+[2022.09.10-14.14.49:024][413]LogBlueprintUserMessages: [Build] X=874.268 Y=1,896.334 Z=0.263
+[2022.09.10-14.14.49:024][413]LogBlueprintUserMessages: [Build] X=984.417 Y=1,627.606 Z=75.444
+[2022.09.10-14.14.49:129][424]LogBlueprintUserMessages: [Build] X=878.021 Y=1,896.5 Z=-4.46
+[2022.09.10-14.14.49:129][424]LogBlueprintUserMessages: [Build] X=985.355 Y=1,627.647 Z=74.264
+[2022.09.10-14.14.49:234][435]LogBlueprintUserMessages: [Build] X=895.721 Y=1,892.126 Z=-36.927
+[2022.09.10-14.14.49:234][435]LogBlueprintUserMessages: [Build] X=989.78 Y=1,626.554 Z=66.147
+[2022.09.10-14.14.49:338][446]LogBlueprintUserMessages: [Build] X=897.083 Y=1,891.708 Z=-39.219
+[2022.09.10-14.14.49:338][446]LogBlueprintUserMessages: [Build] X=990.121 Y=1,626.449 Z=65.574
+[2022.09.10-14.14.49:440][457]LogBlueprintUserMessages: [Build] X=903.026 Y=1,884.907 Z=-59.892
+[2022.09.10-14.14.49:440][457]LogBlueprintUserMessages: [Build] X=991.606 Y=1,624.749 Z=60.406
+[2022.09.10-14.14.49:541][468]LogBlueprintUserMessages: [Build] X=903.026 Y=1,884.907 Z=-59.892
+[2022.09.10-14.14.49:541][468]LogBlueprintUserMessages: [Build] X=991.606 Y=1,624.749 Z=60.406
+[2022.09.10-14.14.49:642][479]LogBlueprintUserMessages: [Build] X=903.026 Y=1,884.907 Z=-59.892
+[2022.09.10-14.14.49:642][479]LogBlueprintUserMessages: [Build] X=991.606 Y=1,624.749 Z=60.406
+[2022.09.10-14.14.49:745][490]LogBlueprintUserMessages: [Build] X=902.782 Y=1,885.623 Z=-59.892
+[2022.09.10-14.14.49:745][490]LogBlueprintUserMessages: [Build] X=991.363 Y=1,625.465 Z=60.406
+[2022.09.10-14.14.49:845][501]LogBlueprintUserMessages: [Build] X=898.738 Y=1,897.5 Z=-59.892
+[2022.09.10-14.14.49:845][501]LogBlueprintUserMessages: [Build] X=987.319 Y=1,637.342 Z=60.406
+[2022.09.10-14.14.49:946][512]LogBlueprintUserMessages: [Build] X=890.008 Y=1,923.142 Z=-59.892
+[2022.09.10-14.14.49:946][512]LogBlueprintUserMessages: [Build] X=978.588 Y=1,662.984 Z=60.406
+[2022.09.10-14.14.50:047][523]LogBlueprintUserMessages: [Build] X=884.447 Y=1,939.474 Z=-59.892
+[2022.09.10-14.14.50:047][523]LogBlueprintUserMessages: [Build] X=973.027 Y=1,679.316 Z=60.406
+[2022.09.10-14.14.50:150][534]LogBlueprintUserMessages: [Build] X=817.597 Y=1,914.724 Z=-53.864
+[2022.09.10-14.14.50:150][534]LogBlueprintUserMessages: [Build] X=955.654 Y=1,674.857 Z=61.913
+[2022.09.10-14.14.50:253][545]LogBlueprintUserMessages: [Build] X=614.783 Y=1,712.19 Z=24.749
+[2022.09.10-14.14.50:253][545]LogBlueprintUserMessages: [Build] X=898.333 Y=1,632.369 Z=81.566
+[2022.09.10-14.14.50:358][556]LogBlueprintUserMessages: [Build] X=434.044 Y=1,434.524 Z=74.036
+[2022.09.10-14.14.50:358][556]LogBlueprintUserMessages: [Build] X=716.553 Y=1,534.49 Z=88.024
+[2022.09.10-14.14.50:465][567]LogBlueprintUserMessages: [Build] X=511.628 Y=1,386.475 Z=51.239
+[2022.09.10-14.14.50:465][567]LogBlueprintUserMessages: [Build] X=765.043 Y=1,544.21 Z=81.254
+[2022.09.10-14.14.50:570][578]LogBlueprintUserMessages: [Build] X=512.254 Y=1,435.847 Z=47.616
+[2022.09.10-14.14.50:570][578]LogBlueprintUserMessages: [Build] X=765.434 Y=1,592.553 Z=84.265
+[2022.09.10-14.14.50:675][589]LogBlueprintUserMessages: [Build] X=488.549 Y=1,460.125 Z=51.64
+[2022.09.10-14.14.50:675][589]LogBlueprintUserMessages: [Build] X=741.728 Y=1,616.831 Z=88.289
+[2022.09.10-14.14.50:781][600]LogBlueprintUserMessages: [Build] X=447.856 Y=1,431.529 Z=45.584
+[2022.09.10-14.14.50:781][600]LogBlueprintUserMessages: [Build] X=694.124 Y=1,597.829 Z=86.775
+[2022.09.10-14.14.50:886][611]LogBlueprintUserMessages: [Build] X=632.883 Y=1,260.288 Z=-31.412
+[2022.09.10-14.14.50:886][611]LogBlueprintUserMessages: [Build] X=707.718 Y=1,533.438 Z=67.526
+[2022.09.10-14.14.50:989][622]LogBlueprintUserMessages: [Build] X=741.373 Y=1,205.385 Z=-27.894
+[2022.09.10-14.14.50:989][622]LogBlueprintUserMessages: [Build] X=712.818 Y=1,488.071 Z=68.405
+[2022.09.10-14.14.51:096][633]LogBlueprintUserMessages: [Build] X=709.097 Y=1,162.673 Z=-27.894
+[2022.09.10-14.14.51:096][633]LogBlueprintUserMessages: [Build] X=680.541 Y=1,445.358 Z=68.405
+[2022.09.10-14.14.51:201][644]LogBlueprintUserMessages: [Build] X=676.415 Y=1,121.086 Z=-27.894
+[2022.09.10-14.14.51:201][644]LogBlueprintUserMessages: [Build] X=647.86 Y=1,403.771 Z=68.405
+[2022.09.10-14.14.51:308][655]LogBlueprintUserMessages: [Build] X=709.804 Y=1,076.3 Z=-21.534
+[2022.09.10-14.14.51:308][655]LogBlueprintUserMessages: [Build] X=645.08 Y=1,354.568 Z=69.995
+[2022.09.10-14.14.51:417][666]LogBlueprintUserMessages: [Build] X=894.546 Y=1,102.877 Z=27.114
+[2022.09.10-14.14.51:417][666]LogBlueprintUserMessages: [Build] X=696.107 Y=1,321.034 Z=82.157
+[2022.09.10-14.14.51:523][677]LogBlueprintUserMessages: [Build] X=1,021.259 Y=1,183.183 Z=66.277
+[2022.09.10-14.14.51:523][677]LogBlueprintUserMessages: [Build] X=749.724 Y=1,308.122 Z=91.948
+[2022.09.10-14.14.51:631][688]LogBlueprintUserMessages: [Build] X=1,057.392 Y=1,144.209 Z=66.277
+[2022.09.10-14.14.51:631][688]LogBlueprintUserMessages: [Build] X=785.856 Y=1,269.148 Z=91.948
+[2022.09.10-14.14.51:736][699]LogBlueprintUserMessages: [Build] X=1,074.273 Y=1,084.035 Z=54.72
+[2022.09.10-14.14.51:736][699]LogBlueprintUserMessages: [Build] X=808.471 Y=1,218.832 Z=89.059
+[2022.09.10-14.14.51:844][710]LogBlueprintUserMessages: [Build] X=1,075.943 Y=1,015.099 Z=17.603
+[2022.09.10-14.14.51:844][710]LogBlueprintUserMessages: [Build] X=822.968 Y=1,163.887 Z=79.779
+[2022.09.10-14.14.51:951][721]LogBlueprintUserMessages: [Build] X=1,091.071 Y=963.725 Z=17.603
+[2022.09.10-14.14.51:952][721]LogBlueprintUserMessages: [Build] X=838.097 Y=1,112.513 Z=79.779
+[2022.09.10-14.14.52:061][732]LogBlueprintUserMessages: [Build] X=1,111.261 Y=945.417 Z=-23.219
+[2022.09.10-14.14.52:061][732]LogBlueprintUserMessages: [Build] X=853.915 Y=1,068.553 Z=69.574
+[2022.09.10-14.14.52:162][742]LogBlueprintUserMessages: [Build] X=1,132.045 Y=913.209 Z=-28.328
+[2022.09.10-14.14.52:162][742]LogBlueprintUserMessages: [Build] X=870.746 Y=1,024.502 Z=68.297
+[2022.09.10-14.14.52:270][753]LogBlueprintUserMessages: [Build] X=1,151.083 Y=862.592 Z=-28.328
+[2022.09.10-14.14.52:270][753]LogBlueprintUserMessages: [Build] X=889.784 Y=973.885 Z=68.297
+[2022.09.10-14.14.52:378][764]LogBlueprintUserMessages: [Build] X=1,171.03 Y=812.064 Z=-28.328
+[2022.09.10-14.14.52:378][764]LogBlueprintUserMessages: [Build] X=909.73 Y=923.357 Z=68.297
+[2022.09.10-14.14.52:484][775]LogBlueprintUserMessages: [Build] X=1,190.686 Y=762.955 Z=-28.328
+[2022.09.10-14.14.52:484][775]LogBlueprintUserMessages: [Build] X=929.387 Y=874.249 Z=68.297
+[2022.09.10-14.14.52:589][786]LogBlueprintUserMessages: [Build] X=1,210.356 Y=714.012 Z=-28.328
+[2022.09.10-14.14.52:589][786]LogBlueprintUserMessages: [Build] X=949.057 Y=825.305 Z=68.297
+[2022.09.10-14.14.52:695][797]LogBlueprintUserMessages: [Build] X=1,230.198 Y=664.7 Z=-28.328
+[2022.09.10-14.14.52:695][797]LogBlueprintUserMessages: [Build] X=968.899 Y=775.993 Z=68.297
+[2022.09.10-14.14.52:801][808]LogBlueprintUserMessages: [Build] X=1,249.761 Y=616.101 Z=-28.328
+[2022.09.10-14.14.52:801][808]LogBlueprintUserMessages: [Build] X=988.462 Y=727.394 Z=68.297
+[2022.09.10-14.14.52:907][819]LogBlueprintUserMessages: [Build] X=1,269.722 Y=566.52 Z=-28.328
+[2022.09.10-14.14.52:907][819]LogBlueprintUserMessages: [Build] X=1,008.422 Y=677.813 Z=68.297
+[2022.09.10-14.14.53:013][830]LogBlueprintUserMessages: [Build] X=1,289.634 Y=517.061 Z=-28.328
+[2022.09.10-14.14.53:013][830]LogBlueprintUserMessages: [Build] X=1,028.334 Y=628.354 Z=68.297
+[2022.09.10-14.14.53:120][841]LogBlueprintUserMessages: [Build] X=1,309.292 Y=468.231 Z=-28.328
+[2022.09.10-14.14.53:120][841]LogBlueprintUserMessages: [Build] X=1,047.993 Y=579.524 Z=68.297
+[2022.09.10-14.14.53:224][852]LogBlueprintUserMessages: [Build] X=1,328.966 Y=419.364 Z=-28.328
+[2022.09.10-14.14.53:224][852]LogBlueprintUserMessages: [Build] X=1,067.667 Y=530.657 Z=68.297
+[2022.09.10-14.14.53:330][863]LogBlueprintUserMessages: [Build] X=1,348.744 Y=370.239 Z=-28.328
+[2022.09.10-14.14.53:330][863]LogBlueprintUserMessages: [Build] X=1,087.444 Y=481.533 Z=68.297
+[2022.09.10-14.14.53:437][874]LogBlueprintUserMessages: [Build] X=1,387.636 Y=391.723 Z=-39.06
+[2022.09.10-14.14.53:437][874]LogBlueprintUserMessages: [Build] X=1,112.678 Y=450.389 Z=65.614
+[2022.09.10-14.14.53:539][885]LogBlueprintUserMessages: [Build] X=1,418.954 Y=460.754 Z=-44.298
+[2022.09.10-14.14.53:539][885]LogBlueprintUserMessages: [Build] X=1,140.508 Y=434.809 Z=64.304
+[2022.09.10-14.14.53:642][896]LogBlueprintUserMessages: [Build] X=1,452.296 Y=442.178 Z=-44.298
+[2022.09.10-14.14.53:642][896]LogBlueprintUserMessages: [Build] X=1,175.483 Y=402.431 Z=64.304
+[2022.09.10-14.14.53:744][907]LogBlueprintUserMessages: [Build] X=1,491.749 Y=409.312 Z=-44.298
+[2022.09.10-14.14.53:744][907]LogBlueprintUserMessages: [Build] X=1,214.935 Y=369.564 Z=64.304
+[2022.09.10-14.14.53:846][918]LogBlueprintUserMessages: [Build] X=1,532.096 Y=378.054 Z=-44.298
+[2022.09.10-14.14.53:846][918]LogBlueprintUserMessages: [Build] X=1,255.283 Y=338.307 Z=64.304
+[2022.09.10-14.14.53:947][929]LogBlueprintUserMessages: [Build] X=1,572.51 Y=347.461 Z=-44.298
+[2022.09.10-14.14.53:947][929]LogBlueprintUserMessages: [Build] X=1,295.696 Y=307.714 Z=64.304
+[2022.09.10-14.14.54:050][940]LogBlueprintUserMessages: [Build] X=1,613.311 Y=316.801 Z=-44.298
+[2022.09.10-14.14.54:050][940]LogBlueprintUserMessages: [Build] X=1,336.498 Y=277.053 Z=64.304
+[2022.09.10-14.14.54:152][951]LogBlueprintUserMessages: [Build] X=1,652.535 Y=295.19 Z=-44.298
+[2022.09.10-14.14.54:152][951]LogBlueprintUserMessages: [Build] X=1,376.751 Y=248.835 Z=64.304
+[2022.09.10-14.14.54:254][962]LogBlueprintUserMessages: [Build] X=1,767.217 Y=348.478 Z=-57.918
+[2022.09.10-14.14.54:255][962]LogBlueprintUserMessages: [Build] X=1,497.542 Y=259.846 Z=39.137
+[2022.09.10-14.14.54:361][973]LogBlueprintUserMessages: [Build] X=1,911.179 Y=427.585 Z=-98.052
+[2022.09.10-14.14.54:361][973]LogBlueprintUserMessages: [Build] X=1,652.673 Y=309.287 Z=-2.238
+[2022.09.10-14.14.54:466][984]LogBlueprintUserMessages: [Build] X=1,944.703 Y=502.887 Z=-115.9
+[2022.09.10-14.14.54:467][984]LogBlueprintUserMessages: [Build] X=1,703.179 Y=356.351 Z=-14.936
+[2022.09.10-14.14.54:570][995]LogBlueprintUserMessages: [Build] X=1,937.692 Y=584.18 Z=-116.385
+[2022.09.10-14.14.54:570][995]LogBlueprintUserMessages: [Build] X=1,718.332 Y=407.159 Z=-13.698
+[2022.09.10-14.14.54:674][  6]LogBlueprintUserMessages: [Build] X=1,970.802 Y=586.368 Z=-109.207
+[2022.09.10-14.14.54:674][  6]LogBlueprintUserMessages: [Build] X=1,752.106 Y=408.527 Z=-6.519
+[2022.09.10-14.14.54:777][ 17]LogBlueprintUserMessages: [Build] X=2,021.551 Y=586.368 Z=-108.919
+[2022.09.10-14.14.54:777][ 17]LogBlueprintUserMessages: [Build] X=1,802.856 Y=408.527 Z=-6.231
+[2022.09.10-14.14.54:880][ 28]LogBlueprintUserMessages: [Build] X=2,080.038 Y=578.574 Z=-109.932
+[2022.09.10-14.14.54:880][ 28]LogBlueprintUserMessages: [Build] X=1,858.997 Y=403.656 Z=-7.244
+[2022.09.10-14.14.54:983][ 39]LogBlueprintUserMessages: [Build] X=2,137.753 Y=578.574 Z=-112.957
+[2022.09.10-14.14.54:983][ 39]LogBlueprintUserMessages: [Build] X=1,916.712 Y=403.656 Z=-10.27
+[2022.09.10-14.14.55:089][ 50]LogBlueprintUserMessages: [Build] X=2,195.046 Y=578.574 Z=-115.166
+[2022.09.10-14.14.55:089][ 50]LogBlueprintUserMessages: [Build] X=1,974.006 Y=403.656 Z=-12.479
+[2022.09.10-14.14.55:192][ 61]LogBlueprintUserMessages: [Build] X=2,213.655 Y=603.473 Z=-106.576
+[2022.09.10-14.14.55:192][ 61]LogBlueprintUserMessages: [Build] X=1,999.923 Y=419.217 Z=-4.75
+[2022.09.10-14.14.55:296][ 72]LogBlueprintUserMessages: [Build] X=2,216.757 Y=607.716 Z=-100.975
+[2022.09.10-14.14.55:296][ 72]LogBlueprintUserMessages: [Build] X=2,006.996 Y=421.869 Z=6.083
+[2022.09.10-14.14.55:399][ 83]LogBlueprintUserMessages: [Build] X=2,215.623 Y=606.189 Z=-90.436
+[2022.09.10-14.14.55:399][ 83]LogBlueprintUserMessages: [Build] X=2,007.996 Y=420.915 Z=21.658
+[2022.09.10-14.14.55:500][ 94]LogBlueprintUserMessages: [Build] X=2,216.674 Y=606.189 Z=-70.3
+[2022.09.10-14.14.55:500][ 94]LogBlueprintUserMessages: [Build] X=2,009.047 Y=420.915 Z=41.793
+[2022.09.10-14.14.55:602][105]LogBlueprintUserMessages: [Build] X=2,217.021 Y=606.189 Z=-50.653
+[2022.09.10-14.14.55:602][105]LogBlueprintUserMessages: [Build] X=2,009.395 Y=420.915 Z=61.44
+[2022.09.10-14.14.55:704][116]LogBlueprintUserMessages: [Build] X=1,867.294 Y=838.2 Z=-90.702
+[2022.09.10-14.14.55:705][116]LogBlueprintUserMessages: [Build] X=1,922.808 Y=565.922 Z=22.359
+[2022.09.10-14.14.55:807][127]LogBlueprintUserMessages: [Build] X=1,788.233 Y=781.786 Z=-84.563
+[2022.09.10-14.14.55:807][127]LogBlueprintUserMessages: [Build] X=1,903.13 Y=530.663 Z=32.637
+[2022.09.10-14.14.55:907][138]LogBlueprintUserMessages: [Build] X=1,788.233 Y=781.786 Z=-84.563
+[2022.09.10-14.14.55:907][138]LogBlueprintUserMessages: [Build] X=1,903.13 Y=530.663 Z=32.637
+[2022.09.10-14.14.56:010][149]LogBlueprintUserMessages: [Build] X=1,788.233 Y=781.786 Z=-84.563
+[2022.09.10-14.14.56:010][149]LogBlueprintUserMessages: [Build] X=1,903.13 Y=530.663 Z=32.637
+[2022.09.10-14.14.56:112][160]LogBlueprintUserMessages: [Build] X=1,795.684 Y=782.719 Z=-82.323
+[2022.09.10-14.14.56:112][160]LogBlueprintUserMessages: [Build] X=1,909.814 Y=531.246 Z=34.877
+[2022.09.10-14.14.56:217][171]LogBlueprintUserMessages: [Build] X=1,959.556 Y=876.593 Z=-41.145
+[2022.09.10-14.14.56:217][171]LogBlueprintUserMessages: [Build] X=1,974.686 Y=589.917 Z=45.965
+[2022.09.10-14.14.56:325][182]LogBlueprintUserMessages: [Build] X=2,009.678 Y=877.656 Z=-31.662
+[2022.09.10-14.14.56:325][182]LogBlueprintUserMessages: [Build] X=2,009.145 Y=590.582 Z=55.448
+[2022.09.10-14.14.56:433][193]LogBlueprintUserMessages: [Build] X=2,037.435 Y=879.613 Z=-16.489
+[2022.09.10-14.14.56:433][193]LogBlueprintUserMessages: [Build] X=2,042.929 Y=591.805 Z=67.988
+[2022.09.10-14.14.56:541][204]LogBlueprintUserMessages: [Build] X=2,005.386 Y=880.908 Z=-15.443
+[2022.09.10-14.14.56:541][204]LogBlueprintUserMessages: [Build] X=2,049.515 Y=597.245 Z=71.668
+[2022.09.10-14.14.56:651][215]LogBlueprintUserMessages: [Build] X=1,991.514 Y=881.527 Z=51.622
+[2022.09.10-14.14.56:651][215]LogBlueprintUserMessages: [Build] X=2,044.411 Y=599.099 Z=137.855
+[2022.09.10-14.14.56:751][225]LogBlueprintUserMessages: [Build] X=1,990.851 Y=884.861 Z=90.162
+[2022.09.10-14.14.56:751][225]LogBlueprintUserMessages: [Build] X=2,043.574 Y=603.364 Z=179.488
+[2022.09.10-14.14.56:852][235]LogBlueprintUserMessages: [Build] X=1,991.221 Y=892.941 Z=111.234
+[2022.09.10-14.14.56:852][235]LogBlueprintUserMessages: [Build] X=2,043.748 Y=612.486 Z=203.895
+[2022.09.10-14.14.56:953][245]LogBlueprintUserMessages: [Build] X=1,994.635 Y=902.59 Z=102.719
+[2022.09.10-14.14.56:954][245]LogBlueprintUserMessages: [Build] X=2,043.945 Y=625.917 Z=207.7
+[2022.09.10-14.14.57:053][255]LogBlueprintUserMessages: [Build] X=1,995.811 Y=920.16 Z=86.373
+[2022.09.10-14.14.57:053][255]LogBlueprintUserMessages: [Build] X=2,042.891 Y=645.132 Z=196.571
+[2022.09.10-14.14.57:163][266]LogBlueprintUserMessages: [Build] X=1,992.827 Y=947.733 Z=56.413
+[2022.09.10-14.14.57:163][266]LogBlueprintUserMessages: [Build] X=2,039.907 Y=672.706 Z=166.611
+[2022.09.10-14.14.57:272][277]LogBlueprintUserMessages: [Build] X=1,989.022 Y=983.851 Z=45.968
+[2022.09.10-14.14.57:272][277]LogBlueprintUserMessages: [Build] X=2,034.864 Y=711.052 Z=162.068
+[2022.09.10-14.14.57:381][288]LogBlueprintUserMessages: [Build] X=1,980.785 Y=1,035.467 Z=45.968
+[2022.09.10-14.14.57:381][288]LogBlueprintUserMessages: [Build] X=2,026.627 Y=762.668 Z=162.068
+[2022.09.10-14.14.57:488][299]LogBlueprintUserMessages: [Build] X=1,935.01 Y=1,056.034 Z=36.156
+[2022.09.10-14.14.57:488][299]LogBlueprintUserMessages: [Build] X=2,011.04 Y=793.398 Z=159.614
+[2022.09.10-14.14.57:591][310]LogBlueprintUserMessages: [Build] X=1,873.787 Y=1,048.234 Z=43.152
+[2022.09.10-14.14.57:591][310]LogBlueprintUserMessages: [Build] X=1,994.31 Y=800.242 Z=161.364
+[2022.09.10-14.14.57:696][321]LogBlueprintUserMessages: [Build] X=1,778.645 Y=977.997 Z=37.28
+[2022.09.10-14.14.57:696][321]LogBlueprintUserMessages: [Build] X=1,970.525 Y=782.683 Z=159.896
+[2022.09.10-14.14.57:798][332]LogBlueprintUserMessages: [Build] X=1,675.147 Y=810.47 Z=51.611
+[2022.09.10-14.14.57:798][332]LogBlueprintUserMessages: [Build] X=1,944.65 Y=740.801 Z=163.478
+[2022.09.10-14.14.57:906][343]LogBlueprintUserMessages: [Build] X=1,663.91 Y=781.549 Z=64.45
+[2022.09.10-14.14.57:906][343]LogBlueprintUserMessages: [Build] X=1,941.841 Y=733.571 Z=166.688
+[2022.09.10-14.14.58:006][353]LogBlueprintUserMessages: [Build] X=1,652.819 Y=692.264 Z=83.76
+[2022.09.10-14.14.58:006][353]LogBlueprintUserMessages: [Build] X=1,939.068 Y=711.249 Z=171.515
+[2022.09.10-14.14.58:107][363]LogBlueprintUserMessages: [Build] X=1,653.888 Y=653.573 Z=95.65
+[2022.09.10-14.14.58:107][363]LogBlueprintUserMessages: [Build] X=1,939.335 Y=701.577 Z=174.488
+[2022.09.10-14.14.58:216][374]LogBlueprintUserMessages: [Build] X=1,635.824 Y=723.322 Z=168.572
+[2022.09.10-14.14.58:216][374]LogBlueprintUserMessages: [Build] X=1,934.819 Y=719.014 Z=192.718
+[2022.09.10-14.14.58:317][384]LogBlueprintUserMessages: [Build] X=1,632.449 Y=748.145 Z=191.538
+[2022.09.10-14.14.58:318][384]LogBlueprintUserMessages: [Build] X=1,931.503 Y=725.358 Z=198.46
+[2022.09.10-14.14.58:420][394]LogBlueprintUserMessages: [Build] X=1,619.29 Y=761.443 Z=183.755
+[2022.09.10-14.14.58:420][394]LogBlueprintUserMessages: [Build] X=1,917.31 Y=729.482 Z=196.514
+[2022.09.10-14.14.58:521][404]LogBlueprintUserMessages: [Build] X=1,617.05 Y=761.614 Z=183.755
+[2022.09.10-14.14.58:521][404]LogBlueprintUserMessages: [Build] X=1,915.069 Y=729.654 Z=196.514
+[2022.09.10-14.14.58:628][414]LogBlueprintUserMessages: [Build] X=1,617.452 Y=764.025 Z=180.834
+[2022.09.10-14.14.58:629][414]LogBlueprintUserMessages: [Build] X=1,915.17 Y=730.256 Z=195.784
+[2022.09.10-14.14.58:732][424]LogBlueprintUserMessages: [Build] X=1,613.47 Y=765.718 Z=177.756
+[2022.09.10-14.14.58:732][424]LogBlueprintUserMessages: [Build] X=1,910.96 Y=731.054 Z=195.014
+[2022.09.10-14.14.58:834][434]LogBlueprintUserMessages: [Build] X=1,598.048 Y=785.901 Z=160.738
+[2022.09.10-14.14.58:834][434]LogBlueprintUserMessages: [Build] X=1,892.724 Y=737.818 Z=189.96
+[2022.09.10-14.14.58:935][444]LogBlueprintUserMessages: [Build] X=1,577.388 Y=826.428 Z=125.677
+[2022.09.10-14.14.58:935][444]LogBlueprintUserMessages: [Build] X=1,863.469 Y=751.523 Z=176.143
+[2022.09.10-14.14.59:037][454]LogBlueprintUserMessages: [Build] X=1,555.79 Y=872.693 Z=90.842
+[2022.09.10-14.14.59:037][454]LogBlueprintUserMessages: [Build] X=1,829.906 Y=767.77 Z=152.901
+[2022.09.10-14.14.59:137][464]LogBlueprintUserMessages: [Build] X=1,538.623 Y=921.61 Z=29.722
+[2022.09.10-14.14.59:137][464]LogBlueprintUserMessages: [Build] X=1,793.888 Y=786.076 Z=110.161
+[2022.09.10-14.14.59:247][475]LogBlueprintUserMessages: [Build] X=1,533.376 Y=1,004.823 Z=1.648
+[2022.09.10-14.14.59:248][475]LogBlueprintUserMessages: [Build] X=1,757.038 Y=819.2 Z=75.941
+[2022.09.10-14.14.59:356][486]LogBlueprintUserMessages: [Build] X=1,676.874 Y=1,167.793 Z=8.996
+[2022.09.10-14.14.59:356][486]LogBlueprintUserMessages: [Build] X=1,775.631 Y=892.991 Z=77.778
+[2022.09.10-14.14.59:465][497]LogBlueprintUserMessages: [Build] X=1,741.079 Y=1,236.135 Z=8.996
+[2022.09.10-14.14.59:465][497]LogBlueprintUserMessages: [Build] X=1,797.73 Y=949.675 Z=77.778
+[2022.09.10-14.14.59:570][508]LogBlueprintUserMessages: [Build] X=1,764.397 Y=1,283.768 Z=8.996
+[2022.09.10-14.14.59:570][508]LogBlueprintUserMessages: [Build] X=1,821.048 Y=997.307 Z=77.778
+[2022.09.10-14.14.59:677][519]LogBlueprintUserMessages: [Build] X=1,785.137 Y=1,330.422 Z=11.376
+[2022.09.10-14.14.59:678][519]LogBlueprintUserMessages: [Build] X=1,844.839 Y=1,044.158 Z=78.373
+[2022.09.10-14.14.59:784][530]LogBlueprintUserMessages: [Build] X=1,762.182 Y=1,380.46 Z=25.323
+[2022.09.10-14.14.59:784][530]LogBlueprintUserMessages: [Build] X=1,841.427 Y=1,096.693 Z=81.859
+[2022.09.10-14.14.59:892][541]LogBlueprintUserMessages: [Build] X=1,758.091 Y=1,434.638 Z=26.523
+[2022.09.10-14.14.59:892][541]LogBlueprintUserMessages: [Build] X=1,833.577 Y=1,149.671 Z=82.159
+[2022.09.10-14.15.00:000][552]LogBlueprintUserMessages: [Build] X=1,834.864 Y=1,501.923 Z=34.988
+[2022.09.10-14.15.00:000][552]LogBlueprintUserMessages: [Build] X=1,844.64 Y=1,206.161 Z=84.275
+[2022.09.10-14.15.00:100][562]LogBlueprintUserMessages: [Build] X=1,861.875 Y=1,549.439 Z=21.831
+[2022.09.10-14.15.00:100][562]LogBlueprintUserMessages: [Build] X=1,848.23 Y=1,255.646 Z=80.986
+[2022.09.10-14.15.00:206][573]LogBlueprintUserMessages: [Build] X=1,862.076 Y=1,602.58 Z=21.831
+[2022.09.10-14.15.00:206][573]LogBlueprintUserMessages: [Build] X=1,848.43 Y=1,308.786 Z=80.986
+[2022.09.10-14.15.00:312][584]LogBlueprintUserMessages: [Build] X=1,864.989 Y=1,654.036 Z=14.207
+[2022.09.10-14.15.00:312][584]LogBlueprintUserMessages: [Build] X=1,850.506 Y=1,361.493 Z=79.08
+[2022.09.10-14.15.00:420][595]LogBlueprintUserMessages: [Build] X=1,867.378 Y=1,707.646 Z=14.207
+[2022.09.10-14.15.00:420][595]LogBlueprintUserMessages: [Build] X=1,852.895 Y=1,415.102 Z=79.08
+[2022.09.10-14.15.00:526][606]LogBlueprintUserMessages: [Build] X=1,867.443 Y=1,758.553 Z=4.257
+[2022.09.10-14.15.00:527][606]LogBlueprintUserMessages: [Build] X=1,854.823 Y=1,467.677 Z=76.593
+[2022.09.10-14.15.00:633][617]LogBlueprintUserMessages: [Build] X=1,858.735 Y=1,810.892 Z=30.958
+[2022.09.10-14.15.00:633][617]LogBlueprintUserMessages: [Build] X=1,854.381 Y=1,520.706 Z=106.938
+[2022.09.10-14.15.00:740][628]LogBlueprintUserMessages: [Build] X=1,833.004 Y=1,852.36 Z=63.987
+[2022.09.10-14.15.00:740][628]LogBlueprintUserMessages: [Build] X=1,849.515 Y=1,567.804 Z=157.555
+[2022.09.10-14.15.00:841][638]LogBlueprintUserMessages: [Build] X=1,797.492 Y=1,868.289 Z=76.065
+[2022.09.10-14.15.00:841][638]LogBlueprintUserMessages: [Build] X=1,841.941 Y=1,593.045 Z=186.813
+[2022.09.10-14.15.00:951][649]LogBlueprintUserMessages: [Build] X=1,800.854 Y=1,904.304 Z=94.339
+[2022.09.10-14.15.00:951][649]LogBlueprintUserMessages: [Build] X=1,846.144 Y=1,629.197 Z=205.087
+[2022.09.10-14.15.01:053][659]LogBlueprintUserMessages: [Build] X=1,783.302 Y=1,930.49 Z=77.461
+[2022.09.10-14.15.01:053][659]LogBlueprintUserMessages: [Build] X=1,847.275 Y=1,664.09 Z=199.683
+[2022.09.10-14.15.01:161][670]LogBlueprintUserMessages: [Build] X=1,777.81 Y=1,970.474 Z=54.344
+[2022.09.10-14.15.01:161][670]LogBlueprintUserMessages: [Build] X=1,853.613 Y=1,707.978 Z=178.237
+[2022.09.10-14.15.01:263][681]LogBlueprintUserMessages: [Build] X=1,783.591 Y=2,018.461 Z=34.465
+[2022.09.10-14.15.01:263][681]LogBlueprintUserMessages: [Build] X=1,860.088 Y=1,756.562 Z=159.192
+[2022.09.10-14.15.01:364][692]LogBlueprintUserMessages: [Build] X=1,777.373 Y=2,069.286 Z=40.526
+[2022.09.10-14.15.01:364][692]LogBlueprintUserMessages: [Build] X=1,853.87 Y=1,807.387 Z=165.253
+[2022.09.10-14.15.01:466][703]LogBlueprintUserMessages: [Build] X=1,765.713 Y=2,118.514 Z=52.829
+[2022.09.10-14.15.01:466][703]LogBlueprintUserMessages: [Build] X=1,842.21 Y=1,856.614 Z=177.556
+[2022.09.10-14.15.01:567][714]LogBlueprintUserMessages: [Build] X=1,752.301 Y=2,167.411 Z=65.05
+[2022.09.10-14.15.01:567][714]LogBlueprintUserMessages: [Build] X=1,828.798 Y=1,905.512 Z=189.776
+[2022.09.10-14.15.01:670][725]LogBlueprintUserMessages: [Build] X=1,728.286 Y=2,209.818 Z=70.248
+[2022.09.10-14.15.01:670][725]LogBlueprintUserMessages: [Build] X=1,812.264 Y=1,952.823 Z=200.251
+[2022.09.10-14.15.01:773][736]LogBlueprintUserMessages: [Build] X=1,650.757 Y=2,219.549 Z=70.223
+[2022.09.10-14.15.01:773][736]LogBlueprintUserMessages: [Build] X=1,789.405 Y=1,993.008 Z=209.707
+[2022.09.10-14.15.01:874][747]LogBlueprintUserMessages: [Build] X=1,627.562 Y=2,250.055 Z=96.491
+[2022.09.10-14.15.01:874][747]LogBlueprintUserMessages: [Build] X=1,780.459 Y=2,032.876 Z=235.976
+[2022.09.10-14.15.01:976][758]LogBlueprintUserMessages: [Build] X=1,625.241 Y=2,272.574 Z=100.05
+[2022.09.10-14.15.01:976][758]LogBlueprintUserMessages: [Build] X=1,778.139 Y=2,055.395 Z=239.535
+[2022.09.10-14.15.02:078][769]LogBlueprintUserMessages: [Build] X=1,590.052 Y=2,258.678 Z=116.315
+[2022.09.10-14.15.02:078][769]LogBlueprintUserMessages: [Build] X=1,769.062 Y=2,054.628 Z=244.062
+[2022.09.10-14.15.02:185][780]LogBlueprintUserMessages: [Build] X=1,517.148 Y=2,190.108 Z=140
+[2022.09.10-14.15.02:185][780]LogBlueprintUserMessages: [Build] X=1,750.836 Y=2,037.486 Z=249.983
+[2022.09.10-14.15.02:287][790]LogBlueprintUserMessages: [Build] X=1,510.687 Y=2,182.629 Z=143.729
+[2022.09.10-14.15.02:287][790]LogBlueprintUserMessages: [Build] X=1,749.221 Y=2,035.616 Z=250.915
+[2022.09.10-14.15.02:388][800]LogBlueprintUserMessages: [Build] X=1,510.687 Y=2,182.629 Z=143.729
+[2022.09.10-14.15.02:388][800]LogBlueprintUserMessages: [Build] X=1,749.221 Y=2,035.616 Z=250.915
+[2022.09.10-14.15.02:491][810]LogBlueprintUserMessages: [Build] X=1,483.495 Y=2,120.919 Z=135.737
+[2022.09.10-14.15.02:491][810]LogBlueprintUserMessages: [Build] X=1,742.423 Y=2,020.188 Z=248.917
+[2022.09.10-14.15.02:593][820]LogBlueprintUserMessages: [Build] X=1,459.626 Y=1,966.213 Z=133.854
+[2022.09.10-14.15.02:593][820]LogBlueprintUserMessages: [Build] X=1,736.456 Y=1,981.512 Z=248.446
+[2022.09.10-14.15.02:693][830]LogBlueprintUserMessages: [Build] X=1,460.057 Y=1,959.528 Z=133.854
+[2022.09.10-14.15.02:693][830]LogBlueprintUserMessages: [Build] X=1,736.563 Y=1,979.841 Z=248.446
+[2022.09.10-14.15.02:802][841]LogBlueprintUserMessages: [Build] X=1,460.057 Y=1,959.528 Z=133.854
+[2022.09.10-14.15.02:802][841]LogBlueprintUserMessages: [Build] X=1,736.563 Y=1,979.841 Z=248.446
+[2022.09.10-14.15.02:903][851]LogBlueprintUserMessages: [Build] X=1,460.057 Y=1,959.528 Z=133.854
+[2022.09.10-14.15.02:903][851]LogBlueprintUserMessages: [Build] X=1,736.563 Y=1,979.841 Z=248.446
+[2022.09.10-14.15.03:004][861]LogBlueprintUserMessages: [Build] X=1,493.568 Y=1,976.171 Z=68.57
+[2022.09.10-14.15.03:004][861]LogBlueprintUserMessages: [Build] X=1,744.941 Y=1,984.001 Z=232.125
+[2022.09.10-14.15.03:106][872]LogBlueprintUserMessages: [Build] X=1,590.66 Y=1,977.122 Z=-34.653
+[2022.09.10-14.15.03:107][872]LogBlueprintUserMessages: [Build] X=1,769.214 Y=1,984.239 Z=206.319
+[2022.09.10-14.15.03:210][883]LogBlueprintUserMessages: [Build] X=1,506.665 Y=1,960.114 Z=50.91
+[2022.09.10-14.15.03:210][883]LogBlueprintUserMessages: [Build] X=1,748.215 Y=1,979.987 Z=227.71
+[2022.09.10-14.15.03:317][894]LogBlueprintUserMessages: [Build] X=1,430.636 Y=2,015.709 Z=260.708
+[2022.09.10-14.15.03:317][894]LogBlueprintUserMessages: [Build] X=1,729.208 Y=1,993.886 Z=280.16
+[2022.09.10-14.15.03:421][904]LogBlueprintUserMessages: [Build] X=1,429.914 Y=2,017.324 Z=285.865
+[2022.09.10-14.15.03:421][904]LogBlueprintUserMessages: [Build] X=1,729.028 Y=1,994.29 Z=286.449
+[2022.09.10-14.15.03:523][914]LogBlueprintUserMessages: [Build] X=1,429.826 Y=2,016.106 Z=288.686
+[2022.09.10-14.15.03:523][914]LogBlueprintUserMessages: [Build] X=1,729.006 Y=1,993.985 Z=287.154
+[2022.09.10-14.15.03:626][924]LogBlueprintUserMessages: [Build] X=1,429.826 Y=2,016.106 Z=288.686
+[2022.09.10-14.15.03:626][924]LogBlueprintUserMessages: [Build] X=1,729.006 Y=1,993.985 Z=287.154
+[2022.09.10-14.15.03:730][934]LogBlueprintUserMessages: [Build] X=1,434.238 Y=1,920.721 Z=292.35
+[2022.09.10-14.15.03:730][934]LogBlueprintUserMessages: [Build] X=1,730.109 Y=1,970.139 Z=288.07
+[2022.09.10-14.15.03:833][944]LogBlueprintUserMessages: [Build] X=1,442.838 Y=1,881.348 Z=284.474
+[2022.09.10-14.15.03:833][944]LogBlueprintUserMessages: [Build] X=1,732.259 Y=1,960.296 Z=286.101
+[2022.09.10-14.15.03:934][954]LogBlueprintUserMessages: [Build] X=1,442.838 Y=1,881.348 Z=284.474
+[2022.09.10-14.15.03:934][954]LogBlueprintUserMessages: [Build] X=1,732.259 Y=1,960.296 Z=286.101
+[2022.09.10-14.15.04:035][964]LogBlueprintUserMessages: [Build] X=1,442.838 Y=1,881.348 Z=284.474
+[2022.09.10-14.15.04:035][964]LogBlueprintUserMessages: [Build] X=1,732.259 Y=1,960.296 Z=286.101
+[2022.09.10-14.15.04:138][974]LogBlueprintUserMessages: [Build] X=1,439.994 Y=1,893.129 Z=274.672
+[2022.09.10-14.15.04:138][974]LogBlueprintUserMessages: [Build] X=1,731.548 Y=1,963.241 Z=283.651
+[2022.09.10-14.15.04:244][984]LogBlueprintUserMessages: [Build] X=1,439.265 Y=1,940.387 Z=208.04
+[2022.09.10-14.15.04:244][984]LogBlueprintUserMessages: [Build] X=1,731.365 Y=1,975.055 Z=266.993
+[2022.09.10-14.15.04:346][994]LogBlueprintUserMessages: [Build] X=1,445.006 Y=1,944.549 Z=181.836
+[2022.09.10-14.15.04:346][994]LogBlueprintUserMessages: [Build] X=1,732.801 Y=1,976.096 Z=260.442
+[2022.09.10-14.15.04:450][  4]LogBlueprintUserMessages: [Build] X=1,445.006 Y=1,944.549 Z=181.836
+[2022.09.10-14.15.04:450][  4]LogBlueprintUserMessages: [Build] X=1,732.801 Y=1,976.096 Z=260.442
+[2022.09.10-14.15.04:554][ 14]LogBlueprintUserMessages: [Build] X=1,450.439 Y=1,952.104 Z=161.329
+[2022.09.10-14.15.04:554][ 14]LogBlueprintUserMessages: [Build] X=1,734.159 Y=1,977.985 Z=255.315
+[2022.09.10-14.15.04:656][ 24]LogBlueprintUserMessages: [Build] X=1,452.79 Y=1,958.374 Z=152.965
+[2022.09.10-14.15.04:656][ 24]LogBlueprintUserMessages: [Build] X=1,734.747 Y=1,979.552 Z=253.224
+[2022.09.10-14.15.04:758][ 34]LogBlueprintUserMessages: [Build] X=1,452.79 Y=1,958.374 Z=152.965
+[2022.09.10-14.15.04:758][ 34]LogBlueprintUserMessages: [Build] X=1,734.747 Y=1,979.552 Z=253.224
+[2022.09.10-14.15.04:860][ 44]LogBlueprintUserMessages: [Build] X=1,452.324 Y=1,958.339 Z=153.652
+[2022.09.10-14.15.04:860][ 44]LogBlueprintUserMessages: [Build] X=1,734.281 Y=1,979.517 Z=253.91
+[2022.09.10-14.15.04:962][ 54]LogBlueprintUserMessages: [Build] X=1,440.593 Y=1,957.458 Z=163.376
+[2022.09.10-14.15.04:962][ 54]LogBlueprintUserMessages: [Build] X=1,722.55 Y=1,978.636 Z=263.635
+[2022.09.10-14.15.05:064][ 64]LogBlueprintUserMessages: [Build] X=1,413.325 Y=1,955.41 Z=167.214
+[2022.09.10-14.15.05:064][ 64]LogBlueprintUserMessages: [Build] X=1,695.282 Y=1,976.588 Z=267.473
+[2022.09.10-14.15.05:166][ 74]LogBlueprintUserMessages: [Build] X=1,370.324 Y=1,953.334 Z=167.214
+[2022.09.10-14.15.05:166][ 74]LogBlueprintUserMessages: [Build] X=1,652.344 Y=1,973.651 Z=267.473
+[2022.09.10-14.15.05:268][ 84]LogBlueprintUserMessages: [Build] X=1,319.602 Y=1,949.593 Z=167.214
+[2022.09.10-14.15.05:268][ 84]LogBlueprintUserMessages: [Build] X=1,601.623 Y=1,969.91 Z=267.473
+[2022.09.10-14.15.05:371][ 94]LogBlueprintUserMessages: [Build] X=1,268.486 Y=1,951.361 Z=167.214
+[2022.09.10-14.15.05:371][ 94]LogBlueprintUserMessages: [Build] X=1,550.507 Y=1,971.678 Z=267.473
+[2022.09.10-14.15.05:474][104]LogBlueprintUserMessages: [Build] X=1,236.677 Y=1,903.332 Z=158.313
+[2022.09.10-14.15.05:474][104]LogBlueprintUserMessages: [Build] X=1,507.674 Y=1,974.927 Z=265.247
+[2022.09.10-14.15.05:576][114]LogBlueprintUserMessages: [Build] X=1,307.39 Y=1,726.07 Z=188.952
+[2022.09.10-14.15.05:576][114]LogBlueprintUserMessages: [Build] X=1,499.107 Y=1,941.003 Z=272.907
+[2022.09.10-14.15.05:681][124]LogBlueprintUserMessages: [Build] X=1,316.86 Y=1,715.523 Z=179.14
+[2022.09.10-14.15.05:681][124]LogBlueprintUserMessages: [Build] X=1,489.876 Y=1,942.959 Z=270.454
+[2022.09.10-14.15.05:783][134]LogBlueprintUserMessages: [Build] X=1,303.703 Y=1,728.937 Z=171.632
+[2022.09.10-14.15.05:783][134]LogBlueprintUserMessages: [Build] X=1,486.085 Y=1,946.511 Z=268.577
+[2022.09.10-14.15.05:887][144]LogBlueprintUserMessages: [Build] X=1,303.703 Y=1,728.937 Z=171.632
+[2022.09.10-14.15.05:888][144]LogBlueprintUserMessages: [Build] X=1,486.085 Y=1,946.511 Z=268.577
+[2022.09.10-14.15.05:991][154]LogBlueprintUserMessages: [Build] X=1,300.808 Y=1,725.484 Z=171.632
+[2022.09.10-14.15.05:991][154]LogBlueprintUserMessages: [Build] X=1,483.19 Y=1,943.058 Z=268.577
+[2022.09.10-14.15.06:096][164]LogBlueprintUserMessages: [Build] X=1,597.82 Y=1,628.861 Z=161.783
+[2022.09.10-14.15.06:096][164]LogBlueprintUserMessages: [Build] X=1,549.872 Y=1,906.018 Z=266.115
+[2022.09.10-14.15.06:198][174]LogBlueprintUserMessages: [Build] X=1,695.413 Y=1,631.222 Z=153.823
+[2022.09.10-14.15.06:198][174]LogBlueprintUserMessages: [Build] X=1,574.44 Y=1,882.616 Z=264.125
+[2022.09.10-14.15.06:301][184]LogBlueprintUserMessages: [Build] X=1,709.808 Y=1,587.02 Z=153.823
+[2022.09.10-14.15.06:301][184]LogBlueprintUserMessages: [Build] X=1,588.835 Y=1,838.415 Z=264.125
+[2022.09.10-14.15.06:403][194]LogBlueprintUserMessages: [Build] X=1,729.907 Y=1,540.237 Z=153.823
+[2022.09.10-14.15.06:403][194]LogBlueprintUserMessages: [Build] X=1,608.934 Y=1,791.631 Z=264.125
+[2022.09.10-14.15.06:504][204]LogBlueprintUserMessages: [Build] X=1,712.628 Y=1,473.035 Z=167.193
+[2022.09.10-14.15.06:504][204]LogBlueprintUserMessages: [Build] X=1,620.504 Y=1,740.352 Z=267.468
+[2022.09.10-14.15.06:606][214]LogBlueprintUserMessages: [Build] X=1,592.901 Y=1,410.293 Z=151.451
+[2022.09.10-14.15.06:606][214]LogBlueprintUserMessages: [Build] X=1,601.187 Y=1,688.447 Z=263.532
+[2022.09.10-14.15.06:706][224]LogBlueprintUserMessages: [Build] X=1,567.682 Y=1,366.342 Z=147.131
+[2022.09.10-14.15.06:706][224]LogBlueprintUserMessages: [Build] X=1,582.367 Y=1,642.902 Z=262.452
+[2022.09.10-14.15.06:808][234]LogBlueprintUserMessages: [Build] X=1,551.092 Y=1,326.793 Z=147.131
+[2022.09.10-14.15.06:808][234]LogBlueprintUserMessages: [Build] X=1,554.712 Y=1,603.719 Z=262.452
+[2022.09.10-14.15.06:908][244]LogBlueprintUserMessages: [Build] X=1,627.68 Y=1,305.179 Z=139.828
+[2022.09.10-14.15.06:908][244]LogBlueprintUserMessages: [Build] X=1,548.437 Y=1,570.55 Z=255.149
+[2022.09.10-14.15.07:009][254]LogBlueprintUserMessages: [Build] X=1,718.852 Y=1,315.806 Z=157.296
+[2022.09.10-14.15.07:009][254]LogBlueprintUserMessages: [Build] X=1,546.364 Y=1,544.512 Z=246.41
+[2022.09.10-14.15.07:113][264]LogBlueprintUserMessages: [Build] X=1,790.34 Y=1,385.165 Z=134.758
+[2022.09.10-14.15.07:113][264]LogBlueprintUserMessages: [Build] X=1,540.355 Y=1,531.072 Z=213.616
+[2022.09.10-14.15.07:215][274]LogBlueprintUserMessages: [Build] X=1,816.957 Y=1,468.055 Z=117.112
+[2022.09.10-14.15.07:215][274]LogBlueprintUserMessages: [Build] X=1,525.964 Y=1,519.592 Z=168.752
+[2022.09.10-14.15.07:323][285]LogBlueprintUserMessages: [Build] X=1,793.241 Y=1,424.449 Z=43.878
+[2022.09.10-14.15.07:323][285]LogBlueprintUserMessages: [Build] X=1,501.314 Y=1,472.818 Z=93.27
+[2022.09.10-14.15.07:431][296]LogBlueprintUserMessages: [Build] X=1,794.2 Y=1,406.636 Z=32.441
+[2022.09.10-14.15.07:431][296]LogBlueprintUserMessages: [Build] X=1,499.505 Y=1,429.739 Z=83.639
+[2022.09.10-14.15.07:538][307]LogBlueprintUserMessages: [Build] X=1,800.552 Y=1,424.507 Z=19.92
+[2022.09.10-14.15.07:539][307]LogBlueprintUserMessages: [Build] X=1,508.251 Y=1,394.687 Z=80.508
+[2022.09.10-14.15.07:645][318]LogBlueprintUserMessages: [Build] X=1,789.505 Y=1,447.924 Z=7.637
+[2022.09.10-14.15.07:645][318]LogBlueprintUserMessages: [Build] X=1,511.067 Y=1,360.744 Z=77.438
+[2022.09.10-14.15.07:752][329]LogBlueprintUserMessages: [Build] X=1,778.702 Y=1,478.819 Z=69.395
+[2022.09.10-14.15.07:752][329]LogBlueprintUserMessages: [Build] X=1,519.223 Y=1,330.095 Z=92.877
+[2022.09.10-14.15.07:859][340]LogBlueprintUserMessages: [Build] X=1,791.731 Y=1,434.072 Z=52.881
+[2022.09.10-14.15.07:859][340]LogBlueprintUserMessages: [Build] X=1,536.158 Y=1,281.114 Z=88.749
+[2022.09.10-14.15.07:966][351]LogBlueprintUserMessages: [Build] X=1,787.627 Y=1,381.696 Z=52.881
+[2022.09.10-14.15.07:966][351]LogBlueprintUserMessages: [Build] X=1,532.055 Y=1,228.738 Z=88.749
+[2022.09.10-14.15.08:075][362]LogBlueprintUserMessages: [Build] X=1,737.044 Y=1,363.306 Z=41.872
+[2022.09.10-14.15.08:075][362]LogBlueprintUserMessages: [Build] X=1,494.404 Y=1,192.488 Z=85.997
+[2022.09.10-14.15.08:183][373]LogBlueprintUserMessages: [Build] X=1,550.302 Y=1,457.63 Z=82.75
+[2022.09.10-14.15.08:183][373]LogBlueprintUserMessages: [Build] X=1,418.529 Y=1,188.456 Z=96.216
+[2022.09.10-14.15.08:289][384]LogBlueprintUserMessages: [Build] X=1,414.761 Y=1,443.065 Z=158.769
+[2022.09.10-14.15.08:289][384]LogBlueprintUserMessages: [Build] X=1,370.881 Y=1,149.504 Z=115.221
+[2022.09.10-14.15.08:396][395]LogBlueprintUserMessages: [Build] X=1,375.222 Y=1,480.974 Z=235.034
+[2022.09.10-14.15.08:396][395]LogBlueprintUserMessages: [Build] X=1,375.357 Y=1,192.253 Z=153.546
+[2022.09.10-14.15.08:501][406]LogBlueprintUserMessages: [Build] X=1,413.43 Y=1,475.202 Z=239.573
+[2022.09.10-14.15.08:501][406]LogBlueprintUserMessages: [Build] X=1,417.911 Y=1,186.601 Z=157.784
+[2022.09.10-14.15.08:607][417]LogBlueprintUserMessages: [Build] X=1,418.19 Y=1,396.403 Z=169.648
+[2022.09.10-14.15.08:607][417]LogBlueprintUserMessages: [Build] X=1,443.822 Y=1,102.006 Z=117.941
+[2022.09.10-14.15.08:714][428]LogBlueprintUserMessages: [Build] X=1,425.721 Y=1,440.509 Z=159.698
+[2022.09.10-14.15.08:714][428]LogBlueprintUserMessages: [Build] X=1,453.262 Y=1,145.071 Z=115.453
+[2022.09.10-14.15.08:820][439]LogBlueprintUserMessages: [Build] X=1,408.983 Y=1,495.582 Z=116.779
+[2022.09.10-14.15.08:820][439]LogBlueprintUserMessages: [Build] X=1,449.109 Y=1,198.522 Z=104.723
+[2022.09.10-14.15.08:927][450]LogBlueprintUserMessages: [Build] X=1,399.727 Y=1,546.27 Z=59.42
+[2022.09.10-14.15.08:927][450]LogBlueprintUserMessages: [Build] X=1,443.101 Y=1,251.041 Z=90.383
+[2022.09.10-14.15.09:033][461]LogBlueprintUserMessages: [Build] X=1,388.417 Y=1,582.338 Z=41.366
+[2022.09.10-14.15.09:033][461]LogBlueprintUserMessages: [Build] X=1,435.458 Y=1,299.858 Z=130.764
+[2022.09.10-14.15.09:143][472]LogBlueprintUserMessages: [Build] X=1,381.589 Y=1,636.802 Z=89.605
+[2022.09.10-14.15.09:143][472]LogBlueprintUserMessages: [Build] X=1,428.631 Y=1,354.322 Z=179.003
+[2022.09.10-14.15.09:244][482]LogBlueprintUserMessages: [Build] X=1,369.129 Y=1,682.282 Z=105.63
+[2022.09.10-14.15.09:244][482]LogBlueprintUserMessages: [Build] X=1,420.667 Y=1,403.085 Z=202.546
+[2022.09.10-14.15.09:345][492]LogBlueprintUserMessages: [Build] X=1,359.881 Y=1,731.72 Z=112.876
+[2022.09.10-14.15.09:345][492]LogBlueprintUserMessages: [Build] X=1,413.279 Y=1,453.257 Z=210.89
+[2022.09.10-14.15.09:446][502]LogBlueprintUserMessages: [Build] X=1,350.946 Y=1,779.229 Z=97.863
+[2022.09.10-14.15.09:446][502]LogBlueprintUserMessages: [Build] X=1,405.961 Y=1,502.727 Z=200.431
+[2022.09.10-14.15.09:546][512]LogBlueprintUserMessages: [Build] X=1,338.001 Y=1,826.278 Z=67.574
+[2022.09.10-14.15.09:547][512]LogBlueprintUserMessages: [Build] X=1,397.669 Y=1,551.875 Z=173.136
+[2022.09.10-14.15.09:656][523]LogBlueprintUserMessages: [Build] X=1,134.333 Y=1,763.514 Z=12.056
+[2022.09.10-14.15.09:656][523]LogBlueprintUserMessages: [Build] X=1,341.257 Y=1,576.808 Z=123.067
+[2022.09.10-14.15.09:764][534]LogBlueprintUserMessages: [Build] X=1,030.077 Y=1,584.957 Z=-40.761
+[2022.09.10-14.15.09:764][534]LogBlueprintUserMessages: [Build] X=1,309.837 Y=1,571.776 Z=66.761
+[2022.09.10-14.15.09:866][545]LogBlueprintUserMessages: [Build] X=1,024.374 Y=1,593.763 Z=-40.859
+[2022.09.10-14.15.09:866][545]LogBlueprintUserMessages: [Build] X=1,304.657 Y=1,601.728 Z=65.807
+[2022.09.10-14.15.09:968][556]LogBlueprintUserMessages: [Build] X=1,035.788 Y=1,605.939 Z=-72.698
+[2022.09.10-14.15.09:968][556]LogBlueprintUserMessages: [Build] X=1,305.868 Y=1,616.918 Z=57.441
+[2022.09.10-14.15.10:070][567]LogBlueprintUserMessages: [Build] X=1,071.519 Y=1,604.91 Z=-132.842
+[2022.09.10-14.15.10:070][567]LogBlueprintUserMessages: [Build] X=1,314.71 Y=1,617.334 Z=42.382
+[2022.09.10-14.15.10:172][578]LogBlueprintUserMessages: [Build] X=1,137.302 Y=1,824.428 Z=-102.713
+[2022.09.10-14.15.10:172][578]LogBlueprintUserMessages: [Build] X=1,331.128 Y=1,672.23 Z=68.365
+[2022.09.10-14.15.10:276][589]LogBlueprintUserMessages: [Build] X=1,624.313 Y=1,938.676 Z=92.245
+[2022.09.10-14.15.10:276][589]LogBlueprintUserMessages: [Build] X=1,450.883 Y=1,703.459 Z=160.031
+[2022.09.10-14.15.10:384][600]LogBlueprintUserMessages: [Build] X=1,698.375 Y=1,882.686 Z=156.85
+[2022.09.10-14.15.10:384][600]LogBlueprintUserMessages: [Build] X=1,469.445 Y=1,695.09 Z=205.83
+[2022.09.10-14.15.10:492][611]LogBlueprintUserMessages: [Build] X=1,701.612 Y=1,891.844 Z=170.618
+[2022.09.10-14.15.10:493][611]LogBlueprintUserMessages: [Build] X=1,474.872 Y=1,702.742 Z=223.808
+[2022.09.10-14.15.10:602][622]LogBlueprintUserMessages: [Build] X=1,712.426 Y=1,900.215 Z=168.394
+[2022.09.10-14.15.10:603][622]LogBlueprintUserMessages: [Build] X=1,486.97 Y=1,709.837 Z=222.485
+[2022.09.10-14.15.10:704][632]LogBlueprintUserMessages: [Build] X=1,718.645 Y=1,918.489 Z=146.83
+[2022.09.10-14.15.10:704][632]LogBlueprintUserMessages: [Build] X=1,500.909 Y=1,719.826 Z=202.723
+[2022.09.10-14.15.10:813][643]LogBlueprintUserMessages: [Build] X=1,737.73 Y=1,933.172 Z=107.365
+[2022.09.10-14.15.10:813][643]LogBlueprintUserMessages: [Build] X=1,522.52 Y=1,731.528 Z=162.357
+[2022.09.10-14.15.10:920][654]LogBlueprintUserMessages: [Build] X=1,764.5 Y=1,933.296 Z=46.541
+[2022.09.10-14.15.10:920][654]LogBlueprintUserMessages: [Build] X=1,549.291 Y=1,731.651 Z=101.533
+[2022.09.10-14.15.11:027][665]LogBlueprintUserMessages: [Build] X=1,798.137 Y=1,933.077 Z=62.157
+[2022.09.10-14.15.11:027][665]LogBlueprintUserMessages: [Build] X=1,582.927 Y=1,731.432 Z=117.15
+[2022.09.10-14.15.11:134][676]LogBlueprintUserMessages: [Build] X=1,801.951 Y=1,962.601 Z=103.288
+[2022.09.10-14.15.11:134][676]LogBlueprintUserMessages: [Build] X=1,616.051 Y=1,738.327 Z=174.997
+[2022.09.10-14.15.11:244][687]LogBlueprintUserMessages: [Build] X=1,804.751 Y=1,991.692 Z=134.025
+[2022.09.10-14.15.11:244][687]LogBlueprintUserMessages: [Build] X=1,654.084 Y=1,745.521 Z=215.874
+[2022.09.10-14.15.11:346][697]LogBlueprintUserMessages: [Build] X=1,839.15 Y=1,993.912 Z=133.863
+[2022.09.10-14.15.11:346][697]LogBlueprintUserMessages: [Build] X=1,700.837 Y=1,746.839 Z=232.981
+[2022.09.10-14.15.11:447][707]LogBlueprintUserMessages: [Build] X=1,888.815 Y=1,994.921 Z=137.412
+[2022.09.10-14.15.11:447][707]LogBlueprintUserMessages: [Build] X=1,751.603 Y=1,747.582 Z=237.394
+[2022.09.10-14.15.11:549][717]LogBlueprintUserMessages: [Build] X=1,936.07 Y=1,995.045 Z=121.887
+[2022.09.10-14.15.11:549][717]LogBlueprintUserMessages: [Build] X=1,801.469 Y=1,747.084 Z=223.859
+[2022.09.10-14.15.11:655][727]LogBlueprintUserMessages: [Build] X=1,961.487 Y=2,004.67 Z=80.512
+[2022.09.10-14.15.11:655][727]LogBlueprintUserMessages: [Build] X=1,847.191 Y=1,749.513 Z=189.285
+[2022.09.10-14.15.11:755][737]LogBlueprintUserMessages: [Build] X=1,972.816 Y=2,020.35 Z=42.905
+[2022.09.10-14.15.11:755][737]LogBlueprintUserMessages: [Build] X=1,886.104 Y=1,758.695 Z=161.302
+[2022.09.10-14.15.11:860][748]LogBlueprintUserMessages: [Build] X=1,930.24 Y=2,060.581 Z=34.783
+[2022.09.10-14.15.11:860][748]LogBlueprintUserMessages: [Build] X=1,901.713 Y=1,795.98 Z=173.248
+[2022.09.10-14.15.11:964][759]LogBlueprintUserMessages: [Build] X=1,847.949 Y=2,090.973 Z=80.286
+[2022.09.10-14.15.11:964][759]LogBlueprintUserMessages: [Build] X=1,902.909 Y=1,836.146 Z=228.754
+[2022.09.10-14.15.12:066][770]LogBlueprintUserMessages: [Build] X=1,798.058 Y=2,085.866 Z=85.832
+[2022.09.10-14.15.12:066][770]LogBlueprintUserMessages: [Build] X=1,909.418 Y=1,868.301 Z=259.798
+[2022.09.10-14.15.12:168][781]LogBlueprintUserMessages: [Build] X=1,768.296 Y=2,103.044 Z=110.919
+[2022.09.10-14.15.12:169][781]LogBlueprintUserMessages: [Build] X=1,917.992 Y=1,907.441 Z=282.18
+[2022.09.10-14.15.12:270][792]LogBlueprintUserMessages: [Build] X=1,745.675 Y=2,135.367 Z=135.896
+[2022.09.10-14.15.12:271][792]LogBlueprintUserMessages: [Build] X=1,925.107 Y=1,951.722 Z=291.07
+[2022.09.10-14.15.12:374][803]LogBlueprintUserMessages: [Build] X=1,715.059 Y=2,177.778 Z=173.338
+[2022.09.10-14.15.12:374][803]LogBlueprintUserMessages: [Build] X=1,926.834 Y=1,999.828 Z=289.462
+[2022.09.10-14.15.12:474][813]LogBlueprintUserMessages: [Build] X=1,716.565 Y=2,225.883 Z=150.877
+[2022.09.10-14.15.12:474][813]LogBlueprintUserMessages: [Build] X=1,932.909 Y=2,049.03 Z=260.049
+[2022.09.10-14.15.12:576][823]LogBlueprintUserMessages: [Build] X=1,633.121 Y=2,159.746 Z=182.35
+[2022.09.10-14.15.12:576][823]LogBlueprintUserMessages: [Build] X=1,908.222 Y=2,069.06 Z=260.422
+[2022.09.10-14.15.12:680][833]LogBlueprintUserMessages: [Build] X=1,589.305 Y=1,960.714 Z=196.531
+[2022.09.10-14.15.12:680][833]LogBlueprintUserMessages: [Build] X=1,868.446 Y=2,042.635 Z=269.806
+[2022.09.10-14.15.12:784][843]LogBlueprintUserMessages: [Build] X=1,609.059 Y=1,841.522 Z=189.394
+[2022.09.10-14.15.12:784][843]LogBlueprintUserMessages: [Build] X=1,838.299 Y=2,017.786 Z=269.269
+[2022.09.10-14.15.12:889][853]LogBlueprintUserMessages: [Build] X=1,619.942 Y=1,802.649 Z=187.408
+[2022.09.10-14.15.12:889][853]LogBlueprintUserMessages: [Build] X=1,820.63 Y=2,010.065 Z=269.278
+[2022.09.10-14.15.12:995][863]LogBlueprintUserMessages: [Build] X=1,614.294 Y=1,803.555 Z=185.984
+[2022.09.10-14.15.12:995][863]LogBlueprintUserMessages: [Build] X=1,814.748 Y=2,010.73 Z=269.032
+[2022.09.10-14.15.13:099][873]LogBlueprintUserMessages: [Build] X=1,614.294 Y=1,803.555 Z=185.984
+[2022.09.10-14.15.13:099][873]LogBlueprintUserMessages: [Build] X=1,814.748 Y=2,010.73 Z=269.032
+[2022.09.10-14.15.13:203][883]LogBlueprintUserMessages: [Build] X=1,614.294 Y=1,803.555 Z=185.984
+[2022.09.10-14.15.13:203][883]LogBlueprintUserMessages: [Build] X=1,814.748 Y=2,010.73 Z=269.032
+[2022.09.10-14.15.13:311][893]LogBlueprintUserMessages: [Build] X=1,824.801 Y=1,706.775 Z=163.903
+[2022.09.10-14.15.13:311][893]LogBlueprintUserMessages: [Build] X=1,867.375 Y=1,986.535 Z=263.512
+[2022.09.10-14.15.13:414][903]LogBlueprintUserMessages: [Build] X=1,867.018 Y=1,708.166 Z=149.455
+[2022.09.10-14.15.13:414][903]LogBlueprintUserMessages: [Build] X=1,877.929 Y=1,986.882 Z=259.9
+[2022.09.10-14.15.13:515][913]LogBlueprintUserMessages: [Build] X=1,885.905 Y=1,709.073 Z=146.543
+[2022.09.10-14.15.13:515][913]LogBlueprintUserMessages: [Build] X=1,882.651 Y=1,987.109 Z=259.172
+[2022.09.10-14.15.13:616][923]LogBlueprintUserMessages: [Build] X=1,946.735 Y=1,715.595 Z=144.673
+[2022.09.10-14.15.13:616][923]LogBlueprintUserMessages: [Build] X=1,897.858 Y=1,988.74 Z=258.705
+[2022.09.10-14.15.13:717][933]LogBlueprintUserMessages: [Build] X=2,000.532 Y=1,721.999 Z=163.172
+[2022.09.10-14.15.13:718][933]LogBlueprintUserMessages: [Build] X=1,911.308 Y=1,990.34 Z=263.329
+[2022.09.10-14.15.13:820][943]LogBlueprintUserMessages: [Build] X=1,929.012 Y=1,690.797 Z=216.498
+[2022.09.10-14.15.13:820][943]LogBlueprintUserMessages: [Build] X=1,893.427 Y=1,982.54 Z=276.661
+[2022.09.10-14.15.13:925][953]LogBlueprintUserMessages: [Build] X=1,881.573 Y=1,686.448 Z=224.026
+[2022.09.10-14.15.13:925][953]LogBlueprintUserMessages: [Build] X=1,881.568 Y=1,981.453 Z=278.543
+[2022.09.10-14.15.14:029][963]LogBlueprintUserMessages: [Build] X=1,851.78 Y=1,681.605 Z=230.856
+[2022.09.10-14.15.14:029][963]LogBlueprintUserMessages: [Build] X=1,873.96 Y=1,976.821 Z=279.396
+[2022.09.10-14.15.14:132][973]LogBlueprintUserMessages: [Build] X=1,839.083 Y=1,671.579 Z=184.375
+[2022.09.10-14.15.14:132][973]LogBlueprintUserMessages: [Build] X=1,869.655 Y=1,959.199 Z=263.999
+[2022.09.10-14.15.14:236][983]LogBlueprintUserMessages: [Build] X=1,835.212 Y=1,642.776 Z=152.224
+[2022.09.10-14.15.14:236][983]LogBlueprintUserMessages: [Build] X=1,866.081 Y=1,924.982 Z=249.213
+[2022.09.10-14.15.14:339][993]LogBlueprintUserMessages: [Build] X=1,828.205 Y=1,604.05 Z=121.257
+[2022.09.10-14.15.14:339][993]LogBlueprintUserMessages: [Build] X=1,860.425 Y=1,878.336 Z=238.429
+[2022.09.10-14.15.14:439][  3]LogBlueprintUserMessages: [Build] X=1,821.897 Y=1,556.611 Z=175.587
+[2022.09.10-14.15.14:439][  3]LogBlueprintUserMessages: [Build] X=1,853.901 Y=1,829.054 Z=297.038
+[2022.09.10-14.15.14:549][ 14]LogBlueprintUserMessages: [Build] X=1,813.239 Y=1,504.667 Z=216.583
+[2022.09.10-14.15.14:549][ 14]LogBlueprintUserMessages: [Build] X=1,843.403 Y=1,775.728 Z=341.547
+[2022.09.10-14.15.14:654][ 25]LogBlueprintUserMessages: [Build] X=1,824.665 Y=1,462.418 Z=220.643
+[2022.09.10-14.15.14:654][ 25]LogBlueprintUserMessages: [Build] X=1,835.764 Y=1,727.473 Z=360.724
+[2022.09.10-14.15.14:755][ 36]LogBlueprintUserMessages: [Build] X=1,808.461 Y=1,414.586 Z=226.296
+[2022.09.10-14.15.14:755][ 36]LogBlueprintUserMessages: [Build] X=1,819.561 Y=1,679.641 Z=366.377
+[2022.09.10-14.15.14:856][ 47]LogBlueprintUserMessages: [Build] X=1,790.615 Y=1,386.429 Z=181.728
+[2022.09.10-14.15.14:856][ 47]LogBlueprintUserMessages: [Build] X=1,801.111 Y=1,637.087 Z=346.229
+[2022.09.10-14.15.14:958][ 58]LogBlueprintUserMessages: [Build] X=1,767.674 Y=1,340.166 Z=151.689
+[2022.09.10-14.15.14:958][ 58]LogBlueprintUserMessages: [Build] X=1,779.817 Y=1,590.635 Z=316.364
+[2022.09.10-14.15.15:061][ 69]LogBlueprintUserMessages: [Build] X=1,741.263 Y=1,287.198 Z=115.075
+[2022.09.10-14.15.15:061][ 69]LogBlueprintUserMessages: [Build] X=1,756.117 Y=1,542.935 Z=271.21
+[2022.09.10-14.15.15:165][ 80]LogBlueprintUserMessages: [Build] X=1,716.275 Y=1,199.654 Z=141.812
+[2022.09.10-14.15.15:165][ 80]LogBlueprintUserMessages: [Build] X=1,731.193 Y=1,486.764 Z=227.515
+[2022.09.10-14.15.15:266][ 90]LogBlueprintUserMessages: [Build] X=1,686.732 Y=1,150.334 Z=88.242
+[2022.09.10-14.15.15:266][ 90]LogBlueprintUserMessages: [Build] X=1,704.561 Y=1,441.89 Z=156.635
+[2022.09.10-14.15.15:366][100]LogBlueprintUserMessages: [Build] X=1,654.755 Y=1,109.834 Z=88.13
+[2022.09.10-14.15.15:366][100]LogBlueprintUserMessages: [Build] X=1,672.664 Y=1,402.705 Z=150.626
+[2022.09.10-14.15.15:474][111]LogBlueprintUserMessages: [Build] X=1,601.991 Y=900.79 Z=3.889
+[2022.09.10-14.15.15:475][111]LogBlueprintUserMessages: [Build] X=1,621.839 Y=1,195.783 Z=54.735
+[2022.09.10-14.15.15:582][122]LogBlueprintUserMessages: [Build] X=1,564.6 Y=900.79 Z=10.084
+[2022.09.10-14.15.15:582][122]LogBlueprintUserMessages: [Build] X=1,584.448 Y=1,195.783 Z=60.931
+[2022.09.10-14.15.15:689][133]LogBlueprintUserMessages: [Build] X=1,526.92 Y=900.79 Z=16.177
+[2022.09.10-14.15.15:689][133]LogBlueprintUserMessages: [Build] X=1,546.769 Y=1,195.783 Z=67.024
+[2022.09.10-14.15.15:797][144]LogBlueprintUserMessages: [Build] X=1,490.473 Y=910.236 Z=-4.054
+[2022.09.10-14.15.15:797][144]LogBlueprintUserMessages: [Build] X=1,509.529 Y=1,201.687 Z=64.456
+[2022.09.10-14.15.15:902][155]LogBlueprintUserMessages: [Build] X=1,471.912 Y=916.131 Z=-10.359
+[2022.09.10-14.15.15:902][155]LogBlueprintUserMessages: [Build] X=1,477.756 Y=1,205.387 Z=68.995
+[2022.09.10-14.15.16:006][166]LogBlueprintUserMessages: [Build] X=1,498.569 Y=929.349 Z=-29.836
+[2022.09.10-14.15.16:006][166]LogBlueprintUserMessages: [Build] X=1,456.013 Y=1,196.481 Z=99.892
+[2022.09.10-14.15.16:108][177]LogBlueprintUserMessages: [Build] X=1,602.595 Y=957.048 Z=6.411
+[2022.09.10-14.15.16:108][177]LogBlueprintUserMessages: [Build] X=1,454.637 Y=1,176.881 Z=147.059
+[2022.09.10-14.15.16:210][188]LogBlueprintUserMessages: [Build] X=1,715.386 Y=1,158.35 Z=30.972
+[2022.09.10-14.15.16:210][188]LogBlueprintUserMessages: [Build] X=1,457.084 Y=1,199.152 Z=177.993
+[2022.09.10-14.15.16:311][199]LogBlueprintUserMessages: [Build] X=1,691.432 Y=1,181.406 Z=51.183
+[2022.09.10-14.15.16:311][199]LogBlueprintUserMessages: [Build] X=1,428.034 Y=1,174.241 Z=194.606
+[2022.09.10-14.15.16:415][210]LogBlueprintUserMessages: [Build] X=1,664.811 Y=1,136.801 Z=48.441
+[2022.09.10-14.15.16:415][210]LogBlueprintUserMessages: [Build] X=1,401.414 Y=1,129.635 Z=191.864
+[2022.09.10-14.15.16:517][221]LogBlueprintUserMessages: [Build] X=1,643.388 Y=1,090.602 Z=27.769
+[2022.09.10-14.15.16:517][221]LogBlueprintUserMessages: [Build] X=1,379.99 Y=1,083.436 Z=171.192
+[2022.09.10-14.15.16:619][232]LogBlueprintUserMessages: [Build] X=1,625.84 Y=1,058.181 Z=-10.8
+[2022.09.10-14.15.16:619][232]LogBlueprintUserMessages: [Build] X=1,363.031 Y=1,039.188 Z=132.624
+[2022.09.10-14.15.16:721][243]LogBlueprintUserMessages: [Build] X=1,589.82 Y=1,036.458 Z=-101.124
+[2022.09.10-14.15.16:722][243]LogBlueprintUserMessages: [Build] X=1,345.018 Y=996.492 Z=67.62
+[2022.09.10-14.15.16:823][254]LogBlueprintUserMessages: [Build] X=1,594.729 Y=991.845 Z=-119.798
+[2022.09.10-14.15.16:823][254]LogBlueprintUserMessages: [Build] X=1,348.122 Y=949.002 Z=45.579
+[2022.09.10-14.15.16:925][265]LogBlueprintUserMessages: [Build] X=1,625.825 Y=952.214 Z=-104.79
+[2022.09.10-14.15.16:925][265]LogBlueprintUserMessages: [Build] X=1,378.208 Y=908.417 Z=58.819
+[2022.09.10-14.15.17:026][276]LogBlueprintUserMessages: [Build] X=1,660.416 Y=914.969 Z=-45.712
+[2022.09.10-14.15.17:026][276]LogBlueprintUserMessages: [Build] X=1,412.799 Y=871.172 Z=117.897
+[2022.09.10-14.15.17:128][287]LogBlueprintUserMessages: [Build] X=1,696.539 Y=878.486 Z=-3.248
+[2022.09.10-14.15.17:128][287]LogBlueprintUserMessages: [Build] X=1,448.432 Y=834.602 Z=159.592
+[2022.09.10-14.15.17:230][298]LogBlueprintUserMessages: [Build] X=1,732.509 Y=842.764 Z=20.292
+[2022.09.10-14.15.17:230][298]LogBlueprintUserMessages: [Build] X=1,484.402 Y=798.88 Z=183.132
+[2022.09.10-14.15.17:332][309]LogBlueprintUserMessages: [Build] X=1,769.344 Y=807.423 Z=26.182
+[2022.09.10-14.15.17:332][309]LogBlueprintUserMessages: [Build] X=1,521.236 Y=763.539 Z=189.022
+[2022.09.10-14.15.17:433][320]LogBlueprintUserMessages: [Build] X=1,806.857 Y=772.953 Z=14.237
+[2022.09.10-14.15.17:434][320]LogBlueprintUserMessages: [Build] X=1,558.75 Y=729.069 Z=177.077
+[2022.09.10-14.15.17:535][331]LogBlueprintUserMessages: [Build] X=1,844.56 Y=738.742 Z=-15.486
+[2022.09.10-14.15.17:535][331]LogBlueprintUserMessages: [Build] X=1,596.452 Y=694.858 Z=147.354
+[2022.09.10-14.15.17:637][342]LogBlueprintUserMessages: [Build] X=1,882.253 Y=704.54 Z=-62.975
+[2022.09.10-14.15.17:637][342]LogBlueprintUserMessages: [Build] X=1,634.145 Y=660.656 Z=99.865
+[2022.09.10-14.15.17:742][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.10-14.15.17:742][349]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.09.10-14.15.17:742][349]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.10-14.15.17:743][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.10-14.15.17:754][349]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.10-14.15.17:758][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.10-14.15.17:782][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.10-14.15.17:782][349]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.09.10-14.15.17:783][349]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.09.10-14.15.17:789][349]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2022.09.10-14.15.17:827][350]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2022.09.10-14.20.36:779][190]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2022.09.10-14.20.36:780][190]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.029
+[2022.09.10-14.20.36:780][190]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/Build] ([2] browsable assets)...
+[2022.09.10-14.20.36:780][190]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/Build]
+[2022.09.10-14.20.36:780][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/Build" FILE="D:/ZombieGame/NewZombieGame/Saved/Autosaves/Game/ThirdPerson/Blueprints/Build_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2022.09.10-14.20.36:793][190]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/Build_Auto2
+[2022.09.10-14.20.36:794][190]LogSavePackage: Moving 'D:/ZombieGame/NewZombieGame/Saved/Build_Auto2B9BBF0124BB47EB8A8F7198C82A7B381.tmp' to 'D:/ZombieGame/NewZombieGame/Saved/Autosaves/Game/ThirdPerson/Blueprints/Build_Auto2.uasset'
+[2022.09.10-14.20.36:794][190]LogFileHelpers: Auto-saving content packages took 0.014
+[2022.09.10-14.22.28:518][701]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.10-14.22.28:523][701]LogWorldPartition: Display: GenerateStreaming started...
+[2022.09.10-14.22.28:523][701]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.09.10-14.22.28:523][701]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.10-14.22.28:523][701]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.09.10-14.22.28:523][701]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.09.10-14.22.28:523][701]LogWorldPartition: Display: GetPartitionedActors took 38 us
+[2022.09.10-14.22.28:523][701]LogWorldPartition: Display: GenerateStreaming took 206 us
+[2022.09.10-14.22.28:523][701]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.09.10-14.22.28:524][701]LogPlayLevel: [PlayLevel] Compiling Build before play...
+[2022.09.10-14.22.28:586][701]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2022.09.10-14.22.28:590][701]LogPlayLevel: PlayLevel: Blueprint regeneration took 66 ms (1 blueprints)
+[2022.09.10-14.22.28:590][701]PIE: New page: PIE session: ThirdPersonMap (Sep 10, 2022, 6:22:28 PM)
+[2022.09.10-14.22.28:590][701]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.09.10-14.22.28:593][701]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.09.10-14.22.28:593][701]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003180s)
+[2022.09.10-14.22.28:593][701]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003238s)
+[2022.09.10-14.22.28:593][701]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.10-14.22.28:594][701]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.09.10-14.22.28:594][701]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.09.10-14.22.28:594][701]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.09.10-14.22.28:595][701]LogWorldPartition: Display: WorldPartition initialize took 750 us
+[2022.09.10-14.22.28:595][701]LogPlayLevel: PIE: World Init took: (0.001527s)
+[2022.09.10-14.22.28:618][701]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.09.10-14.22.28:619][701]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.09.10-14.22.28:619][701]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.10-14.22.28:619][701]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.10-14.22.28:619][701]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.10-14.22.28:619][701]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.10-14.22.28:619][701]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.10-14.22.28:619][701]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.10-14.22.28:619][701]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.10-14.22.28:619][701]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.10-14.22.28:619][701]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.10-14.22.28:619][701]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.10-14.22.28:619][701]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.10-14.22.28:621][701]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.10-14.22.28:638][701]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.09.10-14.22.28:639][701]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.10-14.22.28:639][701]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.10-14.22.28:639][701]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.10-14.22.28:640][701]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2022.09.10-14.22.28:640][701]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2022.09.10-14.22.28:641][701]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2022.09.10-14.22.28:641][701]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2022.09.10-14.22.28:641][701]LogInit: FAudioDevice initialized.
+[2022.09.10-14.22.28:641][701]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonMap'.
+[2022.09.10-14.22.28:711][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.10-14.22.28:711][701]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.10-14.22.28:712][701]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.09.10-16.22.28
+[2022.09.10-14.22.28:713][701]LogWorld: Bringing up level for play took: 0.001524
+[2022.09.10-14.22.28:714][701]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2022.09.10-14.22.28:717][701]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.09.10-14.22.28:717][701]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.10-14.22.28:718][701]PIE: Server logged in
+[2022.09.10-14.22.28:718][701]PIE: Play in editor total start time 0.196 seconds.
+[2022.09.10-14.22.28:747][701]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.09.10-14.22.50:052][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.10-14.22.50:052][235]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.09.10-14.22.50:053][235]LogSlate: Window 'NewZombieGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.09.10-14.22.50:057][235]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.10-14.22.50:058][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.10-14.22.50:070][235]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.10-14.22.50:074][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.10-14.22.50:099][235]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.10-14.22.50:100][235]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.09.10-14.22.50:101][235]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.09.10-14.22.50:107][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2022.09.10-14.22.50:127][237]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2022.09.10-14.22.55:368][845]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.09.10-14.22.55:369][845]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.10-14.23.10:261][530]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2022.09.10-14.23.10:321][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2022.09.10-14.23.10:708][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter" FILE="D:/ZombieGame/NewZombieGame/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" SILENT=true
+[2022.09.10-14.23.10:719][552]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2022.09.10-14.23.10:719][552]LogSavePackage: Moving 'D:/ZombieGame/NewZombieGame/Saved/BP_ThirdPersonCharacter2C987B034902822157B46EAD3D981554.tmp' to 'D:/ZombieGame/NewZombieGame/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2022.09.10-14.23.10:731][552]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2022.09.10-14.23.10:731][552]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.09.10-14.23.12:325][733]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.10-14.23.12:330][733]LogWorldPartition: Display: GenerateStreaming started...
+[2022.09.10-14.23.12:330][733]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.09.10-14.23.12:330][733]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.10-14.23.12:330][733]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.09.10-14.23.12:330][733]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.09.10-14.23.12:330][733]LogWorldPartition: Display: GetPartitionedActors took 35 us
+[2022.09.10-14.23.12:330][733]LogWorldPartition: Display: GenerateStreaming took 199 us
+[2022.09.10-14.23.12:330][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.10-14.23.12:330][733]PIE: New page: PIE session: ThirdPersonMap (Sep 10, 2022, 6:23:12 PM)
+[2022.09.10-14.23.12:352][733]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.09.10-14.23.12:355][733]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.09.10-14.23.12:355][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003116s)
+[2022.09.10-14.23.12:355][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003193s)
+[2022.09.10-14.23.12:355][733]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.10-14.23.12:356][733]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.09.10-14.23.12:356][733]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.09.10-14.23.12:356][733]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.09.10-14.23.12:357][733]LogWorldPartition: Display: WorldPartition initialize took 887 us
+[2022.09.10-14.23.12:357][733]LogPlayLevel: PIE: World Init took: (0.001775s)
+[2022.09.10-14.23.12:393][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.09.10-14.23.12:394][733]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.09.10-14.23.12:394][733]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.10-14.23.12:394][733]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.10-14.23.12:394][733]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.10-14.23.12:394][733]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.10-14.23.12:394][733]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.10-14.23.12:394][733]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.10-14.23.12:394][733]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.10-14.23.12:394][733]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.10-14.23.12:394][733]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.10-14.23.12:394][733]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.10-14.23.12:394][733]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.10-14.23.12:396][733]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.10-14.23.12:413][733]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.09.10-14.23.12:413][733]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.10-14.23.12:414][733]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.10-14.23.12:414][733]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.10-14.23.12:414][733]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2022.09.10-14.23.12:414][733]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2022.09.10-14.23.12:416][733]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2022.09.10-14.23.12:416][733]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2022.09.10-14.23.12:416][733]LogInit: FAudioDevice initialized.
+[2022.09.10-14.23.12:416][733]LogAudio: Display: Audio Device (ID: 8) registered with world 'ThirdPersonMap'.
+[2022.09.10-14.23.12:431][733]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.10-14.23.12:432][733]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.09.10-16.23.12
+[2022.09.10-14.23.12:432][733]LogWorld: Bringing up level for play took: 0.001280
+[2022.09.10-14.23.12:433][733]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2022.09.10-14.23.12:436][733]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.09.10-14.23.12:436][733]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.10-14.23.12:436][733]PIE: Server logged in
+[2022.09.10-14.23.12:437][733]PIE: Play in editor total start time 0.108 seconds.
+[2022.09.10-14.24.27:722][477]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.10-14.24.27:722][477]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.09.10-14.24.27:722][477]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.10-14.24.27:722][477]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.10-14.24.27:729][477]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.10-14.24.27:734][477]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.10-14.24.27:762][477]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.10-14.24.27:763][477]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2022.09.10-14.24.27:764][477]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2022.09.10-14.24.27:767][477]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.10-14.24.27:769][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2022.09.10-14.24.27:814][478]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.09.10-14.28.49:994][739]BlueprintLog: New page: Compile Build
+[2022.09.10-14.28.50:060][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.09.10-14.28.50:532][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/Build" FILE="D:/ZombieGame/NewZombieGame/Content/ThirdPerson/Blueprints/Build.uasset" SILENT=true
+[2022.09.10-14.28.50:546][782]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Build
+[2022.09.10-14.28.50:546][782]LogSavePackage: Moving 'D:/ZombieGame/NewZombieGame/Saved/Build0D98C5334C1E31E66988FE9B35B2011A.tmp' to 'D:/ZombieGame/NewZombieGame/Content/ThirdPerson/Blueprints/Build.uasset'
+[2022.09.10-14.28.50:556][782]AssetCheck: New page: Asset Save: Build
+[2022.09.10-14.28.50:556][782]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/Build.Build
+[2022.09.10-14.28.52:119][967]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.10-14.28.52:123][967]LogWorldPartition: Display: GenerateStreaming started...
+[2022.09.10-14.28.52:123][967]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.09.10-14.28.52:123][967]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.10-14.28.52:123][967]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.09.10-14.28.52:123][967]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.09.10-14.28.52:123][967]LogWorldPartition: Display: GetPartitionedActors took 42 us
+[2022.09.10-14.28.52:124][967]LogWorldPartition: Display: GenerateStreaming took 261 us
+[2022.09.10-14.28.52:124][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.10-14.28.52:124][967]PIE: New page: PIE session: ThirdPersonMap (Sep 10, 2022, 6:28:52 PM)
+[2022.09.10-14.28.52:172][967]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.09.10-14.28.52:175][967]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.09.10-14.28.52:175][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003088s)
+[2022.09.10-14.28.52:175][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003171s)
+[2022.09.10-14.28.52:175][967]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.10-14.28.52:175][967]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.09.10-14.28.52:176][967]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.09.10-14.28.52:176][967]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.09.10-14.28.52:176][967]LogWorldPartition: Display: WorldPartition initialize took 719 us
+[2022.09.10-14.28.52:177][967]LogPlayLevel: PIE: World Init took: (0.001482s)
+[2022.09.10-14.28.52:207][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2022.09.10-14.28.52:209][967]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.09.10-14.28.52:209][967]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.10-14.28.52:209][967]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.10-14.28.52:209][967]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.10-14.28.52:209][967]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.10-14.28.52:209][967]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.10-14.28.52:209][967]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.10-14.28.52:209][967]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.10-14.28.52:209][967]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.10-14.28.52:209][967]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.10-14.28.52:209][967]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.10-14.28.52:209][967]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.10-14.28.52:211][967]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.10-14.28.52:229][967]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.09.10-14.28.52:229][967]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.10-14.28.52:229][967]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.10-14.28.52:229][967]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.10-14.28.52:230][967]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2022.09.10-14.28.52:230][967]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2022.09.10-14.28.52:231][967]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2022.09.10-14.28.52:231][967]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2022.09.10-14.28.52:231][967]LogInit: FAudioDevice initialized.
+[2022.09.10-14.28.52:231][967]LogAudio: Display: Audio Device (ID: 9) registered with world 'ThirdPersonMap'.
+[2022.09.10-14.28.52:242][967]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.10-14.28.52:243][967]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.09.10-16.28.52
+[2022.09.10-14.28.52:243][967]LogWorld: Bringing up level for play took: 0.001281
+[2022.09.10-14.28.52:244][967]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2022.09.10-14.28.52:247][967]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.09.10-14.28.52:247][967]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.10-14.28.52:247][967]PIE: Server logged in
+[2022.09.10-14.28.52:248][967]PIE: Play in editor total start time 0.125 seconds.
+[2022.09.10-14.29.13:222][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.10-14.29.13:222][215]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.09.10-14.29.13:222][215]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.10-14.29.13:223][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.10-14.29.13:233][215]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.10-14.29.13:238][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.10-14.29.13:268][215]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.10-14.29.13:269][215]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2022.09.10-14.29.13:270][215]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2022.09.10-14.29.13:273][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.10-14.29.13:276][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.09.10-14.29.13:320][216]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.09.10-14.29.22:358][973]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.10-14.29.22:362][973]LogWorldPartition: Display: GenerateStreaming started...
+[2022.09.10-14.29.22:362][973]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.09.10-14.29.22:362][973]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.10-14.29.22:362][973]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.09.10-14.29.22:362][973]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.09.10-14.29.22:362][973]LogWorldPartition: Display: GetPartitionedActors took 35 us
+[2022.09.10-14.29.22:362][973]LogWorldPartition: Display: GenerateStreaming took 210 us
+[2022.09.10-14.29.22:362][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.10-14.29.22:362][973]PIE: New page: PIE session: ThirdPersonMap (Sep 10, 2022, 6:29:22 PM)
+[2022.09.10-14.29.22:402][973]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.09.10-14.29.22:405][973]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.09.10-14.29.22:405][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003151s)
+[2022.09.10-14.29.22:405][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003228s)
+[2022.09.10-14.29.22:405][973]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.10-14.29.22:405][973]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.09.10-14.29.22:406][973]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.09.10-14.29.22:406][973]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.09.10-14.29.22:406][973]LogWorldPartition: Display: WorldPartition initialize took 675 us
+[2022.09.10-14.29.22:407][973]LogPlayLevel: PIE: World Init took: (0.001392s)
+[2022.09.10-14.29.22:436][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2022.09.10-14.29.22:437][973]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.09.10-14.29.22:437][973]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.10-14.29.22:437][973]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.10-14.29.22:437][973]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.10-14.29.22:437][973]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.10-14.29.22:437][973]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.10-14.29.22:437][973]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.10-14.29.22:437][973]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.10-14.29.22:437][973]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.10-14.29.22:438][973]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.10-14.29.22:438][973]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.10-14.29.22:438][973]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.10-14.29.22:439][973]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.10-14.29.22:457][973]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.09.10-14.29.22:458][973]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.10-14.29.22:458][973]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.10-14.29.22:458][973]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.10-14.29.22:459][973]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2022.09.10-14.29.22:459][973]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2022.09.10-14.29.22:460][973]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2022.09.10-14.29.22:460][973]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2022.09.10-14.29.22:460][973]LogInit: FAudioDevice initialized.
+[2022.09.10-14.29.22:460][973]LogAudio: Display: Audio Device (ID: 10) registered with world 'ThirdPersonMap'.
+[2022.09.10-14.29.22:472][973]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.10-14.29.22:473][973]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.09.10-16.29.22
+[2022.09.10-14.29.22:473][973]LogWorld: Bringing up level for play took: 0.001322
+[2022.09.10-14.29.22:474][973]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2022.09.10-14.29.22:477][973]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.09.10-14.29.22:477][973]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.10-14.29.22:477][973]PIE: Server logged in
+[2022.09.10-14.29.22:478][973]PIE: Play in editor total start time 0.117 seconds.
+[2022.09.10-14.30.32:362][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.10-14.30.32:362][558]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.09.10-14.30.32:362][558]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.10-14.30.32:363][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.10-14.30.32:370][558]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.10-14.30.32:375][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.10-14.30.32:406][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.10-14.30.32:407][558]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.09.10-14.30.32:408][558]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.09.10-14.30.32:413][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2022.09.10-14.30.32:449][559]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.09.10-14.30.42:694][755]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.10-14.30.50:169][582]BlueprintLog: New page: Compile Build
+[2022.09.10-14.30.50:229][582]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2022.09.10-14.30.50:599][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/Build" FILE="D:/ZombieGame/NewZombieGame/Content/ThirdPerson/Blueprints/Build.uasset" SILENT=true
+[2022.09.10-14.30.50:613][613]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Build
+[2022.09.10-14.30.50:613][613]LogSavePackage: Moving 'D:/ZombieGame/NewZombieGame/Saved/BuildCFF5A713414281E4A6CE009DB4D38DDF.tmp' to 'D:/ZombieGame/NewZombieGame/Content/ThirdPerson/Blueprints/Build.uasset'
+[2022.09.10-14.30.50:625][613]AssetCheck: New page: Asset Save: Build
+[2022.09.10-14.30.50:625][613]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/Build.Build
+[2022.09.10-14.30.51:626][728]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.10-14.30.51:630][728]LogWorldPartition: Display: GenerateStreaming started...
+[2022.09.10-14.30.51:630][728]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.09.10-14.30.51:630][728]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.10-14.30.51:630][728]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.09.10-14.30.51:630][728]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.09.10-14.30.51:630][728]LogWorldPartition: Display: GetPartitionedActors took 55 us
+[2022.09.10-14.30.51:630][728]LogWorldPartition: Display: GenerateStreaming took 326 us
+[2022.09.10-14.30.51:630][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.10-14.30.51:631][728]PIE: New page: PIE session: ThirdPersonMap (Sep 10, 2022, 6:30:51 PM)
+[2022.09.10-14.30.51:651][728]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.09.10-14.30.51:654][728]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.09.10-14.30.51:654][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002983s)
+[2022.09.10-14.30.51:654][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003061s)
+[2022.09.10-14.30.51:654][728]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.10-14.30.51:655][728]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.09.10-14.30.51:655][728]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.09.10-14.30.51:655][728]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.09.10-14.30.51:656][728]LogWorldPartition: Display: WorldPartition initialize took 716 us
+[2022.09.10-14.30.51:656][728]LogPlayLevel: PIE: World Init took: (0.001437s)
+[2022.09.10-14.30.51:690][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2022.09.10-14.30.51:692][728]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.09.10-14.30.51:692][728]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.10-14.30.51:692][728]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.10-14.30.51:692][728]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.10-14.30.51:692][728]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.10-14.30.51:692][728]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.10-14.30.51:692][728]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.10-14.30.51:692][728]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.10-14.30.51:692][728]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.10-14.30.51:693][728]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.10-14.30.51:693][728]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.10-14.30.51:693][728]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.10-14.30.51:694][728]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.10-14.30.51:713][728]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.09.10-14.30.51:713][728]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.10-14.30.51:713][728]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.10-14.30.51:713][728]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.10-14.30.51:714][728]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2022.09.10-14.30.51:714][728]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2022.09.10-14.30.51:715][728]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2022.09.10-14.30.51:715][728]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2022.09.10-14.30.51:715][728]LogInit: FAudioDevice initialized.
+[2022.09.10-14.30.51:715][728]LogAudio: Display: Audio Device (ID: 11) registered with world 'ThirdPersonMap'.
+[2022.09.10-14.30.51:724][728]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.10-14.30.51:725][728]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.09.10-16.30.51
+[2022.09.10-14.30.51:725][728]LogWorld: Bringing up level for play took: 0.001192
+[2022.09.10-14.30.51:727][728]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2022.09.10-14.30.51:729][728]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.09.10-14.30.51:729][728]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.10-14.30.51:729][728]PIE: Server logged in
+[2022.09.10-14.30.51:730][728]PIE: Play in editor total start time 0.101 seconds.
+[2022.09.10-14.55.27:921][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.10-14.55.27:921][674]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.09.10-14.55.27:922][674]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.10-14.55.27:922][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.10-14.55.27:933][674]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.10-14.55.27:938][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.10-14.55.27:967][674]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.10-14.55.27:967][674]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.09.10-14.55.27:969][674]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.09.10-14.55.27:972][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.10-14.55.27:975][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.09.10-14.55.28:019][675]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.09.10-14.58.39:723][379]LogDerivedDataCache: C:/Users/Ahmed/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.453 and deleted 0 file(s) with total size 0 MiB.
